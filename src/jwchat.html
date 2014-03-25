@@ -1336,7 +1336,11 @@ function init() {
     if (typeof(Debugger) != 'undefined')
       Debug = new Debugger(DEBUG_LVL,'JWChat ' + cutResource(jid));
     else {
-      Debug = new JSJaCConsoleLogger(DEBUG_LVL);
+      if (DEBUG && (!USE_DEBUGJID || DEBUGJID == cutResource(jid)))
+        Debug = new JSJaCConsoleLogger(DEBUG_LVL);
+      else 
+        Debug = { start: function() {},
+                  log:   function() {} };
     }
   }
   if (DEBUG &&  (!USE_DEBUGJID || DEBUGJID == cutResource(jid)))
