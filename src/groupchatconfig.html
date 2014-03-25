@@ -53,8 +53,7 @@ function handleConfig(iq) {
   if (iq.getType() == 'error')
     return;
   
-  if (iq.getNode().getElementsByTagName('x').length && iq.getNode().getElementsByTagName('x').item(0).getAttribute('xmlns') == 'jabber:x:data')
-    document.getElementById("jabberXDataForm").innerHTML = genJabberXDataTable(iq.getNode().getElementsByTagName('x').item(0));
+  document.getElementById("jabberXDataForm").innerHTML = genJabberXDataTable(iq.getChild('x', 'jabber:x:data'));
 }
 
 var srcW;
