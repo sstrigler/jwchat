@@ -1333,18 +1333,17 @@ function init() {
 
   /* initialise debugger */
   if (!Debug || typeof(Debug) == 'undefined' || !Debug.start) {
-    if (typeof(Debugger) != 'undefined')
-      Debug = new Debugger(DEBUG_LVL,'JWChat ' + cutResource(jid));
-    else {
-      if (DEBUG && (!USE_DEBUGJID || DEBUGJID == cutResource(jid)))
+    if (DEBUG && (!USE_DEBUGJID || DEBUGJID == cutResource(jid))) {
+      if (typeof(Debugger) != 'undefined') {
+        Debug = new Debugger(DEBUG_LVL,'JWChat ' + cutResource(jid));
+        Debug.start();
+      } else {
         Debug = new JSJaCConsoleLogger(DEBUG_LVL);
-      else
-        Debug = { start: function() {},
-                  log:   function() {} };
+      }
+    } else {
+      Debug = { log: function() {} };
     }
   }
-  if (DEBUG &&  (!USE_DEBUGJID || DEBUGJID == cutResource(jid)))
-    Debug.start();
 
   Debug.log("jid: "+jid+"\npass: "+pass,2);
 
