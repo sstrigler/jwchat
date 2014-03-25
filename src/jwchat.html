@@ -463,7 +463,7 @@ function handleMessage(oMsg) {
   }
 
   /* change icon in roster - but not if it's a groupchat item */
-  if (type != 'groupchat') {
+  if (type != 'groupchat' && oMsg.getBody() != '') {
     if (!user.lastsrc)
       user.lastsrc = eval(user.status + "Led").src;
       
