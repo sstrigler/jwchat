@@ -14,7 +14,7 @@
     <script type="text/javascript" src="jsjac.js"></script>
 
 <!-- Debugger -->
-    <script type="text/javascript" src="Debugger.js"></script>
+    <!--script type="text/javascript" src="Debugger.js"></script-->
 
     <script type="text/javascript">
 <!--
@@ -1341,9 +1341,7 @@ function init() {
     if (typeof(Debugger) != 'undefined')
       Debug = new Debugger(DEBUG_LVL,'JWChat ' + cutResource(jid));
     else {
-      Debug = new Object();
-      Debug.log = function() {};
-      Debug.start = function() {};
+      Debug = new JSJaCConsoleLogger(DEBUG_LVL);
     }
   }
   if (DEBUG &&  (!USE_DEBUGJID || DEBUGJID == cutResource(jid)))
