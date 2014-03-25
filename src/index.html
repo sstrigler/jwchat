@@ -35,7 +35,7 @@
   * Please visit http://jwchat.sourceforge.net for more information!
   */
 
-var jid, pass, register, prio, connect_host, connect_port, connect_secure;
+var jid, pass, register, prio, connect_host, connect_port;
 var jwchats = new Array();
 
 var JABBERSERVER;
@@ -85,7 +85,6 @@ function loginCheck(form) {
 
   connect_port = form.connect_port.value;
   connect_host = form.connect_host.value;
-  connect_secure = form.connect_secure.checked;
 
   jwchats[jid] = window.open('jwchat.html',makeWindowName(jid),'width=180,height=390,resizable=yes');
 
@@ -167,14 +166,12 @@ function backendSelected() {
       
       document.getElementById('connect_port').disabled = false;
       document.getElementById('connect_host').disabled = false;
-      document.getElementById('connect_secure').disabled = false;
     }
   else if (servers_allowed.length == 1) {
     document.getElementById('tr_server').style.display = 'none';
     JABBERSERVER = servers_allowed[0];
     document.getElementById('connect_port').disabled = true;
     document.getElementById('connect_host').disabled = true;
-    document.getElementById('connect_secure').disabled = true;
   } else { // create selectbox
     var tr_server = document.getElementById('tr_server');
     
@@ -199,7 +196,6 @@ continue;
   tr_server.style.display = ''; 
   document.getElementById('connect_port').disabled = true;
   document.getElementById('connect_host').disabled = true;
-  document.getElementById('connect_secure').disabled = true;
 }
 }
 
@@ -414,10 +410,6 @@ onload = init;
             <tr class="moreOpts" style="display: none;">
               <th><label for="connect_host"><l>Connect Host</l></label></th>
               <td><input type="text" name="connect_host" id="connect_host" class="input_text" disabled></td>
-            </tr>
-            <tr class="moreOpts" style="display: none;">
-              <td>&nbsp;</td>
-              <td><input type="checkbox" name="connect_secure" id="connect_secure" class="input_text" disabled> <label for="connect_secure" title="<l>Advise connection manager to connect through SSL</l>" disabled><l>Allow secure connections only</l></label></td>
             </tr>
             
             <tr><td>&nbsp;</td><td><button type="submit" id='login_button' tabindex=5 disabled><l>Login</l></button></td></tr>
