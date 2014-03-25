@@ -82,7 +82,6 @@ function loginCheck(form) {
   }
 
   pass = form.pass.value;
-  register = form.register.checked;
 
   prio = form.prio[form.prio.selectedIndex].value;
 
@@ -392,7 +391,6 @@ onload = init;
               <th><label for='pass'><l>Password</l></label></th>
               <td><input type="password" id='pass' name="pass" tabindex=4 class='input_text'></td>
             </tr>
-            <tr><td>&nbsp;</td><td><input type=checkbox name=register id=register> <label for="register"><l>Register New Account</l></label></td></tr>
             <tr id="showMoreOpts" class="toggleOpts">
               <td>&nbsp;</td>
               <td onClick="return toggleMoreOpts(1);"><img src="images/group_close.gif" title="<l>Show More Options</l>"> <l>Show More Options</l></td>
