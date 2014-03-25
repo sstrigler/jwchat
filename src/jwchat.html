@@ -710,12 +710,7 @@ function handlePresence(presence) {
   }
   
   /* handle presence for MUC */
-  x = null; // reset
-  for (var i=0; i<presence.getNode().getElementsByTagName('x').length; i++)
-    if (presence.getNode().getElementsByTagName('x').item(i).getAttribute('xmlns') == 'http://jabber.org/protocol/muc#user') {
-      x = presence.getNode().getElementsByTagName('x').item(i);
-      break;
-    }
+  x = presence.getChild('x', 'http://jabber.org/protocol/muc#user');
   
   if (user.roster && x) {
     Debug.log("muc presence detected", 2);
