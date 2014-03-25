@@ -1,0 +1,16 @@
+var availableLed = new Image();
+availableLed.src = "images/available.gif";
+var chatLed = new Image();
+chatLed.src = "images/chat.gif";
+var awayLed = new Image();
+awayLed.src = "images/away.gif";
+var xaLed = new Image();
+xaLed.src = "images/xa.gif";
+var dndLed = new Image();
+dndLed.src = "images/dnd.gif";
+var invisibleLed = new Image();
+invisibleLed.src = "images/invisible.gif";
+var unavailableLed = new Image();
+unavailableLed.src = "images/unavailable.gif";
+var stalkerLed = new Image();  
+stalkerLed.src = "images/stalker.gif";

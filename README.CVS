@@ -1,0 +1,46 @@
+If you got JWChat from anonymous CVS you have to download JSJaC
+separately. Please be sure to use the SVN version of JSJaC.
+
+JSJaC can be found at http://zeank.in-berlin.de/jsjac/
+
+Basic steps: 
+
+'cd' to jwchat's top-level directory
+$ cd lib
+$ svn co http://svn.stefan-strigler.de/jsjac/trunk/ jsjac
+
+Now switch to the new directory jsjac and run make:
+$ cd jsjac
+$ make
+
+
+If you need the Debugger integrated with JWChat go to its new project page
+at http://zeank.in-berlin.de/javascript-debug-logger/
+
+Basic steps:
+
+'cd' to jwchat's top-level directory
+$ cd lib
+$ svn co http://svn.stefan-strigler.de/JSDebugger/trunk jsdebug
+
+
+When done you can install by issuing "make install" (be sure to edit
+src/config.js first!). This will create a set of translated html files. 
+There's a dedicated directory for each language (htdocs.en, htdocs.es, 
+htdocs.de etc.) and one containing all in one directory (htdocs/) for
+usage with [1]apache's mod_negotiation. Copy the desired directory to 
+your configured web root (see README) or make your web root point to it.
+
+Additional Requirements
+=======================
+
+For the Makefile to work you need perl-5.8 or newer plus some perl modules.
+You can get them from CPAN (http://www.cpan.org).
+
+* Encode::compat (to support perl < v5.8.0)
+* Regexp::Common
+* Locale::Maketext (>=1.01)
+* Locale::Maketext::Lexicon (>=0.10)
+( depends Locale::Maketext::Fuzzy )
+
+[1] http://httpd.apache.org/docs/2.0/content-negotiation.html

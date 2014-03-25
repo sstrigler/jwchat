@@ -1,0 +1,1515 @@
+# Russian translation of jwchat
+# Copyright (C) 2003-2008 Stefan Strigler <steve@zeank.in-berlin.de>
+#  Ruslan Spivak <alienoid@is.lg.ua>, 2003.
+#  Alexey Borzov <avb@php.net>, 2008.
+#
+#: NOT FOUND IN SOURCE
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2008-11-01 18:59+0300\n"
+"Last-Translator: Alexey Borzov <avb@php.net>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+# Russian translation of jwchat
+# Copyright (C) 2003-2008 Stefan Strigler <steve@zeank.in-berlin.de>
+#  Ruslan Spivak <alienoid@is.lg.ua>, 2003.
+#  Alexey Borzov <avb@php.net>, 2008.
+#
+#: NOT FOUND IN SOURCE
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2008-11-01 18:59+0300\n"
+"Last-Translator: Alexey Borzov <avb@php.net>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: src/jwchat.html:858
+#. (ouser.name)
+msgid "%1 has become available"
+msgstr "Пользователь %1 вошёл в систему"
+
+#: src/jwchat.html:819
+#. (ouser.name)
+msgid "%1 has been banned"
+msgstr "Пользователя %1 забанили"
+
+#: src/jwchat.html:817
+#. (ouser.name,ouser.actor)
+msgid "%1 has been banned by %2"
+msgstr "%2 забанил(а) %1"
+
+#: NOT FOUND IN SOURCE
+msgid "%1 has been banned by %2: %3"
+msgstr ""
+
+#: src/jwchat.html:836
+#. (ouser.name)
+msgid "%1 has been kicked"
+msgstr "Пользователя %1 выкинули"
+
+#: src/jwchat.html:834
+#. (ouser.name,ouser.actor)
+msgid "%1 has been kicked by %2"
+msgstr "%2 выкинул(а) %1"
+
+#: NOT FOUND IN SOURCE
+msgid "%1 has been kicked by %2: %3"
+msgstr ""
+
+#: src/jwchat.html:869
+#. (ouser.name)
+msgid "%1 has left"
+msgstr "Пользователь %1 вышел"
+
+#: src/jwchat.html:789
+#. (ouser.name, htmlEnc(ouser.nick))
+msgid "%1 is now known as %2"
+msgstr "Пользователь %1 теперь известен как %2"
+
+#: src/roster.js:387 src/roster.js:452 src/roster.js:731
+#. ((user.messages.length + user.chatmsgs.length))
+msgid "%1 message(s) pending"
+msgstr "Сообщений в очереди: %1"
+
+#: src/search.html:290
+msgid "- Choose Directory -"
+msgstr "- Выберите директорию -"
+
+#: src/groupchat.html:93
+#. (msg.getSubject())
+msgid "/me has set the topic to: %1"
+msgstr "/me установил тему: %1"
+
+#: NOT FOUND IN SOURCE
+msgid "1 sec."
+msgstr ""
+
+#: src/options.html:533
+msgid "10 sec."
+msgstr "10 сек."
+
+#: src/options.html:531
+msgid "2 sec."
+msgstr "2 сек."
+
+#: src/options.html:534
+msgid "30 sec."
+msgstr "30 сек."
+
+#: src/options.html:532
+msgid "5 sec."
+msgstr "5 сек."
+
+#: NOT FOUND IN SOURCE
+msgid "<span id=\"chan_count\">X</span> participants"
+msgstr ""
+
+#: src/jwchat.html:769
+msgid "A new room has been created but it awaits configuration from you. Do you want to do a custom configuration now?\\nNote: Click on 'Cancel' to start with a default configuration!"
+msgstr "Новая комната была создана, но её ещё требуется настроить. Хотите настроить её сейчас?\\nПримечание: нажмите 'Отмена' чтобы использовать настройки по умолчанию"
+
+#: src/index.html:396
+msgid "A web-based Jabber<sup><small>&reg;</small></sup> client"
+msgstr "Клиент Jabber<sup><small>&reg;</small></sup> для веб"
+
+#: src/options.html:488 src/vcard.html:164
+msgid "About"
+msgstr "Информация"
+
+#: src/groupchat_modifylist.html:310
+msgid "Add"
+msgstr "Добавить"
+
+#: src/roster.html:153
+msgid "Add Contact"
+msgstr "Добавить контакт"
+
+#: src/help.html:97
+msgid "Add an user by clicking on <img src=\"images/screenshots/add-button.gif\" width=\"24\" height=\"22\" alt=\"Add User Button\">. Enter the user's nickname in the subscription field and click \"Send\". Additionally you can enter a custom message in the textarea below. A subscription request with this message is sent to the user. If he or she accepts you can see his/her <a href=\"#status\">online status</a> from now on."
+msgstr "Для добавления пользователя нажмите <img src=\"images/screenshots/add-button.gif\" width=\"24\" height=\"22\" alt=\"Добавить пользователя\">. Введите ник пользователя в поле запроса авторизации и нажмите \"Отправить\". Дополнительно вы можете ввести индивидуальное сообщение ниже в текстовой области. Запрос авторизации с этим сообщением отправляется пользователю. Если он/она его принимает, с этого момента вы можете видеть его/ее <a href=\"#status\">online статус</a>."
+
+#: src/help.html:24 src/help.html:95
+msgid "Adding an User to your Contact List"
+msgstr "Добавление пользователя в список контактов"
+
+#: src/vcard.html:142 src/vcard.html:144
+msgid "Address"
+msgstr "Адрес"
+
+#: src/vcard.html:145
+msgid "Address2"
+msgstr "Адрес2"
+
+#: src/groupchat_roster.html:42
+msgid "Admin"
+msgstr "Администратор"
+
+#: src/groupchat_roster.html:42
+msgid "Admin List"
+msgstr "Список администраторов"
+
+#: src/index.html:455
+msgid "Advise connection manager to connect through SSL"
+msgstr "Рекомендовать менеджеру подключений соединяться через SSL"
+
+#: src/help.html:100
+msgid "After having sent this subscription request the user is added to your contact list and an edit user dialog pops up where you can set your custom nickname for this user and add him/her to one or more groups in your contact list."
+msgstr "После отправки запроса на подписку пользователь добавляется в ваш список контактов и всплывает диалог редактирования пользователя, где вы можете установить индивидуальный ник для этого пользователя  и добавить его/ее в одну или более групп в своем списке контактов"
+
+#: src/subscriptionRequest.html:87
+msgid "Allow"
+msgstr "Разрешить"
+
+#: NOT FOUND IN SOURCE
+msgid "Allow secure conncetions only"
+msgstr "Разрешить только зашифрованные подключения"
+
+#: src/index.html:455
+msgid "Allow secure connections only"
+msgstr ""
+
+#: src/searchrooms.html:46
+msgid "An Error Occured!"
+msgstr "Произошла ошибка!"
+
+#: src/search.html:193
+msgid "An Error Occured\\nAborting..."
+msgstr "Произошла ошибка\\nПрерывание операции..."
+
+#: src/groupchat_modifylist.html:210
+msgid "An Error has occured"
+msgstr "Произошла ошибка"
+
+#: src/options.html:110
+msgid "An Error occured ..."
+msgstr "Произошла ошибка..."
+
+#: src/search.html:73
+msgid "An error has occured"
+msgstr "Произошла ошибка"
+
+#: NOT FOUND IN SOURCE
+msgid "An error occured!\\nAborting..."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "An error occured.\\n\\nYou need to restart this application from the login screen."
+msgstr ""
+
+#: src/usernote.html:28
+#. (user.name)
+msgid "Annotations for %1"
+msgstr "Примечания для %1"
+
+#: src/userhist.html:103
+msgid "Are you sure you want to delete this chat history completely?"
+msgstr "Вы уверены что хотите полностью удалить эту историю сообщений?"
+
+#: src/jwchat.html:1023
+msgid "Authorization failed"
+msgstr "Ошибка авторизации"
+
+#: src/help.html:115 src/options.html:506
+msgid "Auto-Pop-Up if away"
+msgstr "Авто-всплытие при отсутствии"
+
+#: src/editbookmarks.html:177
+msgid "Autojoin"
+msgstr "Автоматически входить"
+
+#: src/help.html:113 src/options.html:502
+msgid "Automatically open messages and chats"
+msgstr "Автоматически открывать сообщения и чаты"
+
+#: src/userprops.html:123
+msgid "Available groups"
+msgstr "Доступные группы"
+
+#: src/searchrooms.html:202
+msgid "Back"
+msgstr "Назад"
+
+#: src/options.html:299 src/options.html:348
+msgid "Bad Request"
+msgstr "Неверный запрос"
+
+#: src/groupchat_iroster.html:29 src/groupchat_roster.html:36
+msgid "Ban"
+msgstr "Забанить"
+
+#: src/groupchat_roster.html:36
+msgid "Ban List"
+msgstr "Список забанненых"
+
+#: src/vcard.html:166
+msgid "Birthday"
+msgstr "День рождения"
+
+#: src/editbookmarks.html:169 src/joingroupchat.html:116 src/searchrooms.html:202
+msgid "Bookmark"
+msgstr "Закладка"
+
+#: src/help.html:53
+msgid "Camino 0.7"
+msgstr "Camino 0.7"
+
+#: NOT FOUND IN SOURCE
+msgid "Can't display User Info:\\nUser not local!"
+msgstr ""
+
+#: src/changestatus.html:92 src/editbookmarks.html:184 src/groupchatconfig.html:108 src/joingroupchat.html:125 src/send.html:104 src/subscription.html:120 src/userprops.html:146 src/vcard.html:175
+msgid "Cancel"
+msgstr "Отменить"
+
+#: src/roster.html:145
+msgid "Change Online Status"
+msgstr "Изменить статус присутствия"
+
+#: src/options.html:488
+msgid "Change Password"
+msgstr "Сменить пароль"
+
+#: src/roster.html:146
+msgid "Change Status Message"
+msgstr "Изменить сообщение о статусе"
+
+#: src/roster.html:145
+msgid "Change User Info"
+msgstr "Изменить информацию о пользователе"
+
+#: src/help.html:93
+msgid "Change your own online setting by choosing a state from the select box at the bottom of your contact list. For some states you can set a custom status message which is displayed to other users. If you choose \"invisible\" you appear to be offline to other users."
+msgstr "Измените свой статус присутствия путем выбора состояния из списка выбора внизу вашего списка контактов. Для некотрых состояний Вы можете установить индивидуальное сообщение, которое показывается другим пользователям. Если Вы выберете \"невидимый\" , то другие пользователи будут видеть Ваше состояние как \"отключенный\"."
+
+#: NOT FOUND IN SOURCE
+msgid "Channel/Group"
+msgstr ""
+
+#: src/groupchat.html:271 src/jwchat.html:95
+msgid "Chat Rooms"
+msgstr "Комнаты чата"
+
+#: src/userhist.html:138
+#. (user.name)
+msgid "Chat history for %1"
+msgstr "История сообщений для %1"
+
+#: src/chat.html:171
+#. (user.name)
+msgid "Chat with %1"
+msgstr "Чат с %1"
+
+#: src/index.html:270
+msgid "Choose Backend"
+msgstr "Выберите движок"
+
+#: src/editbookmarks.html:169 src/joingroupchat.html:116
+msgid "Choose Bookmark"
+msgstr "Выберите закладку"
+
+#: src/options.html:552
+msgid "Choose Directory"
+msgstr "Выберите директорию"
+
+#: src/options.html:552
+msgid "Choose Gateway"
+msgstr "Выберите шлюз"
+
+#: src/vcard.html:146
+msgid "City"
+msgstr "Город"
+
+#: src/chat.html:308
+msgid "Click to show user's vcard"
+msgstr "Показать визитную карточку пользователя"
+
+#: src/error_message.html:103 src/message.html:134
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/groupchat_bottom.html:277
+msgid "Config"
+msgstr "Настройки"
+
+#: src/index.html:450
+msgid "Connect Host"
+msgstr "Подключение к хосту"
+
+#: NOT FOUND IN SOURCE
+msgid "Connection lost!\\nReconnect?"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "Couldn't log in!\\nCreate new account?"
+msgstr ""
+
+#: src/vcard.html:149
+msgid "Country"
+msgstr "Страна"
+
+#: src/userprops.html:136
+msgid "Current groups"
+msgstr "Текущие группы"
+
+#: src/help.html:106 src/help.html:26
+msgid "Customizing (Your Preferences)"
+msgstr "Настройка (Ваши установки)"
+
+#: src/error_message.html:99 src/message.html:128
+msgid "Date"
+msgstr "Дата"
+
+#: src/groupchat_invite.html:64
+msgid "Decline"
+msgstr "Отклонить"
+
+#: src/groupchat_modifylist.html:310 src/userhist.html:173
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/subscriptionRequest.html:87
+msgid "Deny"
+msgstr "Запретить"
+
+#: src/searchrooms.html:59 src/vcard.html:168
+msgid "Description"
+msgstr "Описание"
+
+#: src/groupchatconfig.html:108
+msgid "Destroy"
+msgstr "Удалить"
+
+#: src/groupchat.html:133
+msgid "Disconnected."
+msgstr "Отключено."
+
+#: src/jwchat.html:1054
+msgid "Disconnected\\n\\nReconnect?"
+msgstr "Отключено.\\n\\nПодключиться вновь?"
+
+#: src/options.html:518
+msgid "Display timestamps in chat windows"
+msgstr "Отображать время в чатах"
+
+#: src/help.html:121
+msgid "Display timestamps in one-to-one chats"
+msgstr "Отображать время в чатах один на один"
+
+#: src/options.html:319 src/options.html:359 src/options.html:387
+msgid "Done."
+msgstr "Готово."
+
+#: src/vcard.html:136
+msgid "E-mail"
+msgstr "E-mail"
+
+#: src/iRoster.html:27 src/joingroupchat.html:116
+msgid "Edit"
+msgstr "Редактировать"
+
+#: src/iRoster.html:21
+msgid "Edit Note"
+msgstr "Редактировать заметку"
+
+#: src/iRoster.html:18
+msgid "Edit User"
+msgstr "Редактировать пользователя"
+
+#: src/help.html:72
+msgid "Edit User: Opens the edit dialog for this user where you can set his nickname and change the groups he/she belongs to"
+msgstr "Редактировать пользователя: Открывает диалоговое окно редактирования для данного пользователя, где Вы можете установить его ник и изменить группы, к которым он/она принадлежит"
+
+#: src/userprops.html:118
+msgid "Edit groups for <span id=\"groupjid\"></span>"
+msgstr "Редактировать группы для <span id=\"groupjid\"></span>"
+
+#: src/userprops.html:110
+msgid "Edit nickname for <span id=\"nickjid\"></span>"
+msgstr "Редактировать ник для <span id=\"nickjid\"></span>"
+
+#: NOT FOUND IN SOURCE
+msgid "Edit properties for "
+msgstr ""
+
+#: src/userprops.html:66
+#. (jid)
+msgid "Edit properties for %1"
+msgstr "Редактировать свойства %1"
+
+#: src/options.html:522
+msgid "Enable logging of messages"
+msgstr "Сохранять историю сообщений"
+
+#: src/error_message.html:84 src/error_message.html:97 src/groupchat_modifylist.html:61 src/options.html:289 src/options.html:338
+msgid "Error"
+msgstr "Ошибка"
+
+#: NOT FOUND IN SOURCE
+msgid "Error saving roster preferences"
+msgstr ""
+
+#: src/vcard.html:127
+msgid "Family Name"
+msgstr "Фамилия"
+
+#: src/searchrooms.html:132
+msgid "Finished."
+msgstr "Закончено."
+
+#: src/index.html:465
+msgid "For details please visit <a href=\"http://blog.jwchat.org/jwchat/\">JWChat's Homepage</a>."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "For details please visit <a href=\"http://jwchat.sourceforge.net\">JWChat's Homepage</a>."
+msgstr "За дополнительной информацией обращайтесь на <a href=\"http://jwchat.sourceforge.net\">домашнюю страницу JWChat</a>."
+
+#: src/groupchat.html:173
+msgid "Forbidden"
+msgstr "Запрещено"
+
+#: src/groupchat_invite.html:57
+msgid "From"
+msgstr "От"
+
+#: src/vcard.html:126
+msgid "Full Name"
+msgstr "Полное имя"
+
+#: NOT FOUND IN SOURCE
+msgid "Gateway"
+msgstr ""
+
+#: src/options.html:488 src/roster.js:304 src/roster.js:333 src/roster.js:355 src/roster.js:422 src/roster.js:427 src/roster.js:567
+msgid "Gateways"
+msgstr "Шлюзы"
+
+#: src/options.html:488
+msgid "General"
+msgstr "Общие"
+
+#: src/groupchat_iroster.html:36
+msgid "Grant Administrative Privilege"
+msgstr "Дать права администратора"
+
+#: src/groupchat_iroster.html:32
+msgid "Grant Membership"
+msgstr "Разрешить членство"
+
+#: src/groupchat_iroster.html:34
+msgid "Grant Moderator Privilege"
+msgstr "Дать права модератора"
+
+#: src/groupchat_iroster.html:30
+msgid "Grant Voice"
+msgstr "Разрешить писать сообщения"
+
+#: src/userprops.html:126
+msgid "Group"
+msgstr "Группа"
+
+#: src/groupchat_invite.html:55
+msgid "Groupchat Invitation"
+msgstr "Приглашение в групповой чат"
+
+#: src/roster.html:141
+msgid "Help"
+msgstr "Помощь"
+
+#: src/help.html:111 src/options.html:498
+msgid "Hide offline users"
+msgstr "Спрятать отключенных пользователей"
+
+#: src/help.html:112
+msgid "Hides users who are not online from your contact list."
+msgstr "Скрывает пользователей, которые не подключены, в списке контактов."
+
+#: src/chat.html:310 src/iRoster.html:20
+msgid "History"
+msgstr "История"
+
+#: src/help.html:74
+msgid "History: Opens the message history for this user"
+msgstr "История: открывает историю сообщений для данного пользователя."
+
+#: src/subscription.html:114
+msgid "I would like to add you to my roster."
+msgstr "Я хочу добавить Вас в мой список контактов."
+
+#: NOT FOUND IN SOURCE
+msgid "If don't have an account yet a new one will be created automatically for you on login (Note: If it fails to register this username might be taken already. Try to choose something else)."
+msgstr ""
+
+#: src/help.html:114
+msgid "If selected each time you get a message from an other user the corresponding dialog pops up automatically."
+msgstr "Если выбрано, то каждый раз, когда Вы получаете сообщение от другого пользователя, всплывает соответствующее диалоговое окно."
+
+#: src/help.html:118
+msgid "If selected short jingles will play for certain actions like incoming messages or users going on- or offline."
+msgstr "Если выбрано, то для определенных действий, таких как входящие сообщения или переход пользователя из состояния 'подключен' в состояние 'отключен' , будет произведен звуковой сигнал ."
+
+#: NOT FOUND IN SOURCE
+msgid "If you don't have an account yet a new one can be created for you by checking the register flag below."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "If you want to learn more about JWChat please visit our homepage at <a href=\"http://jwchat.sourceforge.net\">http://jwchat.sourceforge.net</a>!"
+msgstr ""
+
+#: src/vcard.html:134
+msgid "Information"
+msgstr "Информация"
+
+#: src/jwchat.html:1035
+msgid "Internal Server Error.\\n\\nDisconnected.\\n\\nReconnect?"
+msgstr "Внутренняя ошибка сервера.\\n\\nСоединение разорвано.\\n\\nПодключиться снова?"
+
+#: src/help.html:19 src/help.html:29
+msgid "Introduction"
+msgstr "Введение"
+
+#: src/shared.js:131
+#. (prohibited[i])
+msgid "Invalid JID\\n'%1' not allowed in JID.\\nChoose another one!"
+msgstr "Неверный JID\\n'%1' не разрешён в JID.\\nВыберите другой!"
+
+#: src/changestatus.html:84 src/status.html:15
+msgid "Invisible"
+msgstr "Невидимый"
+
+#: src/groupchat_invite.html:47
+#. (to)
+msgid "Invitation to %1"
+msgstr "Приглашение в %1"
+
+#: src/groupchat_bottom.html:277 src/groupchat_invite_dialog.html:78
+msgid "Invite"
+msgstr "Пригласить"
+
+#: src/groupchat_invite_dialog.html:44
+#. (opener.parent.jid)
+msgid "Invite Users to %1"
+msgstr "Пригласить пользователей в %1"
+
+#: src/groupchat_modifylist.html:159
+msgid "JID"
+msgstr "JID"
+
+#: src/jwchat.html:1515 src/userhist.html:132
+msgid "JID is missing.\\nAborting..."
+msgstr "Отсутствует JID.\\nОтмена операции..."
+
+#: src/subscription.html:19
+msgid "JID missing"
+msgstr "Отсутствует JID"
+
+#: src/jwchat.html:4
+msgid "JWChat"
+msgstr "JWChat"
+
+#: src/usernote.html:4
+msgid "JWChat - Annotation"
+msgstr "JWChat - Примечание"
+
+#: src/changestatus.html:4
+msgid "JWChat - Change Online Status"
+msgstr "JWChat - Измените Online состояние"
+
+#: src/groupchatconfig.html:4
+msgid "JWChat - Channel Config for"
+msgstr "JWChat - Настройка канала для"
+
+#: src/chat.html:4 src/chat_iframe.html:4
+msgid "JWChat - Chat"
+msgstr "JWChat - Чат"
+
+#: src/userhist.html:4
+msgid "JWChat - Chat History"
+msgstr "JWChat - История сообщений"
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat - Chat-Top"
+msgstr ""
+
+#: src/userhist_collections_iframe.html:4
+msgid "JWChat - Collections"
+msgstr "JWChat - Коллекции"
+
+#: src/editbookmarks.html:4
+msgid "JWChat - Edit Bookmarks"
+msgstr "JWChat - Редактировать закладки"
+
+#: src/help.html:14 src/help.html:4
+msgid "JWChat - Help"
+msgstr "JWChat - Помощь"
+
+#: src/groupchat_invite.html:4
+msgid "JWChat - Invite"
+msgstr "JWChat - Пригласить"
+
+#: src/joingroupchat.html:4
+msgid "JWChat - Join group chat"
+msgstr "JWChat - Присоединиться к групповому чату"
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat - Menubar"
+msgstr ""
+
+#: src/groupchat_modifylist.html:4
+msgid "JWChat - Modify"
+msgstr "JWChat - Изменить"
+
+#: src/groupchat_modifylist_iframe.html:4
+msgid "JWChat - Modify List"
+msgstr "JWChat - Изменить список"
+
+#: src/options.html:4
+msgid "JWChat - Options"
+msgstr "JWChat - Настройки"
+
+#: src/groupchat_register.html:4
+msgid "JWChat - Register"
+msgstr "JWChat - Регистрация"
+
+#: src/groupchat_iroster.html:4 src/iRoster.html:4
+msgid "JWChat - Roster"
+msgstr "JWChat - Список контактов"
+
+#: src/search.html:4
+msgid "JWChat - Search"
+msgstr "JWChat - Поиск"
+
+#: src/search_iframe.html:4 src/searchrooms_results_iframe.html:4
+msgid "JWChat - Search Results"
+msgstr "JWChat - Результаты поиска"
+
+#: src/searchrooms.html:4
+msgid "JWChat - Search for Rooms"
+msgstr "JWChat - Искать комнаты"
+
+#: src/send.html:4
+msgid "JWChat - Send Message"
+msgstr "JWChat - Отправить сообщение"
+
+#: src/error_message.html:4 src/message.html:4 src/status.html:4
+msgid "JWChat - Show Message"
+msgstr "JWChat - Показать сообщение"
+
+#: src/subscription.html:4
+msgid "JWChat - Subscribe to user"
+msgstr "JWChat - Подписаться к пользователю"
+
+#: src/subscriptionRequest.html:4
+msgid "JWChat - Subscription-Request"
+msgstr "JWChat - Запрос о подписке"
+
+#: src/userprops.html:4
+msgid "JWChat - User Properties"
+msgstr "JWChat - Свойства пользователя"
+
+#: src/vcard.html:4
+msgid "JWChat - VCard - "
+msgstr "JWChat - Визитная карточка - "
+
+#: src/help.html:33
+msgid "JWChat is a web based instant messenger (IM) just like AIM, MSN Messenger, Yahoo! Messenger or ICQ. This means you can manage your contacts and chat with other users directly. Unlike other IMs you can use this with your web browser without having to install any additional software at all. For a list of <a href=\"#supported\">supported browsers</a> see below. Your contact list is stored on the server. This means that you have access to your contact list from almost any computer as long as you've got access to the internet."
+msgstr "JWChat &mdash; система мгновенного обмена сообщениями (IM) для веб, такая же как AIM, MSN Messenger, Yahoo! Messenger или ICQ: вы сможете составить список контактов и непосредственно общаться с другими пользователями. В отличие от других систем, для использования JWChat достаточно браузера, установка другого программного обеспечения не требуется. Ниже находится список <a href=\"#supported\">поддерживаемых браузеров</a>. Ваш список контактов хранится на сервере, поэтому у вас будет доступ к нему практически с любого компьютера, подключенного к интернету."
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat is a web based, full featured jabber client. <a href=\"http://www.jabber.org\">Jabber</a> is an advanced  instant messaging system comparable to ICQ, AOL Instant Messenger or Yahoo!Messenger."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat is a web based, full featured jabber client. <a href=\"http://www.jabber.org\">Jabber</a> is an advanced instant messaging system comparable to ICQ, AOL Instant Messenger or Yahoo!Messenger."
+msgstr ""
+
+#: src/groupchat_invite.html:63 src/joingroupchat.html:125 src/searchrooms.html:202
+msgid "Join"
+msgstr "Присоединиться"
+
+#: src/roster.html:153
+msgid "Join Groupchat"
+msgstr "Войти в групповой чат"
+
+#: src/groupchat_iroster.html:28
+msgid "Kick"
+msgstr "Выкинуть"
+
+#: src/help.html:79
+msgid "Left clicking an user pops up a message dialog."
+msgstr "Нажатие левой кнопкой мыши на пользователе открывает диалоговое окно для сообщений."
+
+#: NOT FOUND IN SOURCE
+msgid "Loading Roster...<br>Please wait!"
+msgstr ""
+
+#: src/index.html:407 src/index.html:458
+msgid "Login"
+msgstr "Вход"
+
+#: NOT FOUND IN SOURCE
+msgid "Login failed. Wrong password?"
+msgstr ""
+
+#: src/help.html:43
+msgid "MS Internet Explorer since version 5.0"
+msgstr "MS Internet Explorer с версии 5.0"
+
+#: src/groupchat_roster.html:37
+msgid "Member"
+msgstr "Участник"
+
+#: src/groupchat_roster.html:37
+msgid "Member List"
+msgstr "Список участников"
+
+#: src/roster.js:381 src/roster.js:446 src/roster.js:725
+msgid "Message"
+msgstr "Сообщение"
+
+#: src/message.html:114
+#. (user.name)
+msgid "Message from %1"
+msgstr "Сообщение от %1"
+
+#: src/groupchat_roster.html:38
+msgid "Moderator"
+msgstr "Модератор"
+
+#: src/groupchat_roster.html:38
+msgid "Moderator List"
+msgstr "Список модераторов"
+
+#: src/groupchat_modifylist.html:264
+#. (args[2])
+msgid "Modify %1"
+msgstr "Изменить %1"
+
+#: src/groupchat_roster.html:68
+msgid "Modify List"
+msgstr "Изменить список"
+
+#: src/help.html:45 src/help.html:52
+msgid "Mozilla (stable) since version 1.0.2"
+msgstr "Mozilla (stable) с версии 1.0.2"
+
+#: src/help.html:60
+msgid "Mozilla et al since version 1.0.2"
+msgstr "Mozilla начиная с версии 1.0.2"
+
+#: src/editbookmarks.html:171 src/vcard.html:124 src/vcard.html:128 src/vcard.html:156
+msgid "Name"
+msgstr "Имя"
+
+#: src/help.html:44
+msgid "Netscape version 6 & 7"
+msgstr "Netscape версия 6 & 7"
+
+#: src/groupchat_modifylist.html:159
+msgid "Nick"
+msgstr "Ник"
+
+#: src/editbookmarks.html:173 src/joingroupchat.html:118 src/userprops.html:113 src/vcard.html:129
+msgid "Nickname"
+msgstr "Ник"
+
+#: src/groupchat_modifylist.html:219
+msgid "No items found"
+msgstr "Не найдено"
+
+#: src/groupchat_bottom.html:109 src/groupchat_bottom.html:134 src/groupchat_bottom.html:61 src/groupchat_bottom.html:74
+msgid "No such nick"
+msgstr "Нет такого ника"
+
+#: src/groupchat_invite.html:45
+msgid "None Given"
+msgstr "Не указана"
+
+#: src/groupchat.html:170
+msgid "Not Allowed"
+msgstr "Не разрешено"
+
+#: src/groupchat.html:176
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: src/groupchatconfig.html:108 src/userprops.html:146
+msgid "OK"
+msgstr "ОК"
+
+#: src/help.html:23 src/help.html:82
+msgid "Online Status Indicators"
+msgstr "Индикатор статуса присутствия"
+
+#: src/joingroupchat.html:114 src/subscription.html:100
+msgid "Open Search"
+msgstr "Открыть поиск"
+
+#: src/help.html:108
+msgid "Open the preferences dialog by clicking on <img src=\"images/screenshots/pref-button.gif\" width=\"24\" height=\"22\" alt=\"Preferences Button\">. Here's a short explanation for each option you can select:"
+msgstr "Откройте диалог установок путем нажатия на <img src=\"images/screenshots/pref-button.gif\" width=\"24\" height=\"22\" alt=\"Установки\">. Вот краткое объяснение для каждой опции, которую Вы можете выбрать:"
+
+#: src/options.html:494
+msgid "Options"
+msgstr "Настройки"
+
+#: src/vcard.html:154
+msgid "Organization"
+msgstr "Организация"
+
+#: src/groupchat_roster.html:43
+msgid "Owner"
+msgstr "Владелец"
+
+#: src/groupchat_roster.html:43
+msgid "Owner List"
+msgstr "Список владельцев"
+
+#: NOT FOUND IN SOURCE
+msgid "Pass"
+msgstr ""
+
+#: src/editbookmarks.html:176 src/index.html:419 src/joingroupchat.html:121
+msgid "Password"
+msgstr "Пароль"
+
+#: src/options.html:229
+msgid "Password changed successfully"
+msgstr "Пароль успешно сменён"
+
+#: src/jwchat.html:1519
+msgid "Password is missing.\\nAborting..."
+msgstr "Отсутствует пароль.\\nПрерывание операции..."
+
+#: src/options.html:215
+msgid "Passwords don't match"
+msgstr "Пароли не совпадают"
+
+#: src/search.html:290
+msgid "Perform search at"
+msgstr "Искать в"
+
+#: src/help.html:117 src/options.html:510
+msgid "Play sounds"
+msgstr "Проигрывать звуки"
+
+#: src/joingroupchat.html:17
+msgid "Please enter a channel/group to join"
+msgstr "Пожалуйста укажите канал/группу для подключения"
+
+#: src/editbookmarks.html:48
+msgid "Please enter a name for this bookmark!"
+msgstr "Пожалуйста укажите имя для этой закладки"
+
+#: src/editbookmarks.html:56
+msgid "Please enter a room to join"
+msgstr "Пожалуйста укажите название комнаты"
+
+#: src/editbookmarks.html:61 src/joingroupchat.html:21
+msgid "Please enter a server name"
+msgstr "Пожалуйста укажите имя сервера"
+
+#: src/index.html:446
+msgid "Port"
+msgstr "Порт"
+
+#: src/vcard.html:148
+msgid "Postal Code"
+msgstr "Почтовый индекс"
+
+#: src/roster.html:141
+msgid "Preferences"
+msgstr "Установки"
+
+#: src/iRoster.html:17 src/iRoster.html:26 src/iRoster.html:32
+msgid "Presence"
+msgstr "Присутствие"
+
+#: src/index.html:436
+msgid "Priority"
+msgstr "Приоритет"
+
+#: src/searchrooms.html:29
+#. (conference_server)
+msgid "Querying %1. Please stand by..."
+msgstr "Выполняется запрос к %1. Пожалуйста подождите..."
+
+#: src/search.html:298 src/search.html:31
+msgid "Querying ..."
+msgstr "Выполняется запрос..."
+
+#: src/options.html:97
+msgid "Querying Service ...<br>Please stand by!"
+msgstr "Запрос к сервису...<br>Пожалуйста подождите!"
+
+#: NOT FOUND IN SOURCE
+msgid "Querying Transport ...<br>Please stand by!"
+msgstr ""
+
+#: src/message.html:132
+msgid "Quote"
+msgstr "Цитата"
+
+#: src/help.html:119 src/options.html:514
+msgid "Raise window if a new message is received"
+msgstr "Поднимать окно при получении сообщения"
+
+#: src/groupchatconfig.html:36
+msgid "Really destroy this room?\\n\\nReason:"
+msgstr "Действительно удалить эту комнату?\\n\\nПричина:"
+
+#: src/groupchat_invite.html:58 src/groupchat_invite.html:65 src/groupchat_invite_dialog.html:73 src/groupchat_modifylist.html:159
+msgid "Reason"
+msgstr "Причина"
+
+#: src/userhist.html:173
+msgid "Refresh"
+msgstr "Обновить"
+
+#: src/groupchat_bottom.html:277 src/options.html:158
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: src/index.html:422
+msgid "Register New Account"
+msgstr "Создать нового пользователя"
+
+#: src/options.html:552 src/options.html:552
+msgid "Register at"
+msgstr "Зарегистрироваться на"
+
+#: src/jwchat.html:1028
+msgid "Registration failed!\\n\\nPlease choose a different username!"
+msgstr "Регистрация не удалась!\\n\\nВыберите другое имя пользователя!"
+
+#: NOT FOUND IN SOURCE
+msgid "Registration failed. You might want to choose another username."
+msgstr ""
+
+#: src/options.html:310
+msgid "Registration successful."
+msgstr "Регистрация прошла успешно."
+
+#: src/iRoster.html:23
+msgid "Remove"
+msgstr "Удалить"
+
+#: src/options.html:371
+msgid "Remove all associated contacts?"
+msgstr "Удалить все связанные контакты?"
+
+#: src/help.html:76
+msgid "Remove: Removes this user from your contact list (completely) and revokes your authentication for him/her (if any)"
+msgstr "Удалить: Удаляет данного пользователя из Вашего списка контактов (полностью) и отменяет его/ее авторизацию."
+
+#: src/options.html:360
+#. (sJid)
+msgid "Removing %1 from roster..."
+msgstr "%1 удаляется из списка..."
+
+#: src/options.html:372
+msgid "Removing contacts..."
+msgstr "Удаляются контакты..."
+
+#: src/message.html:132
+msgid "Reply"
+msgstr "Ответить"
+
+#: src/options.html:282
+#. (sJid)
+msgid "Request sent to %1.."
+msgstr "Отправлен запрос к %1..."
+
+#: src/index.html:432
+msgid "Resource"
+msgstr "Ресурс"
+
+#: src/iRoster.html:22
+msgid "Resubscribe"
+msgstr "Переавторизоваться"
+
+#: src/help.html:75
+msgid "Resubscribe: Opens a subscription request for this user"
+msgstr "Переавторизация: Открывает запрос на авторизацию для данного пользователя"
+
+#: src/groupchat_iroster.html:37
+msgid "Revoke Administrative Privilege"
+msgstr "Отнять права администратора"
+
+#: src/groupchat_iroster.html:33
+msgid "Revoke Membership"
+msgstr "Отнять членство"
+
+#: NOT FOUND IN SOURCE
+msgid "Revoke Memebership"
+msgstr ""
+
+#: src/groupchat_iroster.html:35
+msgid "Revoke Moderator Privilege"
+msgstr "Отнять права модератора"
+
+#: src/groupchat_iroster.html:31
+msgid "Revoke Voice"
+msgstr "Запретить писать сообщения"
+
+#: src/vcard.html:159
+msgid "Role"
+msgstr "Роль"
+
+#: src/editbookmarks.html:174 src/groupchat_invite.html:56 src/joingroupchat.html:119 src/searchrooms.html:59
+msgid "Room"
+msgstr "Комната"
+
+#: src/help.html:54
+msgid "Safari since version 3"
+msgstr "Safari начиная с версии 3"
+
+#: src/editbookmarks.html:184 src/groupchat_modifylist.html:310 src/vcard.html:175
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/search.html:225 src/searchrooms.html:189
+msgid "Search"
+msgstr "Искать"
+
+#: src/searchrooms.html:183
+msgid "Search Server"
+msgstr "Искать на сервере"
+
+#: src/roster.html:153
+msgid "Search User"
+msgstr "Искать пользователя"
+
+#: src/joingroupchat.html:114 src/searchrooms.html:178
+msgid "Search for Rooms"
+msgstr "Искать комнаты"
+
+#: src/subscription.html:100
+msgid "Search for a User"
+msgstr "Искать пользователя"
+
+#: src/search.html:124 src/search.html:141 src/search.html:90 src/searchrooms.html:28
+#. (conference_server)
+#. (iq.getFrom())
+msgid "Search results for %1"
+msgstr "Результаты поиска для %1"
+
+#: NOT FOUND IN SOURCE
+msgid "Select"
+msgstr ""
+
+#: src/index.html:410
+msgid "Select Jabber server to connect to"
+msgstr "Выбрать сервер Jabber для подключения"
+
+#: src/groupchat_invite_dialog.html:71
+msgid "Select User(s)"
+msgstr "Выбрать пользователей"
+
+#: src/chat.html:320 src/groupchat_bottom.html:277 src/send.html:104 src/subscription.html:120
+msgid "Send"
+msgstr "Отправить"
+
+#: src/iRoster.html:16
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: src/help.html:70
+msgid "Send Message: Opens the message dialog for this user"
+msgstr "Отправить сообщение: открывает окно сообщений для данного пользователя"
+
+#: src/send.html:73
+#. (srcW.roster.getUserByJID(jid).name)
+msgid "Send message to %1"
+msgstr "Отправить сообщение %1"
+
+#: src/subscription.html:58
+msgid "Send subscription"
+msgstr "Отправить запрос на авторизацию"
+
+#: src/subscription.html:103
+msgid "Send subscription to"
+msgstr "Запросить авторизацию у"
+
+#: src/options.html:313
+msgid "Sending presence..."
+msgstr "Отправляется информация о присутствии..."
+
+#: src/editbookmarks.html:175 src/index.html:410 src/joingroupchat.html:120
+msgid "Server"
+msgstr "Сервер"
+
+#: src/subscription.html:107
+msgid "Service (optional)"
+msgstr "Сервис (необязательно)"
+
+#: src/jwchat.html:1031
+msgid "Service unavailable"
+msgstr "Сервис недоступен"
+
+#: src/changestatus.html:92
+msgid "Set"
+msgstr "Установить"
+
+#: src/iRoster.html:31
+msgid "Show"
+msgstr "Показать"
+
+#: src/groupchat_iroster.html:39 src/iRoster.html:19 src/iRoster.html:28 src/iRoster.html:33
+msgid "Show Info"
+msgstr "Показать информацию"
+
+#: src/help.html:73
+msgid "Show Info: Show the user's profile"
+msgstr "Показать информацию: Показывает анкету пользователя"
+
+#: src/index.html:429 src/index.html:429
+msgid "Show Fewer Options"
+msgstr "Скрыть дополнительные настройки"
+
+#: src/index.html:425 src/index.html:425
+msgid "Show More Options"
+msgstr "Показать дополнительные настройки"
+
+#: src/groupchat_iroster.html:26 src/iRoster.html:15 src/message.html:132
+msgid "Start Chat"
+msgstr "Начать чат"
+
+#: src/help.html:71
+msgid "Start Chat: Opens a chat window for this user"
+msgstr "Начать чат: Открывает окно чата для данного пользователя"
+
+#: src/vcard.html:147
+msgid "State"
+msgstr "Штат"
+
+#: src/roster.js:376 src/roster.js:441 src/roster.js:720
+msgid "Status"
+msgstr "Статус"
+
+#: src/changestatus.html:89
+msgid "Status Message"
+msgstr "Сообщение о статусе"
+
+#: src/error_message.html:100 src/message.html:127 src/send.html:100
+msgid "Subject"
+msgstr "Тема"
+
+#: src/groupchat_invite.html:76
+msgid "Submit"
+msgstr "Отправить"
+
+#: src/subscriptionRequest.html:49
+#. (jid)
+msgid "Subscribe request from %1"
+msgstr "Запрос на авторизацию от %1"
+
+#: NOT FOUND IN SOURCE
+msgid "Support for safari coming soon..."
+msgstr ""
+
+#: src/help.html:20 src/help.html:37
+msgid "Supported Browsers"
+msgstr "Поддерживаемые браузеры"
+
+#: src/help.html:39
+msgid "Supported browsers and plattforms"
+msgstr "Поддерживаемые браузеры и платформы"
+
+#: src/roster.js:24
+msgid "System"
+msgstr "Система"
+
+#: src/help.html:16
+msgid "Table of Contents"
+msgstr "Содержание"
+
+#: src/help.html:67
+msgid "The contact list holds entries for each user you have added. By right clicking on such an item you get a context menu as shown in the screenshot to the left:"
+msgstr "Список контактов содержит записи для каждого добавленного Вами пользователя. При щелчке правой кнопкой на элемент списка выводится контекстное меню, показанное на снимке слева:"
+
+#: src/help.html:120
+msgid "This will cause your contact list or your chat dialog to be raised over all other open windows if a new message arrives"
+msgstr "Окно с вашим списком контактов или обменом сообщениями будет поднято поверх всех остальных открытых окон при приходе нового сообщения"
+
+#: src/vcard.html:158
+msgid "Title"
+msgstr "Должность"
+
+#: src/groupchat_top.html:32
+msgid "Topic"
+msgstr "Тема"
+
+#: src/roster.js:153 src/userprops.html:79
+msgid "Unfiled"
+msgstr "Не в группе"
+
+#: src/vcard.html:157
+msgid "Unit"
+msgstr "Подразделение"
+
+#: src/options.html:154
+msgid "Unregister"
+msgstr "Отключиться"
+
+#: src/options.html:326
+#. (sJid)
+msgid "Unregistering from service %1 ..."
+msgstr "Отключаемся от сервиса %1 ..."
+
+#: src/options.html:156
+msgid "Update"
+msgstr "Обновить"
+
+#: src/options.html:529
+msgid "Update interval"
+msgstr "Интервал обновления"
+
+#: NOT FOUND IN SOURCE
+msgid "Updating Roster..."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "Use SSL"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "Use the form below to log into jabber and start your own web based client. You don't need to install any software at all to use this program."
+msgstr ""
+
+#: src/options.html:488
+msgid "User Directory"
+msgstr "Список пользователей"
+
+#: src/help.html:88
+msgid "User doesn't want to be disturbed"
+msgstr "Пользователь не хочет, чтобы его беспокоили"
+
+#: NOT FOUND IN SOURCE
+msgid "User don't wants to be disturbed"
+msgstr ""
+
+#: src/help.html:91
+msgid "User hasn't authenticated you"
+msgstr "Пользователь не авторизовал Вас"
+
+#: src/help.html:86
+msgid "User is away"
+msgstr "Пользователь отошел"
+
+#: src/help.html:90
+msgid "User is invisible"
+msgstr "Пользователь невидим"
+
+#: src/help.html:87
+msgid "User is not available"
+msgstr "Пользователь не доступен"
+
+#: src/help.html:89
+msgid "User is offline"
+msgstr "Пользователь отключен"
+
+#: src/help.html:84
+msgid "User is online"
+msgstr "Пользователь online"
+
+#: src/help.html:85
+msgid "User is willing to chat"
+msgstr "Пользователь готов чатиться"
+
+#: src/index.html:414
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: src/index.html:417
+msgid "Username must not contain"
+msgstr "Имя пользователя не должно содержать"
+
+#: src/groupchat_roster.html:34
+msgid "Voice"
+msgstr "Право писать сообщения"
+
+#: src/groupchat_roster.html:34
+msgid "Voice List"
+msgstr "Имеют право писать сообщения"
+
+#: src/vcard.html:137
+msgid "Web Site"
+msgstr "Сайт"
+
+#: NOT FOUND IN SOURCE
+msgid "Welcome to"
+msgstr ""
+
+#: src/index.html:395 src/index.html:4
+msgid "Welcome to JWChat"
+msgstr "Добро пожаловать в JWChat"
+
+#: src/index.html:249
+#. (SITENAME)
+msgid "Welcome to JWChat at %1"
+msgstr "Добро пожаловать в JWChat на %1"
+
+#: NOT FOUND IN SOURCE
+msgid "Welcome to JWChat at jwchat.org"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "Welcome to jabber.glubs.org"
+msgstr ""
+
+#: src/help.html:116
+msgid "Whether to pop up messages although your status is not \"available\" or \"chat\""
+msgstr "Выводить ли всплывающие окна с сообщениями если ваш статус не \"онлайн\" или \"доступен для чата\""
+
+#: src/help.html:122
+msgid "Will display the time when a message arrived right to the users name in the chat dialog"
+msgstr "Будет показывать время прихода сообщения справа от имени пользователя в диалоге чата"
+
+#: src/options.html:124
+msgid "You are already registered at this service!"
+msgstr "Вы уже зарегистрированы на этом сервисе!"
+
+#: NOT FOUND IN SOURCE
+msgid "You are already registered with this Gateway!"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "You can create a new user group by entering a new name for \"Group\" at the \"Available Groups\" box followed by clicking on \"&gt;\".  Remove a user from a group by clicking on \"&lt;\". A group is deleted from your contact list if there is no user left for this group."
+msgstr ""
+
+#: src/help.html:103
+msgid "You can create a new user group by entering a new name for \"Group\" at the \"Available Groups\" box followed by clicking on \"&gt;\". Remove a user from a group by clicking on \"&lt;\". A group is deleted from your contact list if there is no user left for this group."
+msgstr "Вы можете создать новую группу пользователей, введя название в поле \"Группа\" над списком \"Доступных групп\" и нажав после этого кнопку \"&gt;\". Удалите пользователя из группы нажатием на \"&lt;\". Группа будет удалена из вашего списка контактов, если в ней не останется пользователей."
+
+#: src/jwchat.html:690
+#. (presence.getFrom())
+msgid "You have been unsubscribed from %1"
+msgstr "Вы отписались от %1"
+
+#: src/index.html:102
+msgid "You need to supply a jabber server"
+msgstr "Вы должны указать сервер jabber"
+
+#: src/index.html:95
+msgid "You need to supply a password"
+msgstr "Вы должны указать пароль"
+
+#: src/index.html:90
+msgid "You need to supply a username"
+msgstr "Вы должны указать имя пользователя"
+
+#: src/help.html:21 src/help.html:64
+msgid "Your Contact List"
+msgstr "Ваш список контактов"
+
+#: src/jwchat.html:1552
+msgid "Your browser must support frames and javascript to use this application. Please refer to our <a href=\"help.html\">online manual</a> for a list of supported browser."
+msgstr "Ваш браузер должен поддерживать фреймы и javascript, чтобы использовать данное приложение. Пожалуйста, обратитесь к нашему  <a href=\"help.html\">руководству</a> за списком поддерживаемых браузеров."
+
+#: src/changestatus.html:83 src/jwchat.html:76 src/status.html:12
+msgid "away"
+msgstr "отсутствует"
+
+#: src/search_iframe.html:17
+msgid "click to add user"
+msgstr "щёлкните для добавления пользователя"
+
+#: src/userhist_collections_iframe.html:27
+msgid "click to select collection"
+msgstr "щёлкните для выбора коллекции"
+
+#: src/searchrooms_results_iframe.html:17
+msgid "click to select row"
+msgstr "щёлкните для выбора строки"
+
+#: src/groupchat_modifylist_iframe.html:26
+msgid "click to select user"
+msgstr "щёлкните для выбора пользователя"
+
+#: NOT FOUND IN SOURCE
+msgid "coming soon... ;-)"
+msgstr ""
+
+#: src/changestatus.html:80 src/jwchat.html:78 src/status.html:14
+msgid "do not disturb"
+msgstr "не беспокоить"
+
+#: src/chat.html:163
+msgid "error starting chat"
+msgstr "ошибка при начале чата"
+
+#: src/changestatus.html:79 src/jwchat.html:75 src/status.html:11
+msgid "free for chat"
+msgstr "свободен для чата"
+
+#: src/index.html:441
+msgid "high"
+msgstr "высокий"
+
+#: src/jwchat.html:79
+msgid "invisible"
+msgstr "невидимый"
+
+#: src/subscription.html:109
+msgid "local jabber user"
+msgstr "локальный пользователь jabber"
+
+#: src/index.html:439
+msgid "low"
+msgstr "низкий"
+
+#: src/index.html:440
+msgid "medium"
+msgstr "средний"
+
+#: src/error_message.html:103 src/message.html:134
+msgid "next"
+msgstr "следующий"
+
+#: src/changestatus.html:76 src/jwchat.html:77 src/status.html:13
+msgid "not available"
+msgstr "не доступен"
+
+#: src/changestatus.html:87 src/jwchat.html:80 src/status.html:18
+msgid "offline"
+msgstr "отключен"
+
+#: src/changestatus.html:75 src/jwchat.html:74 src/status.html:10
+msgid "online"
+msgstr "online"
+
+#: NOT FOUND IN SOURCE
+msgid "optional"
+msgstr ""
+
+#: src/error_message.html:103 src/message.html:134
+msgid "prev"
+msgstr "предыдущий"
+
+#: src/subscriptionRequest.html:51
+#. (jid)
+msgid "show user info for %1"
+msgstr "показать информацию о пользователе %1"
+
+#: src/searchrooms.html:19
+msgid "this doesn't look like a valid hostname"
+msgstr "это непохоже на правильное имя хоста"
+
+#: src/subscription.html:59
+msgid "to"
+msgstr "к"
+
+#: src/subscriptionRequest.html:81
+msgid "wants to add you to his roster"
+msgstr "желает добавить Вас в свой список"
+

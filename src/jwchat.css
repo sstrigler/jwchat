@@ -1,0 +1,207 @@
+body { 
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+/*  background-color: #b8dbff; */
+  background-color: #81addc;
+}
+
+button {
+  font-family: Verdana, sans-serif;
+  font-size: 10px;
+  border-style: solid;
+  border-width: 1px; 
+  border-color: #666666;
+  padding: 2px;
+}
+
+button:hover { border-style: outset; }
+button:active { border-style: inset; }
+
+input,label,td {
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+}
+
+fieldset { 
+  margin: 2px;
+  padding: 2px;
+}
+
+/* roster */
+#roster {
+  width: 100%;
+  cursor: default;
+}
+
+.roster { 
+  background-color: white;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.rosterUser { 
+  padding: 2px; 
+}
+
+.rosterUserSelected {
+/*  color: HighlightText; */
+  color: black;
+  background-color: Highlight;
+  padding: 2px;
+}
+
+.rosterGroupHeader {
+/*	background-color: #d6d6d6; */
+  font-weight: bold;
+}
+
+.rosterGroupHeaderHidden {
+/* 	background-color: #d6d6d6; */
+  font-weight: bold;
+  display: none;
+}
+
+/* context menu */
+.skin0{
+  position: absolute;
+  /*width:100px;*/
+  border: 2px outset ThreeDHighlight;
+  background-color: Menu;
+  color: ButtonText;
+  font-family: Verdana, sans-serif;
+  line-height: 16px;
+  cursor: default;
+  font-size: 12px;
+  z-index: 100;
+  visibility: hidden;
+}
+
+.menuitems{
+  padding-left:4px;
+  padding-right:4px;
+}
+
+/* END context menu */
+
+#chat { 
+  width:100%;
+  height:100%;
+}
+
+.chatbox {
+  margin: 4px;
+  background-color: white;
+  color: black;
+}
+
+.msgBox {
+  width: 100%;
+  height: 100%;
+}
+
+.rosterInnerElement { padding: 4px; padding-left:10px; padding-right:12px; }
+
+td.menubar {
+  padding: 2px;
+  border-bottom: 1px outset ThreeDFace;
+  background-color: Menu;
+  color: ButtonText;
+}
+
+a.menubar { 
+  font-size: 90%;
+/*  font-weight: bold; */
+  cursor: pointer;
+  text-decoration: none;
+  color: ButtonText;
+}
+
+a.menubar:hover { 
+  text-decoration: underline;
+}
+
+#myNickname {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#myNickname:hover { text-decoration: underline; }
+
+.nickName {
+  padding: 2px;
+}
+
+.statusMsg { 
+  font-size: smaller;
+  padding-left: 22px;
+}
+
+#statusMsg { 
+  font-size: smaller;
+  padding-left: 2px;
+  width: 100%;
+ }
+
+.myStatusMsg {  
+  cursor: pointer;
+  border: 0;
+/*  background-color: #b8dbff; */
+  background-color: #aecbe9;
+}
+
+.myStatusMsgSelected { 
+  cursor: text;
+  border: 1px;
+  background-color: #f9fae1;
+}
+
+.msgnick {
+  cursor: default;
+  white-space:nowrap;
+}
+
+.highlighted { 
+  color: darkorange;
+}
+
+.vcardBox { 
+  border: 0;
+  background-color: #b8dbff;
+  width: 100%;
+}
+
+.vcardBoxEditable { 
+  border: 1px;
+  background-color: white;
+  width: 100%;
+}
+
+#statusLed { 
+  cursor: pointer;
+  padding-bottom: 4px;
+}
+
+.link { 
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+img.actionButton { cursor: pointer; }
+
+h1 { font-size: 1.4em; }
+
+h2 { 
+  font-size: 1.2em; 
+  margin-bottom: 0.8em; 
+}
+
+h3 { 
+  font-size: 1.0em; 
+  font-style: italic;
+}

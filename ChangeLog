@@ -1,0 +1,92 @@
+2005-12-06  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* src/roster.html: fixed style attrib 'cursor'
+
+	* src/options.html: fixed style tag comments 
+
+2005-12-05  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* src/index.html:
+	* src/jwchat.html:
+	- support presence priorities
+	- store onlmsg at server side, load on startup
+	* src/jwchat.css
+	- use 'cursor: pointer;' throughout
+	* src/chat_iframe.html:
+	* src/groupchat_iframe.html:
+	* src/help.html: fixed style tag comments
+
+2005-12-01  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* po/sk.po: Slovak translation added
+
+2005-08-25  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* po/pt_br.po: added
+
+2005-07-21  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* README: be more verbose
+
+2005-06-24  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* po/nl.po: update translation for nl
+
+2004-10-25  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* use JSJaC for communication. support for WebClientService has
+	been dropped in favor of HTTP-Polling/HTTP-Binding
+
+2004-09-21  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* support for making annotations to users
+
+2004-09-20  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* added about tab to options dialog
+
+2004-09-14  Stefan Strigler  <steve@zeank.in-berlin.de>
+
+	* added support for digest login
+
+2004-09-09  Stefan Strigler <steve@zeank.in-berlin.de>
+
+	* did a lot of bug fixing the last days
+
+2004-08-17  Stefan Strigler <steve@zeank.in-berlin.de>
+
+	* initial support for JEP-0136 Message Archiving
+
+2004-07-09  Stefan Strigler <steve@zeank.in-berlin.de>
+
+	* fixed user info - fetching vcard works now
+	* implemented irc-style commands for muc
+	* fixed timestamps for messages
+
+2004-07-08  Stefan Strigler <steve@zeank.in-berlin.de>
+
+	* support for muc invite
+	* muc room names are escaped now
+	* redesign chat dialog
+
+2004-07-02  Stefan Strigler <steve@zeank.in-berlin.de>
+
+	* load/store roster preferences (hidden/collapsed groups)
+	
+2004-07-01  Stefan Strigler <steve@zeank.in-berlin.de>
+
+	* use Private XML Storage (JEP-0049) to store client preferences
+
+2004-06-28  Stefan Strigler <steve@zeank.in-berlin.de>
+
+	* support for configuring chatrooms
+	* modify user lists (ban, moderators, members and so on)
+
+2004-06-19  Stefan Strigler <steve@zeank.in-berlin.de>
+
+	* support for JUD
+
+2004-06-04  Stefan Strigler <steve@zeank.in-berlin.de>
+
+	* initial support for gateways aka transports
+	* started to write a ChangeLog ;-)

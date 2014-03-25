@@ -1,0 +1,1678 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JWChat 1.0beta2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2005-11-30 23:46+0100\n"
+"Last-Translator: Juraj Michalek <juraj.michalek@asinus.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Slovak\n"
+"X-Poedit-Country: SLOVAKIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+msgstr ""
+"Project-Id-Version: JWChat 1.0beta2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2005-11-30 23:46+0100\n"
+"Last-Translator: Juraj Michalek <juraj.michalek@asinus.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Slovak\n"
+"X-Poedit-Country: SLOVAKIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"A new room has been created but it awaits configuration from you. Do you want to do a custom configuration now?\\n"
+"Note: Click on 'Cancel' to start with a default configuration!"
+msgstr ""
+"Nová miestnosť bola vytvorená, ale stále sa čaká na konfiguráciu od vás. Chcete nastaviť vlastnosti miestnosti teraz?\\n"
+"Poznámka: Kliknite na 'Zrušiť' pre použitie predvolenej konfigurácie!"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"An Error Occured\\n"
+"Aborting..."
+msgstr ""
+"Vyskytla sa chyba\\n"
+"Ukončenie..."
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"An error occured!\\n"
+"Aborting..."
+msgstr ""
+"Vyskytla sa chyba!\\n"
+"Ukončenie..."
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"An error occured.\\n"
+"\\n"
+"You need to restart this application from the login screen."
+msgstr ""
+"Vyskytla sa chyba.\\n"
+"\\n"
+"Budete musieť naštartovať aplikáciu znova od prihlasovacieho okna."
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Can't display User Info:\\n"
+"User not local!"
+msgstr ""
+"Nie je možné zobraziť informácie o používateľovi:\\n"
+"Používateľ nie je lokálny!"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Connection lost!\\n"
+"Reconnect?"
+msgstr ""
+"Spojenie stratené!\\n"
+"Obnoviť?"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Couldn't log in!\\n"
+"Create new account?"
+msgstr ""
+"Nie je možné sa prihlásiť!\\n"
+"Vytvoriť nový účet?"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Disconnected\\n"
+"\\n"
+"Reconnect?"
+msgstr ""
+"Odpojený\\n"
+"\\n"
+"Pripojiť?"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Internal Server Error.\\n"
+"\\n"
+"Disconnected.\\n"
+"\\n"
+"Reconnect?"
+msgstr ""
+"Vnútorná chyba servera.\\n"
+"\\n"
+"Odpojený.\\n"
+"\\n"
+"Obnoviť?"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Invalid JID\\n"
+"'%1' not allowed in JID.\\n"
+"Choose another one!"
+msgstr ""
+"Nesprávny JID\\n"
+"'%1' nie je povolený v JID.\\n"
+"Vyberte si iný!"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"JID is missing.\\n"
+"Aborting..."
+msgstr ""
+"JID chýba.\\n"
+"Ukončovanie..."
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Password is missing.\\n"
+"Aborting..."
+msgstr ""
+"Chýbajúce heslo.\\n"
+"Ukončujem..."
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Really destroy this room?\\n"
+"\\n"
+"Reason:"
+msgstr ""
+"Skutočne zlikvidovať túto miestnosť?\\n"
+"\\n"
+"Dôvod:"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Registration failed!\\n"
+"\\n"
+"Please choose a different username!"
+msgstr ""
+"Registrácia zlyhala!\\n"
+"\\n"
+"Prosím, vyberte si iné používateľské meno!"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Subscribe request from %1:\\n"
+"%2"
+msgstr ""
+"Žiadosť o zápis od %1:\\n"
+"%2"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"jid is missing.\\n"
+"Aborting..."
+msgstr ""
+"jid chýba.\\n"
+"Ukončovanie..."
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"pass is missing.\\n"
+"Aborting..."
+msgstr ""
+"Chýba heslo.\\n"
+"Ukončujem..."
+
+#: src/jwchat.html:858
+#. (ouser.name)
+msgid "%1 has become available"
+msgstr "%1 sa stal(a) aktívny(a)"
+
+#: src/jwchat.html:819
+#. (ouser.name)
+msgid "%1 has been banned"
+msgstr "%1 bol(a) zakázaný(á)"
+
+#: src/jwchat.html:817
+#. (ouser.name,ouser.actor)
+msgid "%1 has been banned by %2"
+msgstr "%1 bol(a) zakázaný(á) - %2"
+
+#: NOT FOUND IN SOURCE
+msgid "%1 has been banned by %2: %3"
+msgstr "%1 bol(a) zakázaný(á) - %2: %3"
+
+#: src/jwchat.html:836
+#. (ouser.name)
+msgid "%1 has been kicked"
+msgstr "%1 bol(a) vykopnutý(á)"
+
+#: src/jwchat.html:834
+#. (ouser.name,ouser.actor)
+msgid "%1 has been kicked by %2"
+msgstr "%1 bol(a) vykopnutý(á) - %2"
+
+#: NOT FOUND IN SOURCE
+msgid "%1 has been kicked by %2: %3"
+msgstr "%1 bol(a) vykopnutý(á) - %2: %3"
+
+#: src/jwchat.html:869
+#. (ouser.name)
+msgid "%1 has left"
+msgstr "%1 odišiel(a)"
+
+#: src/jwchat.html:789
+#. (ouser.name, htmlEnc(ouser.nick))
+msgid "%1 is now known as %2"
+msgstr "%1 je teraz známy(a) ako %2"
+
+#: src/roster.js:387 src/roster.js:452 src/roster.js:731
+#. ((user.messages.length + user.chatmsgs.length))
+msgid "%1 message(s) pending"
+msgstr "%1 správ čaká"
+
+#: src/search.html:290
+msgid "- Choose Directory -"
+msgstr "- Vyberte adresár -"
+
+#: src/groupchat.html:93
+#. (msg.getSubject())
+msgid "/me has set the topic to: %1"
+msgstr "/me nastavil(a) tému na: %1"
+
+#: NOT FOUND IN SOURCE
+msgid "1 sec."
+msgstr "1 sek."
+
+#: src/options.html:533
+msgid "10 sec."
+msgstr "10 sek."
+
+#: src/options.html:531
+msgid "2 sec."
+msgstr "2 sek."
+
+#: src/options.html:534
+msgid "30 sec."
+msgstr "30 sek."
+
+#: src/options.html:532
+msgid "5 sec."
+msgstr "5 sek."
+
+#: NOT FOUND IN SOURCE
+msgid "<span id=\"chan_count\">X</span> participants"
+msgstr "<span id=\"chan_count\">X</span> členov"
+
+#: src/jwchat.html:769
+msgid "A new room has been created but it awaits configuration from you. Do you want to do a custom configuration now?\\nNote: Click on 'Cancel' to start with a default configuration!"
+msgstr ""
+
+#: src/index.html:396
+msgid "A web-based Jabber<sup><small>&reg;</small></sup> client"
+msgstr "Web Jabber<sup><small>&reg;</small></sup> klient"
+
+#: src/options.html:488 src/vcard.html:164
+msgid "About"
+msgstr "O"
+
+#: src/groupchat_modifylist.html:310
+msgid "Add"
+msgstr "Pridať"
+
+#: src/roster.html:153
+msgid "Add Contact"
+msgstr "Pridať kontakt"
+
+#: src/help.html:97
+msgid "Add an user by clicking on <img src=\"images/screenshots/add-button.gif\" width=\"24\" height=\"22\" alt=\"Add User Button\">. Enter the user's nickname in the subscription field and click \"Send\". Additionally you can enter a custom message in the textarea below. A subscription request with this message is sent to the user. If he or she accepts you can see his/her <a href=\"#status\">online status</a> from now on."
+msgstr "Pridať používateľa kliknutím na <img src=\"images/screenshots/add-button.gif\" width=\"24\" height=\"22\" alt=\"Tlačidlo pre pridanie používateľa\">. Vložte používateľovu prezývku do formulára a kliknite na \"Odoslať\". Prípadne môžete pridať aj vysvetľujúcu správu, ktorá sa používateľovi zobrazí. Požiadavka o zapísanie bude odoslaná tomuto používateľovi. Ak on alebo ona akceptujú požiadavku, budete môct vidieť jej/jeho <a href=\"#status\">online stav</a>."
+
+#: src/help.html:24 src/help.html:95
+msgid "Adding an User to your Contact List"
+msgstr "Pridať používateľa do vášho zoznamu"
+
+#: src/vcard.html:142 src/vcard.html:144
+msgid "Address"
+msgstr "Adresa"
+
+#: src/vcard.html:145
+msgid "Address2"
+msgstr "Adresa2"
+
+#: src/groupchat_roster.html:42
+msgid "Admin"
+msgstr "Admin"
+
+#: src/groupchat_roster.html:42
+msgid "Admin List"
+msgstr "Zoznam adminov"
+
+#: src/index.html:455
+msgid "Advise connection manager to connect through SSL"
+msgstr ""
+
+#: src/help.html:100
+msgid "After having sent this subscription request the user is added to your contact list and an edit user dialog pops up where you can set your custom nickname for this user and add him/her to one or more groups in your contact list."
+msgstr "Po odoslaní požiadavky na zapísanie je používateľ pridaný do vášho kontakt listu a prípadne môžete nastaviť preňho prezývku a priradiť jeho/ju do jednej alebo viacerých skupín kontaktov."
+
+#: src/subscriptionRequest.html:87
+msgid "Allow"
+msgstr "Povoliť"
+
+#: NOT FOUND IN SOURCE
+msgid "Allow secure conncetions only"
+msgstr ""
+
+#: src/index.html:455
+msgid "Allow secure connections only"
+msgstr ""
+
+#: src/searchrooms.html:46
+msgid "An Error Occured!"
+msgstr "Vyskytla sa chyba!"
+
+#: src/search.html:193
+msgid "An Error Occured\\nAborting..."
+msgstr ""
+
+#: src/groupchat_modifylist.html:210
+msgid "An Error has occured"
+msgstr "Vyskytla sa chyba"
+
+#: src/options.html:110
+msgid "An Error occured ..."
+msgstr "Vyskytla sa chyba ..."
+
+#: src/search.html:73
+msgid "An error has occured"
+msgstr "Vyskytla sa chyba"
+
+#: NOT FOUND IN SOURCE
+msgid "An error occured!\\nAborting..."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "An error occured.\\n\\nYou need to restart this application from the login screen."
+msgstr ""
+
+#: src/usernote.html:28
+#. (user.name)
+msgid "Annotations for %1"
+msgstr "Vysvetlivka pre %1"
+
+#: src/userhist.html:103
+msgid "Are you sure you want to delete this chat history completely?"
+msgstr "Ste si skutočne istý(á), že chcete zmazať kompletnú históriu rozhovoru?"
+
+#: src/jwchat.html:1023
+msgid "Authorization failed"
+msgstr "Neúspešná autorizácia"
+
+#: src/help.html:115 src/options.html:506
+msgid "Auto-Pop-Up if away"
+msgstr "Auto-Pop-Up ak som preč"
+
+#: src/editbookmarks.html:177
+msgid "Autojoin"
+msgstr "Automatické pripojenie"
+
+#: src/help.html:113 src/options.html:502
+msgid "Automatically open messages and chats"
+msgstr "Automaticky otvor správu a rozhovor"
+
+#: src/userprops.html:123
+msgid "Available groups"
+msgstr "Dostupné skupiny"
+
+#: src/searchrooms.html:202
+msgid "Back"
+msgstr "Späť"
+
+#: src/options.html:299 src/options.html:348
+msgid "Bad Request"
+msgstr "Zlá požiadavka"
+
+#: src/groupchat_iroster.html:29 src/groupchat_roster.html:36
+msgid "Ban"
+msgstr "Zakázať"
+
+#: src/groupchat_roster.html:36
+msgid "Ban List"
+msgstr "Čierna listina"
+
+#: src/vcard.html:166
+msgid "Birthday"
+msgstr "Narodeniny"
+
+#: src/editbookmarks.html:169 src/joingroupchat.html:116 src/searchrooms.html:202
+msgid "Bookmark"
+msgstr "Záložka"
+
+#: src/help.html:53
+msgid "Camino 0.7"
+msgstr "Camino 0.7"
+
+#: NOT FOUND IN SOURCE
+msgid "Can't display User Info:\\nUser not local!"
+msgstr ""
+
+#: src/changestatus.html:92 src/editbookmarks.html:184 src/groupchatconfig.html:108 src/joingroupchat.html:125 src/send.html:104 src/subscription.html:120 src/userprops.html:146 src/vcard.html:175
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: src/roster.html:145
+msgid "Change Online Status"
+msgstr "Zmeniť online stav"
+
+#: src/options.html:488
+msgid "Change Password"
+msgstr ""
+
+#: src/roster.html:146
+msgid "Change Status Message"
+msgstr "Zmeniť správu o stave"
+
+#: src/roster.html:145
+msgid "Change User Info"
+msgstr "Zmeniť informácie o používateľovi"
+
+#: src/help.html:93
+msgid "Change your own online setting by choosing a state from the select box at the bottom of your contact list. For some states you can set a custom status message which is displayed to other users. If you choose \"invisible\" you appear to be offline to other users."
+msgstr "Zmente svoje online nastavenie vybratím stavu z výberového okna na spodku vášho zoznamu kontaktov. Pre niektoré zo stavuv je možné nastaviť si vlastnú správu o stave, ktorá bude zobrazovaná ostatným používateľom. Ak si zvolíte \"neviditeľný(á)\" budete sa ostatným používateľom javiť ako offline."
+
+#: NOT FOUND IN SOURCE
+msgid "Channel/Group"
+msgstr "Zrušiť/Skupina"
+
+#: src/groupchat.html:271 src/jwchat.html:95
+msgid "Chat Rooms"
+msgstr "Diskusné miestnosti"
+
+#: src/userhist.html:138
+#. (user.name)
+msgid "Chat history for %1"
+msgstr "História rozhovoru pre %1"
+
+#: src/chat.html:171
+#. (user.name)
+msgid "Chat with %1"
+msgstr "Rozhovor s %1"
+
+#: src/index.html:270
+msgid "Choose Backend"
+msgstr "Vybrať rozhranie"
+
+#: src/editbookmarks.html:169 src/joingroupchat.html:116
+msgid "Choose Bookmark"
+msgstr "Vybrať záložku"
+
+#: src/options.html:552
+msgid "Choose Directory"
+msgstr "Vybrať adresár"
+
+#: src/options.html:552
+msgid "Choose Gateway"
+msgstr "Vybrať bránu"
+
+#: src/vcard.html:146
+msgid "City"
+msgstr "Mesto"
+
+#: src/chat.html:308
+msgid "Click to show user's vcard"
+msgstr "Kliknite pre zobrazenie používateľovej vizitky"
+
+#: src/error_message.html:103 src/message.html:134
+msgid "Close"
+msgstr "Zatvoriť"
+
+#: src/groupchat_bottom.html:277
+msgid "Config"
+msgstr "Nastaviť"
+
+#: src/index.html:450
+msgid "Connect Host"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "Connection lost!\\nReconnect?"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "Couldn't log in!\\nCreate new account?"
+msgstr ""
+
+#: src/vcard.html:149
+msgid "Country"
+msgstr "Krajina"
+
+#: src/userprops.html:136
+msgid "Current groups"
+msgstr "Aktuálne skupiny"
+
+#: src/help.html:106 src/help.html:26
+msgid "Customizing (Your Preferences)"
+msgstr "Úprava (vaše nastavenia)"
+
+#: src/error_message.html:99 src/message.html:128
+msgid "Date"
+msgstr "Dátum"
+
+#: src/groupchat_invite.html:64
+msgid "Decline"
+msgstr "Znížiť"
+
+#: src/groupchat_modifylist.html:310 src/userhist.html:173
+msgid "Delete"
+msgstr "Zmazať"
+
+#: src/subscriptionRequest.html:87
+msgid "Deny"
+msgstr "Zamietnuť"
+
+#: src/searchrooms.html:59 src/vcard.html:168
+msgid "Description"
+msgstr "Popis"
+
+#: src/groupchatconfig.html:108
+msgid "Destroy"
+msgstr "Zničiť"
+
+#: src/groupchat.html:133
+msgid "Disconnected."
+msgstr "Odpojený."
+
+#: src/jwchat.html:1054
+msgid "Disconnected\\n\\nReconnect?"
+msgstr ""
+
+#: src/options.html:518
+msgid "Display timestamps in chat windows"
+msgstr "Zobraziť čas v diskusných oknách"
+
+#: src/help.html:121
+msgid "Display timestamps in one-to-one chats"
+msgstr "Zobraziť čas pri rozhovore"
+
+#: src/options.html:319 src/options.html:359 src/options.html:387
+msgid "Done."
+msgstr "Hotovo."
+
+#: src/vcard.html:136
+msgid "E-mail"
+msgstr "E-mail"
+
+#: src/iRoster.html:27 src/joingroupchat.html:116
+msgid "Edit"
+msgstr "Upraviť"
+
+#: src/iRoster.html:21
+msgid "Edit Note"
+msgstr "Upraviť poznámku"
+
+#: src/iRoster.html:18
+msgid "Edit User"
+msgstr "Upraviť používateľa"
+
+#: src/help.html:72
+msgid "Edit User: Opens the edit dialog for this user where you can set his nickname and change the groups he/she belongs to"
+msgstr "Upraviť používateľa: Otvorí dialógové okno, v ktorom môžete nastaviť prezývku a zmeniť jeho/jej zaradenie do skupín"
+
+#: src/userprops.html:118
+msgid "Edit groups for <span id=\"groupjid\"></span>"
+msgstr "Upraviť skupiny pre <span id=\"groupjid\"></span>"
+
+#: src/userprops.html:110
+msgid "Edit nickname for <span id=\"nickjid\"></span>"
+msgstr "Upraviť prezývku pre <span id=\"nickjid\"></span>"
+
+#: NOT FOUND IN SOURCE
+msgid "Edit properties for "
+msgstr "Upraviť vlastnosti pre"
+
+#: src/userprops.html:66
+#. (jid)
+msgid "Edit properties for %1"
+msgstr "Upraviť vlastnosti pre %1"
+
+#: src/options.html:522
+msgid "Enable logging of messages"
+msgstr "Zapnúť zaznamenávanie správ"
+
+#: src/error_message.html:84 src/error_message.html:97 src/groupchat_modifylist.html:61 src/options.html:289 src/options.html:338
+msgid "Error"
+msgstr "Chyba"
+
+#: NOT FOUND IN SOURCE
+msgid "Error saving roster preferences"
+msgstr "Chyba ukladania nastavení zoznamu"
+
+#: src/vcard.html:127
+msgid "Family Name"
+msgstr "Priezvisko"
+
+#: src/searchrooms.html:132
+msgid "Finished."
+msgstr "Dokončené."
+
+#: src/index.html:465
+msgid "For details please visit <a href=\"http://blog.jwchat.org/jwchat/\">JWChat's Homepage</a>."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "For details please visit <a href=\"http://jwchat.sourceforge.net\">JWChat's Homepage</a>."
+msgstr "Pre podrobnejšie informácie navštívte <a href=\"http://jwchat.sourceforge.net\">domovskú stránku JWChat</a>."
+
+#: src/groupchat.html:173
+msgid "Forbidden"
+msgstr "Zakázaný"
+
+#: src/groupchat_invite.html:57
+msgid "From"
+msgstr "Od"
+
+#: src/vcard.html:126
+msgid "Full Name"
+msgstr "Celé meno"
+
+#: NOT FOUND IN SOURCE
+msgid "Gateway"
+msgstr "Braná"
+
+#: src/options.html:488 src/roster.js:304 src/roster.js:333 src/roster.js:355 src/roster.js:422 src/roster.js:427 src/roster.js:567
+msgid "Gateways"
+msgstr "Brany"
+
+#: src/options.html:488
+msgid "General"
+msgstr "Všeobecné"
+
+#: src/groupchat_iroster.html:36
+msgid "Grant Administrative Privilege"
+msgstr "Prideliť administrátorské oprávnenia"
+
+#: src/groupchat_iroster.html:32
+msgid "Grant Membership"
+msgstr "Prideliť členstvo"
+
+#: src/groupchat_iroster.html:34
+msgid "Grant Moderator Privilege"
+msgstr "Prideliť moderátorské oprávnenia"
+
+#: src/groupchat_iroster.html:30
+msgid "Grant Voice"
+msgstr "Prideliť hlas"
+
+#: src/userprops.html:126
+msgid "Group"
+msgstr "Skupina"
+
+#: src/groupchat_invite.html:55
+msgid "Groupchat Invitation"
+msgstr "Pozvánka do skupinovej diskusie"
+
+#: src/roster.html:141
+msgid "Help"
+msgstr "Pomoc"
+
+#: src/help.html:111 src/options.html:498
+msgid "Hide offline users"
+msgstr "Skryť offline používateľov"
+
+#: src/help.html:112
+msgid "Hides users who are not online from your contact list."
+msgstr "Skryť používateľov, ktorý nie sú online vo vašom zozname kontaktov."
+
+#: src/chat.html:310 src/iRoster.html:20
+msgid "History"
+msgstr "História"
+
+#: src/help.html:74
+msgid "History: Opens the message history for this user"
+msgstr "História: Otvorí sa história správ pre tohoto používateľa"
+
+#: src/subscription.html:114
+msgid "I would like to add you to my roster."
+msgstr "Chcem si vás pridať do svojho zoznamu."
+
+#: NOT FOUND IN SOURCE
+msgid "If don't have an account yet a new one will be created automatically for you on login (Note: If it fails to register this username might be taken already. Try to choose something else)."
+msgstr "Ak nemáte účet, nový účet bude pre vás automaticky vytvorený so zadaným prihlasovacím menom (Poznámka: Ak bude registrácia neúspešná, môže to znamenať, že už je takéto meno používané niekým iným)."
+
+#: src/help.html:114
+msgid "If selected each time you get a message from an other user the corresponding dialog pops up automatically."
+msgstr "Ak je zaškrtnuté, potom zakaždým, keď vám niekto napíše automaticky sa vám zobrazí príslušné okno."
+
+#: src/help.html:118
+msgid "If selected short jingles will play for certain actions like incoming messages or users going on- or offline."
+msgstr "Ak je zaškrtnuté, potom bude pri každej udalosti, ako napríklad pri prijatí správy, zahratý krátky zvuk."
+
+#: NOT FOUND IN SOURCE
+msgid "If you don't have an account yet a new one can be created for you by checking the register flag below."
+msgstr "Ak nemáte účet, nový účet bude pre vás vytvorený, ak zaškrtnete políčko s požiadavkou na registráciu."
+
+#: NOT FOUND IN SOURCE
+msgid "If you want to learn more about JWChat please visit our homepage at <a href=\"http://jwchat.sourceforge.net\">http://jwchat.sourceforge.net</a>!"
+msgstr "Ak sa chcete dozvedieť viac o projekte JWChat, prosím navštívte našu domovskú stránku na adrese <a href=\"http://jwchat.sourceforge.net\">http://jwchat.sourceforge.net</a>!"
+
+#: src/vcard.html:134
+msgid "Information"
+msgstr "Informácie"
+
+#: src/jwchat.html:1035
+msgid "Internal Server Error.\\n\\nDisconnected.\\n\\nReconnect?"
+msgstr ""
+
+#: src/help.html:19 src/help.html:29
+msgid "Introduction"
+msgstr "Úvod"
+
+#: src/shared.js:131
+#. (prohibited[i])
+msgid "Invalid JID\\n'%1' not allowed in JID.\\nChoose another one!"
+msgstr ""
+
+#: src/changestatus.html:84 src/status.html:15
+msgid "Invisible"
+msgstr "Neviditeľný(á)"
+
+#: src/groupchat_invite.html:47
+#. (to)
+msgid "Invitation to %1"
+msgstr "Pozvanie do %1"
+
+#: src/groupchat_bottom.html:277 src/groupchat_invite_dialog.html:78
+msgid "Invite"
+msgstr "Pozvať"
+
+#: src/groupchat_invite_dialog.html:44
+#. (opener.parent.jid)
+msgid "Invite Users to %1"
+msgstr "Pozvať používateľov do %1"
+
+#: src/groupchat_modifylist.html:159
+msgid "JID"
+msgstr "JID"
+
+#: src/jwchat.html:1515 src/userhist.html:132
+msgid "JID is missing.\\nAborting..."
+msgstr ""
+
+#: src/subscription.html:19
+msgid "JID missing"
+msgstr "JID chýba"
+
+#: src/jwchat.html:4
+msgid "JWChat"
+msgstr "JWChat"
+
+#: src/usernote.html:4
+msgid "JWChat - Annotation"
+msgstr "JWChat - Vysvetlivka"
+
+#: src/changestatus.html:4
+msgid "JWChat - Change Online Status"
+msgstr "JWChat - Zmeniť stav online"
+
+#: src/groupchatconfig.html:4
+msgid "JWChat - Channel Config for"
+msgstr "JWChat - Konfigurácia kanálu pre"
+
+#: src/chat.html:4 src/chat_iframe.html:4
+msgid "JWChat - Chat"
+msgstr "JWChat - Rozhovor"
+
+#: src/userhist.html:4
+msgid "JWChat - Chat History"
+msgstr "JWChat - História rozhovoru"
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat - Chat-Top"
+msgstr "JWChat - Top - Rozhovor"
+
+#: src/userhist_collections_iframe.html:4
+msgid "JWChat - Collections"
+msgstr "JWChat - Kolekcia"
+
+#: src/editbookmarks.html:4
+msgid "JWChat - Edit Bookmarks"
+msgstr "JWChat - Editovať záložky"
+
+#: src/help.html:14 src/help.html:4
+msgid "JWChat - Help"
+msgstr "JWChat - Pomoc"
+
+#: src/groupchat_invite.html:4
+msgid "JWChat - Invite"
+msgstr "JWChat - Pozvať"
+
+#: src/joingroupchat.html:4
+msgid "JWChat - Join group chat"
+msgstr "JWChat - Pripojiť do skupinového rozhovoru"
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat - Menubar"
+msgstr "JWChat - Menu"
+
+#: src/groupchat_modifylist.html:4
+msgid "JWChat - Modify"
+msgstr "JWChat - Upraviť"
+
+#: src/groupchat_modifylist_iframe.html:4
+msgid "JWChat - Modify List"
+msgstr "JWChat - Upraviť zoznam"
+
+#: src/options.html:4
+msgid "JWChat - Options"
+msgstr "JWChat - Nastavenia"
+
+#: src/groupchat_register.html:4
+msgid "JWChat - Register"
+msgstr "JWChat - Registrovať"
+
+#: src/groupchat_iroster.html:4 src/iRoster.html:4
+msgid "JWChat - Roster"
+msgstr "JWChat - Zoznam"
+
+#: src/search.html:4
+msgid "JWChat - Search"
+msgstr "JWChat - Hľadať"
+
+#: src/search_iframe.html:4 src/searchrooms_results_iframe.html:4
+msgid "JWChat - Search Results"
+msgstr "JWChat - Výsledky hľadania"
+
+#: src/searchrooms.html:4
+msgid "JWChat - Search for Rooms"
+msgstr "JWChat - Hľadanie miestností"
+
+#: src/send.html:4
+msgid "JWChat - Send Message"
+msgstr "JWChat - Poslať správu"
+
+#: src/error_message.html:4 src/message.html:4 src/status.html:4
+msgid "JWChat - Show Message"
+msgstr "JWChat - Zobraziť správu"
+
+#: src/subscription.html:4
+msgid "JWChat - Subscribe to user"
+msgstr "JWChat - Prihlásiť používateľa"
+
+#: src/subscriptionRequest.html:4
+msgid "JWChat - Subscription-Request"
+msgstr "JWChat - Požiadavka na prihlásenie"
+
+#: src/userprops.html:4
+msgid "JWChat - User Properties"
+msgstr "JWChat - Používateľove vlastnosti"
+
+#: src/vcard.html:4
+msgid "JWChat - VCard - "
+msgstr "JWChat - Vizitka - "
+
+#: src/help.html:33
+msgid "JWChat is a web based instant messenger (IM) just like AIM, MSN Messenger, Yahoo! Messenger or ICQ. This means you can manage your contacts and chat with other users directly. Unlike other IMs you can use this with your web browser without having to install any additional software at all. For a list of <a href=\"#supported\">supported browsers</a> see below. Your contact list is stored on the server. This means that you have access to your contact list from almost any computer as long as you've got access to the internet."
+msgstr "JWChat je webový instant messenger (IM) podobne ako AIM, MSN Messenger, Yahoo! Messenger alebo ICQ. Čo znamená, že môžete upravovať svoje kontakty, alebo priamo si dopisovať s inými používateľmi. Narozdiel od iných IM, môžete použiť svoj web prehliadač na komunikácia, bez nutnosti inštalácie prídavných softvérov. Zoznam <a href=\"#supported\">podporovaných prehliadačov</a> nájdete nižšie. Váš zoznam kontaktov je uložený na serveri. To znamená, že máte prístup k svojim kontaktom z každého počítača, pokiaľ ste online."
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat is a web based, full featured jabber client. <a href=\"http://www.jabber.org\">Jabber</a> is an advanced  instant messaging system comparable to ICQ, AOL Instant Messenger or Yahoo!Messenger."
+msgstr "JWChat je webový jabber klient. <a href=\"http://www.jabber.org\">Jabber</a> je vysoko kvalitný komunikačný server, s ktorým je možné porovnať ICQ, AOL Instant Messenger alebo Yahoo!Messenger."
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat is a web based, full featured jabber client. <a href=\"http://www.jabber.org\">Jabber</a> is an advanced instant messaging system comparable to ICQ, AOL Instant Messenger or Yahoo!Messenger."
+msgstr "JWChat je webový jabber klient. <a href=\"http://www.jabber.org\">Jabber</a> je vysoko kvalitný komunikačný server, s ktorým je možné porovnať ICQ, AOL Instant Messenger alebo Yahoo!Messenger."
+
+#: src/groupchat_invite.html:63 src/joingroupchat.html:125 src/searchrooms.html:202
+msgid "Join"
+msgstr "Pripojiť"
+
+#: src/roster.html:153
+msgid "Join Groupchat"
+msgstr "Pripojiť k skupinovému rozhovoru"
+
+#: src/groupchat_iroster.html:28
+msgid "Kick"
+msgstr "Vykopnúť"
+
+#: src/help.html:79
+msgid "Left clicking an user pops up a message dialog."
+msgstr "Kliknutím ľavým tlačidlom sa zobrazí dialóg s používateľom."
+
+#: NOT FOUND IN SOURCE
+msgid "Loading Roster...<br>Please wait!"
+msgstr "Nahrávanie zoznamu...<br>Prosím čakajte!"
+
+#: src/index.html:407 src/index.html:458
+msgid "Login"
+msgstr "Prihlasovacie meno"
+
+#: NOT FOUND IN SOURCE
+msgid "Login failed. Wrong password?"
+msgstr "Prihlasovanie zlyhalo. Zlé heslo?"
+
+#: src/help.html:43
+msgid "MS Internet Explorer since version 5.0"
+msgstr "MS Internet Explorer od verzie 5.0"
+
+#: src/groupchat_roster.html:37
+msgid "Member"
+msgstr "Člen"
+
+#: src/groupchat_roster.html:37
+msgid "Member List"
+msgstr "Zoznam členov"
+
+#: src/roster.js:381 src/roster.js:446 src/roster.js:725
+msgid "Message"
+msgstr "Správa"
+
+#: src/message.html:114
+#. (user.name)
+msgid "Message from %1"
+msgstr "Správa od %1"
+
+#: src/groupchat_roster.html:38
+msgid "Moderator"
+msgstr "Moderátor"
+
+#: src/groupchat_roster.html:38
+msgid "Moderator List"
+msgstr "Zoznam moderátorov"
+
+#: src/groupchat_modifylist.html:264
+#. (args[2])
+msgid "Modify %1"
+msgstr "Upraviť %1"
+
+#: src/groupchat_roster.html:68
+msgid "Modify List"
+msgstr "Upraviť zoznam"
+
+#: src/help.html:45 src/help.html:52
+msgid "Mozilla (stable) since version 1.0.2"
+msgstr "Mozilla (stable) od verzie 1.0.2"
+
+#: src/help.html:60
+msgid "Mozilla et al since version 1.0.2"
+msgstr ""
+
+#: src/editbookmarks.html:171 src/vcard.html:124 src/vcard.html:128 src/vcard.html:156
+msgid "Name"
+msgstr "Meno"
+
+#: src/help.html:44
+msgid "Netscape version 6 & 7"
+msgstr "Netscape verzia 6 & 7"
+
+#: src/groupchat_modifylist.html:159
+msgid "Nick"
+msgstr "Prezývka"
+
+#: src/editbookmarks.html:173 src/joingroupchat.html:118 src/userprops.html:113 src/vcard.html:129
+msgid "Nickname"
+msgstr "Prezývka"
+
+#: src/groupchat_modifylist.html:219
+msgid "No items found"
+msgstr "Nenájdené žiadne položky"
+
+#: src/groupchat_bottom.html:109 src/groupchat_bottom.html:134 src/groupchat_bottom.html:61 src/groupchat_bottom.html:74
+msgid "No such nick"
+msgstr "Žiadna prezývka"
+
+#: src/groupchat_invite.html:45
+msgid "None Given"
+msgstr "Neuvedené"
+
+#: src/groupchat.html:170
+msgid "Not Allowed"
+msgstr "Nedovolené"
+
+#: src/groupchat.html:176
+msgid "Not Found"
+msgstr "Nenájdené"
+
+#: src/groupchatconfig.html:108 src/userprops.html:146
+msgid "OK"
+msgstr "OK"
+
+#: src/help.html:23 src/help.html:82
+msgid "Online Status Indicators"
+msgstr "Indikátor online stavu"
+
+#: src/joingroupchat.html:114 src/subscription.html:100
+msgid "Open Search"
+msgstr "Otvoriť hľadanie"
+
+#: src/help.html:108
+msgid "Open the preferences dialog by clicking on <img src=\"images/screenshots/pref-button.gif\" width=\"24\" height=\"22\" alt=\"Preferences Button\">. Here's a short explanation for each option you can select:"
+msgstr "Otvorí sa dialóg s nastaveniami po kliknutí na <img src=\"images/screenshots/pref-button.gif\" width=\"24\" height=\"22\" alt=\"Tlačidlo nastavní\">. Tu je krátke vysvetlenie možností, ktoré môžete vybrať:"
+
+#: src/options.html:494
+msgid "Options"
+msgstr "Nastavenia"
+
+#: src/vcard.html:154
+msgid "Organization"
+msgstr "Organizácia"
+
+#: src/groupchat_roster.html:43
+msgid "Owner"
+msgstr "Vlastník"
+
+#: src/groupchat_roster.html:43
+msgid "Owner List"
+msgstr "Zoznam vlastníkov"
+
+#: NOT FOUND IN SOURCE
+msgid "Pass"
+msgstr "Heslo"
+
+#: src/editbookmarks.html:176 src/index.html:419 src/joingroupchat.html:121
+msgid "Password"
+msgstr "Heslo"
+
+#: src/options.html:229
+msgid "Password changed successfully"
+msgstr ""
+
+#: src/jwchat.html:1519
+msgid "Password is missing.\\nAborting..."
+msgstr ""
+
+#: src/options.html:215
+msgid "Passwords don't match"
+msgstr ""
+
+#: src/search.html:290
+msgid "Perform search at"
+msgstr "Vyhľadaj na"
+
+#: src/help.html:117 src/options.html:510
+msgid "Play sounds"
+msgstr "Prehrávať zvuky"
+
+#: src/joingroupchat.html:17
+msgid "Please enter a channel/group to join"
+msgstr "Prosím zadajte kanál/skupinu, do ktorej sa chcete pripojiť"
+
+#: src/editbookmarks.html:48
+msgid "Please enter a name for this bookmark!"
+msgstr "Prosím zadajte meno pre túto záložku!"
+
+#: src/editbookmarks.html:56
+msgid "Please enter a room to join"
+msgstr "Prosím zadajte miestnosť, do ktorej chcete vstúpiť"
+
+#: src/editbookmarks.html:61 src/joingroupchat.html:21
+msgid "Please enter a server name"
+msgstr "Prosím zadajte meno servera"
+
+#: src/index.html:446
+msgid "Port"
+msgstr ""
+
+#: src/vcard.html:148
+msgid "Postal Code"
+msgstr "PSČ"
+
+#: src/roster.html:141
+msgid "Preferences"
+msgstr "Nastavenia"
+
+#: src/iRoster.html:17 src/iRoster.html:26 src/iRoster.html:32
+msgid "Presence"
+msgstr "Prítomný"
+
+#: src/index.html:436
+msgid "Priority"
+msgstr "Priorita"
+
+#: src/searchrooms.html:29
+#. (conference_server)
+msgid "Querying %1. Please stand by..."
+msgstr "Zasielanie požiadavky %1. Prosím čakajte..."
+
+#: src/search.html:298 src/search.html:31
+msgid "Querying ..."
+msgstr "Zasielanie požiadavky..."
+
+#: src/options.html:97
+msgid "Querying Service ...<br>Please stand by!"
+msgstr "Zisťovanie dostupných služieb ...<br>Prosím čakajte!"
+
+#: NOT FOUND IN SOURCE
+msgid "Querying Transport ...<br>Please stand by!"
+msgstr "Zisťovanie transportov ...<br>Prosím čakajte!"
+
+#: src/message.html:132
+msgid "Quote"
+msgstr "Citovať"
+
+#: src/help.html:119 src/options.html:514
+msgid "Raise window if a new message is received"
+msgstr "Zobraziť okno pri prijatí novej správy"
+
+#: src/groupchatconfig.html:36
+msgid "Really destroy this room?\\n\\nReason:"
+msgstr ""
+
+#: src/groupchat_invite.html:58 src/groupchat_invite.html:65 src/groupchat_invite_dialog.html:73 src/groupchat_modifylist.html:159
+msgid "Reason"
+msgstr "Dôvod"
+
+#: src/userhist.html:173
+msgid "Refresh"
+msgstr "Obnoviť"
+
+#: src/groupchat_bottom.html:277 src/options.html:158
+msgid "Register"
+msgstr "Registrovať"
+
+#: src/index.html:422
+msgid "Register New Account"
+msgstr "Registrovať účet"
+
+#: src/options.html:552 src/options.html:552
+msgid "Register at"
+msgstr "Registrovať na"
+
+#: src/jwchat.html:1028
+msgid "Registration failed!\\n\\nPlease choose a different username!"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "Registration failed. You might want to choose another username."
+msgstr "Registrácia zlyhala. Môžete skúsiť zvoliť si iné používateľské meno."
+
+#: src/options.html:310
+msgid "Registration successful."
+msgstr "Registrácia bola úspešná."
+
+#: src/iRoster.html:23
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: src/options.html:371
+msgid "Remove all associated contacts?"
+msgstr "Odstrániť všetky asiciované kontakty?"
+
+#: src/help.html:76
+msgid "Remove: Removes this user from your contact list (completely) and revokes your authentication for him/her (if any)"
+msgstr "Odstrániť: Odstráni tohoto používateľa z vášho zoznamu kontaktov (úplne) a odoberie mu autorizáciu (ak nejakú mal)"
+
+#: src/options.html:360
+#. (sJid)
+msgid "Removing %1 from roster..."
+msgstr "Odstraňovanie %1 zo zoznamu..."
+
+#: src/options.html:372
+msgid "Removing contacts..."
+msgstr "Odstraňovanie kontaktov..."
+
+#: src/message.html:132
+msgid "Reply"
+msgstr "Odpoveď"
+
+#: src/options.html:282
+#. (sJid)
+msgid "Request sent to %1.."
+msgstr "Požiadavka odoslaná na %1..."
+
+#: src/index.html:432
+msgid "Resource"
+msgstr "Zdroj"
+
+#: src/iRoster.html:22
+msgid "Resubscribe"
+msgstr "Znovu zapísať"
+
+#: src/help.html:75
+msgid "Resubscribe: Opens a subscription request for this user"
+msgstr "Znovu zapísanie: Otvorí formulár s požiadavkou na zapísanie pre tohoto používateľa."
+
+#: src/groupchat_iroster.html:37
+msgid "Revoke Administrative Privilege"
+msgstr "Odobrať administračné oprávnenia"
+
+#: src/groupchat_iroster.html:33
+msgid "Revoke Membership"
+msgstr "Odobrať členstvo"
+
+#: NOT FOUND IN SOURCE
+msgid "Revoke Memebership"
+msgstr "Odobrať členstvo"
+
+#: src/groupchat_iroster.html:35
+msgid "Revoke Moderator Privilege"
+msgstr "Odobrať moderátorské oprávnenia"
+
+#: src/groupchat_iroster.html:31
+msgid "Revoke Voice"
+msgstr "Odobrať hlas"
+
+#: src/vcard.html:159
+msgid "Role"
+msgstr "Rola"
+
+#: src/editbookmarks.html:174 src/groupchat_invite.html:56 src/joingroupchat.html:119 src/searchrooms.html:59
+msgid "Room"
+msgstr "Miestnosť"
+
+#: src/help.html:54
+msgid "Safari since version 3"
+msgstr ""
+
+#: src/editbookmarks.html:184 src/groupchat_modifylist.html:310 src/vcard.html:175
+msgid "Save"
+msgstr "Uložiť"
+
+#: src/search.html:225 src/searchrooms.html:189
+msgid "Search"
+msgstr "Hľadať"
+
+#: src/searchrooms.html:183
+msgid "Search Server"
+msgstr "Hľadať server"
+
+#: src/roster.html:153
+msgid "Search User"
+msgstr "Hľadať používateľa"
+
+#: src/joingroupchat.html:114 src/searchrooms.html:178
+msgid "Search for Rooms"
+msgstr "Hľadať miestnosti"
+
+#: src/subscription.html:100
+msgid "Search for a User"
+msgstr "Hľadať používateľa"
+
+#: src/search.html:124 src/search.html:141 src/search.html:90 src/searchrooms.html:28
+#. (conference_server)
+#. (iq.getFrom())
+msgid "Search results for %1"
+msgstr "Výsledky vyhľadávania pre %1"
+
+#: NOT FOUND IN SOURCE
+msgid "Select"
+msgstr "Vybrať"
+
+#: src/index.html:410
+msgid "Select Jabber server to connect to"
+msgstr "Vybrať Jabber server na ktorý sa má pripojiť"
+
+#: src/groupchat_invite_dialog.html:71
+msgid "Select User(s)"
+msgstr "Vybrať používateľa(ov)"
+
+#: src/chat.html:320 src/groupchat_bottom.html:277 src/send.html:104 src/subscription.html:120
+msgid "Send"
+msgstr "Poslať"
+
+#: src/iRoster.html:16
+msgid "Send Message"
+msgstr "Poslať správu"
+
+#: src/help.html:70
+msgid "Send Message: Opens the message dialog for this user"
+msgstr "Poslať správu: otvorí dialóg pre rozhovor s týmto používateľom"
+
+#: src/send.html:73
+#. (srcW.roster.getUserByJID(jid).name)
+msgid "Send message to %1"
+msgstr "Poslať správy %1"
+
+#: src/subscription.html:58
+msgid "Send subscription"
+msgstr "Poslať žiadosť o zápis"
+
+#: src/subscription.html:103
+msgid "Send subscription to"
+msgstr "Poslať žiadosť o zápis"
+
+#: src/options.html:313
+msgid "Sending presence..."
+msgstr "Posielanie informácií..."
+
+#: src/editbookmarks.html:175 src/index.html:410 src/joingroupchat.html:120
+msgid "Server"
+msgstr "Server"
+
+#: src/subscription.html:107
+msgid "Service (optional)"
+msgstr "Služba (nepovinné)"
+
+#: src/jwchat.html:1031
+msgid "Service unavailable"
+msgstr "Služba nedostupná"
+
+#: src/changestatus.html:92
+msgid "Set"
+msgstr "Nastaviť"
+
+#: NOT FOUND IN SOURCE
+msgid "Shange Status Message"
+msgstr "Zmeniť správu o stave"
+
+#: src/iRoster.html:31
+msgid "Show"
+msgstr "Zobraziť"
+
+#: src/groupchat_iroster.html:39 src/iRoster.html:19 src/iRoster.html:28 src/iRoster.html:33
+msgid "Show Info"
+msgstr "Zobraziť informácie"
+
+#: src/help.html:73
+msgid "Show Info: Show the user's profile"
+msgstr "Zobraziť informácie: zobrazí používateľov profil"
+
+#: src/index.html:429 src/index.html:429
+msgid "Show Fewer Options"
+msgstr "Zobraziť menej možností"
+
+#: src/index.html:425 src/index.html:425
+msgid "Show More Options"
+msgstr "Zobraziť viac možností"
+
+#: src/groupchat_iroster.html:26 src/iRoster.html:15 src/message.html:132
+msgid "Start Chat"
+msgstr "Začať rozhovor"
+
+#: src/help.html:71
+msgid "Start Chat: Opens a chat window for this user"
+msgstr "Začať rozhovor: otvorí okno pre rozhovor s používateľom"
+
+#: src/vcard.html:147
+msgid "State"
+msgstr "Štát"
+
+#: src/roster.js:376 src/roster.js:441 src/roster.js:720
+msgid "Status"
+msgstr "Stav"
+
+#: src/changestatus.html:89
+msgid "Status Message"
+msgstr "Správa o stave"
+
+#: src/error_message.html:100 src/message.html:127 src/send.html:100
+msgid "Subject"
+msgstr "Predmet"
+
+#: src/groupchat_invite.html:76
+msgid "Submit"
+msgstr "Odoslať"
+
+#: src/subscriptionRequest.html:49
+#. (jid)
+msgid "Subscribe request from %1"
+msgstr "Žiadosť o zápis od %1"
+
+#: NOT FOUND IN SOURCE
+msgid "Subscribe request from %1:\\n%2"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "Support for safari coming soon..."
+msgstr "Podpora pre Safari je plánovaná na najbližšiu dobu...."
+
+#: src/help.html:20 src/help.html:37
+msgid "Supported Browsers"
+msgstr "Podporované prehliadače"
+
+#: src/help.html:39
+msgid "Supported browsers and plattforms"
+msgstr "Podporované prehliadače a platformy"
+
+#: src/roster.js:24
+msgid "System"
+msgstr "Systém"
+
+#: src/help.html:16
+msgid "Table of Contents"
+msgstr "Obsah"
+
+#: src/help.html:67
+msgid "The contact list holds entries for each user you have added. By right clicking on such an item you get a context menu as shown in the screenshot to the left:"
+msgstr "Zoznam kontaktov obsahuje záznam pre každého používateľa, ktorého ste pridal(a). Pravým kliknutím na daný záznam sa vám zobrazí kontextové menu, tak ako je to na ukážke vľavo:"
+
+#: src/help.html:120
+msgid "This will cause your contact list or your chat dialog to be raised over all other open windows if a new message arrives"
+msgstr "Toto spôsobí, že váš zoznam kontaktov a okná s rozhovormi budú znovu zobrazené akonáhle dorazí správa."
+
+#: src/vcard.html:158
+msgid "Title"
+msgstr "Titul"
+
+#: src/groupchat_top.html:32
+msgid "Topic"
+msgstr "Téma"
+
+#: src/roster.js:153 src/userprops.html:79
+msgid "Unfiled"
+msgstr "Nezaredený"
+
+#: src/vcard.html:157
+msgid "Unit"
+msgstr "Jednotka"
+
+#: src/options.html:154
+msgid "Unregister"
+msgstr "Odregistrovať"
+
+#: src/options.html:326
+#. (sJid)
+msgid "Unregistering from service %1 ..."
+msgstr "Odregistrovať zo služby %1 ..."
+
+#: src/options.html:156
+msgid "Update"
+msgstr "Aktualizovať"
+
+#: src/options.html:529
+msgid "Update interval"
+msgstr "Interval aktualizácie"
+
+#: NOT FOUND IN SOURCE
+msgid "Updating Roster..."
+msgstr "Aktualizovenie zoznamu.."
+
+#: NOT FOUND IN SOURCE
+msgid "Use SSL"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "Use the form below to log into jabber and start your own web based client. You don't need to install any software at all to use this program."
+msgstr "Použite formulár na prihlásenie sa na jabber a spustenie web klienta. Nepotrebujete inštalovať žiadny softvér, aby ste mohli používať tento program."
+
+#: src/options.html:488
+msgid "User Directory"
+msgstr "Adresár používateľov"
+
+#: src/help.html:88
+msgid "User doesn't want to be disturbed"
+msgstr "Používateľ si nepraje byť rušený"
+
+#: NOT FOUND IN SOURCE
+msgid "User don't wants to be disturbed"
+msgstr "Používateľ si nepraje byť rušený"
+
+#: src/help.html:91
+msgid "User hasn't authenticated you"
+msgstr "Používateľ vás neautentifikoval"
+
+#: src/help.html:86
+msgid "User is away"
+msgstr "Používateľ je preč"
+
+#: src/help.html:90
+msgid "User is invisible"
+msgstr "Používateľ je neviditeľný"
+
+#: src/help.html:87
+msgid "User is not available"
+msgstr "Používateľ nie je k dispozícii"
+
+#: src/help.html:89
+msgid "User is offline"
+msgstr "Používateľ je offline"
+
+#: src/help.html:84
+msgid "User is online"
+msgstr "Používateľ je online"
+
+#: src/help.html:85
+msgid "User is willing to chat"
+msgstr "Používateľ je diskusie chtivý"
+
+#: src/index.html:414
+msgid "Username"
+msgstr "Používateľské meno"
+
+#: src/index.html:417
+msgid "Username must not contain"
+msgstr "Používateľské meno nesmie obsahovať"
+
+#: src/groupchat_roster.html:34
+msgid "Voice"
+msgstr "Hlas"
+
+#: src/groupchat_roster.html:34
+msgid "Voice List"
+msgstr "Zoznam hlasov"
+
+#: src/vcard.html:137
+msgid "Web Site"
+msgstr "Web stránka"
+
+#: NOT FOUND IN SOURCE
+msgid "Welcome to"
+msgstr "Vitajte"
+
+#: src/index.html:395 src/index.html:4
+msgid "Welcome to JWChat"
+msgstr "Víta vás JWChat"
+
+#: src/index.html:249
+#. (SITENAME)
+msgid "Welcome to JWChat at %1"
+msgstr "Víta vás JWChat na %1"
+
+#: NOT FOUND IN SOURCE
+msgid "Welcome to JWChat at jwchat.org"
+msgstr "Víta vás JWChat na jwchat.org"
+
+#: NOT FOUND IN SOURCE
+msgid "Welcome to jabber.glubs.org"
+msgstr "Vitajte na jabber.glubs.org"
+
+#: src/help.html:116
+msgid "Whether to pop up messages although your status is not \"available\" or \"chat\""
+msgstr "Zobrazovať pop-up správy aj v prípade, že stav nie je \"dostupný\" alebo \"diskusia\""
+
+#: src/help.html:122
+msgid "Will display the time when a message arrived right to the users name in the chat dialog"
+msgstr "Zobrazovať čas, keď správa príde od používateľa, s ktorým prebieha diskusia"
+
+#: src/options.html:124
+msgid "You are already registered at this service!"
+msgstr "Už ste zaregistrovaný(á) na tejto službe!"
+
+#: NOT FOUND IN SOURCE
+msgid "You are already registered with this Gateway!"
+msgstr "Už ste zaregistrovaný(á) na tejto bráne!"
+
+#: NOT FOUND IN SOURCE
+msgid "You can create a new user group by entering a new name for \"Group\" at the \"Available Groups\" box followed by clicking on \"&gt;\".  Remove a user from a group by clicking on \"&lt;\". A group is deleted from your contact list if there is no user left for this group."
+msgstr "Môžete vytvoriť novú skupinu používateľov zadaním mena do \"Skupina\" v \"dostupných skupinách\" \"&gt;\".  Pre odstránenie používateľa zo skupiny kliknite na \"&lt;\". Skupina je zmazaná z vášho zoznamu kontaktov a žiadny používateľ v tejto skupine nezostal."
+
+#: src/help.html:103
+msgid "You can create a new user group by entering a new name for \"Group\" at the \"Available Groups\" box followed by clicking on \"&gt;\". Remove a user from a group by clicking on \"&lt;\". A group is deleted from your contact list if there is no user left for this group."
+msgstr "Môžete vytvoriť novú skupinu používateľov zadaním mena do \"Skupina\" v \"dostupných skupinách\" \"&gt;\".  Pre odstránenie používateľa zo skupiny kliknite na \"&lt;\". Skupina je zmazaná z vášho zoznamu kontaktov a žiadny používateľ v tejto skupine nezostal."
+
+#: src/jwchat.html:690
+#. (presence.getFrom())
+msgid "You have been unsubscribed from %1"
+msgstr "Odhlásili ste sa z %1"
+
+#: src/index.html:102
+msgid "You need to supply a jabber server"
+msgstr "Musíte zadať jabber server"
+
+#: src/index.html:95
+msgid "You need to supply a password"
+msgstr "Musíte zadať heslo"
+
+#: src/index.html:90
+msgid "You need to supply a username"
+msgstr "Musíte zadať používateľské meno"
+
+#: src/help.html:21 src/help.html:64
+msgid "Your Contact List"
+msgstr "Váš zoznam kontaktov"
+
+#: src/jwchat.html:1552
+msgid "Your browser must support frames and javascript to use this application. Please refer to our <a href=\"help.html\">online manual</a> for a list of supported browser."
+msgstr "Váš prehliadač musí podporovať rámy a javascript, aby ste mohli používať túto aplikáciu. Prosím skontrolujte <a href=\"help.html\">online manuál</a>, či je váš prehliadač zapísaný v zozname dostupných."
+
+#: src/changestatus.html:83 src/jwchat.html:76 src/status.html:12
+msgid "away"
+msgstr "preč"
+
+#: src/search_iframe.html:17
+msgid "click to add user"
+msgstr "kliknúť pre pridanie používateľa"
+
+#: src/userhist_collections_iframe.html:27
+msgid "click to select collection"
+msgstr "kliknúť pre výber kolekcie"
+
+#: src/searchrooms_results_iframe.html:17
+msgid "click to select row"
+msgstr "kliknúť pre výber rady"
+
+#: src/groupchat_modifylist_iframe.html:26
+msgid "click to select user"
+msgstr "kliknúť pre výber používateľa"
+
+#: NOT FOUND IN SOURCE
+msgid "coming soon... ;-)"
+msgstr "bude čoskoro... ;-)"
+
+#: src/changestatus.html:80 src/jwchat.html:78 src/status.html:14
+msgid "do not disturb"
+msgstr "nevyrušovať"
+
+#: src/chat.html:163
+msgid "error starting chat"
+msgstr "chyba pri zahájení rozhovoru"
+
+#: src/changestatus.html:79 src/jwchat.html:75 src/status.html:11
+msgid "free for chat"
+msgstr "diskusie chtivý"
+
+#: src/index.html:441
+msgid "high"
+msgstr ""
+
+#: src/jwchat.html:79
+msgid "invisible"
+msgstr "neviditeľný"
+
+#: NOT FOUND IN SOURCE
+msgid "jid is missing.\\nAborting..."
+msgstr ""
+
+#: src/subscription.html:109
+msgid "local jabber user"
+msgstr "lokálny jabber používateľ"
+
+#: src/index.html:439
+msgid "low"
+msgstr ""
+
+#: src/index.html:440
+msgid "medium"
+msgstr ""
+
+#: src/error_message.html:103 src/message.html:134
+msgid "next"
+msgstr "ďalej"
+
+#: src/changestatus.html:76 src/jwchat.html:77 src/status.html:13
+msgid "not available"
+msgstr "nedostupný"
+
+#: src/changestatus.html:87 src/jwchat.html:80 src/status.html:18
+msgid "offline"
+msgstr "offline"
+
+#: src/changestatus.html:75 src/jwchat.html:74 src/status.html:10
+msgid "online"
+msgstr "online"
+
+#: NOT FOUND IN SOURCE
+msgid "optional"
+msgstr "nepovinný"
+
+#: NOT FOUND IN SOURCE
+msgid "pass is missing.\\nAborting..."
+msgstr ""
+
+#: src/error_message.html:103 src/message.html:134
+msgid "prev"
+msgstr "predchádzajúci"
+
+#: src/subscriptionRequest.html:51
+#. (jid)
+msgid "show user info for %1"
+msgstr "ukázať informácie o používateľovi pre %1"
+
+#: src/searchrooms.html:19
+msgid "this doesn't look like a valid hostname"
+msgstr "toto nevyzerá ako správne meno servera"
+
+#: src/subscription.html:59
+msgid "to"
+msgstr "pre"
+
+#: src/subscriptionRequest.html:81
+msgid "wants to add you to his roster"
+msgstr "chce si vás pridať do zoznamu"
+

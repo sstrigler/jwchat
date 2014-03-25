@@ -1,0 +1,171 @@
+# UNMAINTAINED
+Please note this project is unmaintained. All updates seen here are just out
+of pure coincidence.
+
+JWChat - Jabber Web Chat
+========================
+
+JWChat aims to be a full featured, web based jabber client. It uses
+only JavaScript and HTML on the client-side. Currently it supports
+basic jabber instant messaging, roster management and muc-based
+groupchats.
+
+If you want to learn more about Jabber please refer to
+http://www.jabber.org.
+
+JWChat is a web based instant messenger (IM) just like AIM, MSN
+Messenger, Yahoo! Messenger or ICQ. This means you can manage your
+contacts and chat with other users directly. Unlike other IMs you can
+use this with your web browser without having to install any
+additional software at all. For a list of supported browsers see
+below. Your contact list is stored on the server. This means that you
+have access to your contact list from almost any computer as long as
+you've got access to the internet.
+
+Supported browsers and plattforms
+=================================
+
+Windows XP/2000/ME/98/95:
+* MS Internet Explorer version >= 5.0
+* Netscape version 6 & 7
+* Mozilla (stable) version >= 1.0.2
+* Firefox 2.x and 3.x
+* Opera since v9.x
+  
+Mac OS X:
+* Mozilla (stable) version >= 1.0.2
+* Firefox 2.x and 3.x
+* Camino 0.7
+* Safari since version 3
+
+Linux:
+* Mozilla since version >= 1.0.2
+* Firefox 2.x and 3.x
+* Konqueror since v?
+* Opera since 9.x
+
+
+Requirements
+============
+
+You need to have access to a jabber server by way of either [1]HTTP Polling
+or [2]HTTP Binding. Either use some server that has support for one of these
+protocols biult in (e.g. [3]ejabberd) or use some gateway like [4]punjab 
+(python based) or [5]JabberHTTPBind (a java servlet).
+
+[1]http://www.jabber.org/jeps/jep-0025.html
+[2]http://www.jabber.org/jeps/jep-0124.html
+[3]http://ejabberd.jabber.ru
+[4]http://punjab.sourceforge.net
+[5]http://zeank.in-berlin.de/jhb/
+
+Additionally you need a web-server of your choice capable
+of doing address rewriting.
+
+Download
+========
+
+Please refer to http://jwchat.sourceforge.net/download.shtml for
+download instructions.
+
+Quick Install Guide
+===================
+
+* If you attained JWChat by checking it out via CVS, be sure to also
+  read README.CVS in the top-level directory.
+
+* Unpack jwchat into some directory that is accessible by your web
+  server. E.g.: /var/www/jwchat
+
+* Setup your web server so that it redirects some local address like
+  http://jabber.example.com/http-poll/ to some service that either
+  implements HTTP Polling or HTTP Binding.
+
+  Some servers like ejabberd do have such a service built-in. Please
+  refer to the docs of your jabber server to find out how to use it.
+
+  If your server does not have such a service built-in or you don't
+  plan to run your own jabber server at all there are standalone
+  components like punjab or JabberHTTPBind available that let you
+  connect to any jabber server using HTTP Binding or HTTP Polling.
+
+  Here is an example that should work with a default ejabberd
+  installation on the same host:
+
+%<-----<schnipp>-----
+<VirtualHost *>
+  ServerName jabber.example.com
+  DocumentRoot /var/www/jwchat
+  <Directory /var/www/jwchat>
+    Options  +Indexes +MultiViews
+  </Directory>
+  AddDefaultCharset UTF-8
+  RewriteEngine on
+  RewriteRule http-poll/ http://127.0.0.1:5280/http-poll/ [P]
+</VirtualHost>
+%<-----<schnapp>-----
+
+  Alternatively you could put a .htaccess file within jwchat's
+  subdirectory like this (you need to have 'AllowOverride All' in your
+  apache config in order to make this work):
+
+%<-----<schnipp>-----
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule http-poll/ http://127.0.0.1:5280/http-poll/ [P]
+</IfModule>
+%<-----<schnapp>-----
+
+  Note 1: You need to enable mod_rewrite and mod_proxy at your apache
+  configuration. Apache2 users also need to enable the protocol
+  specific proxy module mod_proxy_http.
+
+  Note 2: With JabberHTTPBind you don't need to do this sort of
+  address rewriting if you're serving JWChat's files from within your
+  servlet container directly or you're using some technique like
+  mod_jk to mount a remote servlet engine directory transparently into
+  your apache's domain of served addresses.
+
+  Note to FreeBSD users: Please add 'WITH_PROXY_MODULES=true' to your 
+  /etc/make.conf before installing apache!
+
+* Restart your web server.
+
+* Test if this redirect works. Following the example above point your
+  browser to http://jabber.example.com/http-poll/. You should see the
+  same response as if you you're pointing it to
+  http://jabber.example.com:5280/http-poll/.
+
+* Edit 'config.js' to suit your needs.
+  Be sure to set 'httpbase' to the redirected address from
+  above. Within our example it would have to be
+  'http://jabber.example.com/http-poll/' or 'http-poll/' in short.
+  
+  Note 1: Double check this if using some relative address (relative to
+  jwchat's base URL).
+
+  Note 2: You can't use an httpbase address that is not local to your
+  JWChat installation. Local in this context means that it MAY NOT be
+  on some different host or port then where JWChat is being served from.
+
+* If you haven't done yet start your jabber server (if any).
+
+* Point your browser to http://jabber.example.com and log in.
+
+Disclaimer
+==========
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or (at
+your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
+USA

@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title><l>JWChat - Channel Config for</l></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script src="shared.js"></script>
+    <script src="jabber_x_data.js"></script>
+    <script src="switchStyle.js"></script>
+    <script src="jsjac.js"></script>
+    <script>
+    <!--
+     
+     function doSub() {
+      var els = document.forms[0].elements;
+      
+      var iq = new JSJaCIQ();
+      iq.setType('set');
+      iq.setTo(opener.jid);
+
+      var query = iq.setQuery('http://jabber.org/protocol/muc#owner');
+
+      var xmldoc = XmlDocument.create('body','foo');
+      xmldoc.loadXML('<body>'+genJabberXDataReply(document.forms[0])+'</body>');
+	
+      for (var i=0; i<xmldoc.firstChild.childNodes.length; i++)
+        query.appendChild(xmldoc.firstChild.childNodes.item(i).cloneNode(true));
+	
+      srcW.Debug.log(iq.getDoc().xml,2);
+	
+      srcW.con.send(iq);
+      window.close();
+      return false;
+    }
+   
+   function destroy() {
+     reason = prompt(loc("Really destroy this room?\n\nReason:"),"");
+     if (!reason)
+       return false;
+     
+     var iq = new JSJaCIQ();
+     iq.setType('set');
+     iq.setTo(opener.jid);
+     var query = iq.setQuery('http://jabber.org/protocol/muc#owner');
+     query.appendChild(iq.getDoc().createElement('destroy')).appendChild(iq.getDoc().createElement('reason')).appendChild(iq.getDoc().createTextNode(reason));
+     srcW.con.send(iq);
+     window.close();
+     return false;
+   }
+
+function handleConfig(iq) {
+  srcW.Debug.log(iq.getDoc().xml,2);
+
+  if (iq.getType() == 'error')
+    return;
+  
+  if (iq.getNode().getElementsByTagName('x').length && iq.getNode().getElementsByTagName('x').item(0).getAttribute('xmlns') == 'jabber:x:data')
+    document.getElementById("jabberXDataForm").innerHTML = genJabberXDataTable(iq.getNode().getElementsByTagName('x').item(0));
+}
+
+var srcW;
+function init() {
+  // determine source window
+  srcW = opener.srcW;
+
+  document.title += " " + opener.jid;
+
+  var roster = srcW.roster;
+
+  var iq = new JSJaCIQ();
+  iq.setTo(opener.jid);
+  iq.setType('get');
+  iq.setQuery('http://jabber.org/protocol/muc#owner');
+
+
+  me = this;
+  srcW.con.send(iq, me.handleConfig);
+}
+
+function keyPressed(e) {
+  if (e.keyCode == 13)
+    return doSub();
+  if (e.keyCode == 27)
+    window.close();
+  return true;
+}
+
+onkeydown = keyPressed;
+onload = init;
+      //-->
+    </script>
+    <script for="document" event="onkeydown()" language="JScript">
+      <!--
+      return keyPressed(window.event);
+      //-->
+    </script>
+    <style type="text/css">
+/*<![CDATA[*/
+      th { font-size: 80%; text-align: right; font-weight: normal; }
+/*]]>*/
+    </style>
+  </head>
+  <body style="margin:8px;">
+    <form name="sub" onsubmit="return doSub();">
+      <div id="jabberXDataForm">
+      </div>
+      <hr noshade size="1" size="100%">
+      <div align="right" id="buttonbox">
+        <button onClick="return destroy();"><l>Destroy</l></button>&nbsp;<button onClick="window.close();"><l>Cancel</l></button>&nbsp;<button type="submit"><l>OK</l></button>
+      </div>
+    </form>
+  </body>
+</html>

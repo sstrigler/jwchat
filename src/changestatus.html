@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title><l>JWChat - Change Online Status</l></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script src="shared.js"></script>
+    <script src="switchStyle.js"></script>
+    <script>
+      <!--
+var jid;
+var srcW; // the source window with necessary data
+
+function doSubmit() {
+  var newstat, away;
+  
+  for (var el=0;el<document.statF.status.length;el++) {
+    if (document.statF.status[el].checked) {
+      newstat = document.statF.status[el].value;
+      break;
+    }
+  }
+
+  if (document.statF.msg.value && document.statF.msg.value != '')
+    away = document.statF.msg.value;
+  else
+    away = opener.top.onlstatus[newstat];
+
+	if (typeof(jid) != 'undefined' && jid != '')
+		opener.top.sendCustomPresence(jid,newstat,away);
+	else
+		opener.top.changeStatus(newstat,away);
+  
+  window.close();
+}
+
+var jid;
+function init() {
+	getArgs();
+	jid = passedArgs['jid'];
+  for (var el=0;el<document.statF.status.length;el++) {
+		var presence = (typeof(jid)!='undefined')?opener.roster.getUserByJID(jid).status:opener.top.onlstat;
+    if (document.statF.status[el].value == presence) {
+      document.statF.status[el].checked = true;
+      break;
+    }
+  }
+  if (typeof(opener.top.pass)=='undefined')
+    document.getElementById('offline').style.display = 'none';
+
+}
+		
+function keyPressed(e) {
+  if (e.ctrlKey && e.keyCode == 13)
+    doSubmit();
+  else if (e.keyCode == 27)
+    window.close();
+}
+onkeydown = keyPressed;
+onload = init;
+      //-->
+    </script>
+    <script for="document" event="onkeydown()" language="JScript">
+      <!--
+      if (window.event.ctrlKey && window.event.keyCode == 13)
+      sendSub();
+      if (window.event.keyCode == 27)
+      window.close();
+      //-->
+    </script>
+  </head>
+  <body style="margin:8px">
+    <form name="statF">
+      <table width="100%" height="100%" border=0 cellpadding=0 cellspacing=0 style="margin-bottom: 8px;">
+          <tr>
+            <td><input type=radio name="status" value="available" id="available"><label for="available"><img src="images/available.gif"> <l>online</l></label></td>
+            <td><input type=radio name="status" value="xa" id="xa"><label for="xa"><img src="images/xa.gif"> <l>not available</l></label></td>
+          </tr>
+          <tr>
+            <td><input type=radio name="status" value="chat" id="chaty"><label for="chaty"><img src="images/chat.gif"> <l>free for chat</l></label></td>
+            <td><input type=radio name="status" value="dnd" id="dnd"><label for="dnd"><img src="images/dnd.gif"> <l>do not disturb</l></label></td>
+          </tr>
+          <tr>
+            <td><input type=radio name="status" value="away" id="away"><label for="away"><img src="images/away.gif"> <l>away</l></label></td>
+            <td><input type=radio name="status" value="unavailable" id="unavailable"><label for="unavailable"><img src="images/invisible.gif"> <l>Invisible</l></label></td>
+          </tr>
+          <tr id="offline">
+            <td>&nbsp;</td><td><input type=radio name="status" value="offline" id="offl"><label for="offl"><img src="images/unavailable.gif"> <l>offline</l></label></td>
+          </tr>
+          <tr><td colspan=2><b><l>Status Message</l>:</b></td></tr>
+          <tr height="100%"><td colspan=2><textarea id="msg" wrap="physical" class="msgBox"></textarea></td></tr>
+          <tr><td colspan=2><hr noshade size="1" size="100%"></td></tr>
+          <tr><td colspan=2 align="right" id="buttonbox"><button onClick="window.close();"><l>Cancel</l></button>&nbsp;<button onClick="return doSubmit();"><l>Set</l></button></td></tr>
+      </table>
+    </form>
+  </body>
+</html>

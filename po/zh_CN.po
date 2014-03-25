@@ -1,0 +1,1626 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: NOT FOUND IN SOURCE
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: 2007-02-25 13:05+0800\n"
+"Last-Translator: Lin Jian <lj@linjian.cn>\n"
+"Language-Team: Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: NOT FOUND IN SOURCE
+msgid ""
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"A new room has been created but it awaits configuration from you. Do you want to do a custom configuration now?\\n"
+"Note: Click on 'Cancel' to start with a default configuration!"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"An Error Occured\\n"
+"Aborting..."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"An error occured!\\n"
+"Aborting..."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"An error occured.\\n"
+"\\n"
+"You need to restart this application from the login screen."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Can't display User Info:\\n"
+"User not local!"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Connection lost!\\n"
+"Reconnect?"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Couldn't log in!\\n"
+"Create new account?"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Disconnected\\n"
+"\\n"
+"Reconnect?"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Internal Server Error.\\n"
+"\\n"
+"Disconnected.\\n"
+"\\n"
+"Reconnect?"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Invalid JID\\n"
+"'%1' not allowed in JID.\\n"
+"Choose another one!"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"JID is missing.\\n"
+"Aborting..."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Password is missing.\\n"
+"Aborting..."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Really destroy this room?\\n"
+"\\n"
+"Reason:"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Registration failed!\\n"
+"\\n"
+"Please choose a different username!"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"Subscribe request from %1:\\n"
+"%2"
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"jid is missing.\\n"
+"Aborting..."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid ""
+"pass is missing.\\n"
+"Aborting..."
+msgstr ""
+
+#: src/jwchat.html:858
+#. (ouser.name)
+msgid "%1 has become available"
+msgstr "%1 变为空闲状态"
+
+#: src/jwchat.html:819
+#. (ouser.name)
+msgid "%1 has been banned"
+msgstr "%1 被屏蔽了"
+
+#: src/jwchat.html:817
+#. (ouser.name,ouser.actor)
+msgid "%1 has been banned by %2"
+msgstr "%1 被 %2 屏蔽了"
+
+#: NOT FOUND IN SOURCE
+msgid "%1 has been banned by %2: %3"
+msgstr "%1 被 %2 屏蔽了： %3"
+
+#: src/jwchat.html:836
+#. (ouser.name)
+msgid "%1 has been kicked"
+msgstr "%1 被踢出了"
+
+#: src/jwchat.html:834
+#. (ouser.name,ouser.actor)
+msgid "%1 has been kicked by %2"
+msgstr "%1 被 %2 踢出了"
+
+#: NOT FOUND IN SOURCE
+msgid "%1 has been kicked by %2: %3"
+msgstr "%1 被 %2 屏蔽了： %3"
+
+#: src/jwchat.html:869
+#. (ouser.name)
+msgid "%1 has left"
+msgstr "%1 离开了"
+
+#: src/jwchat.html:789
+#. (ouser.name, htmlEnc(ouser.nick))
+msgid "%1 is now known as %2"
+msgstr "%1 现在就是 %2"
+
+#: src/roster.js:387 src/roster.js:452 src/roster.js:731
+#. ((user.messages.length + user.chatmsgs.length))
+msgid "%1 message(s) pending"
+msgstr "%1 条消息"
+
+#: src/search.html:290
+msgid "- Choose Directory -"
+msgstr "- 选择目录 -"
+
+#: src/groupchat.html:93
+#. (msg.getSubject())
+msgid "/me has set the topic to: %1"
+msgstr "/me 将主题设置为： %1"
+
+#: NOT FOUND IN SOURCE
+msgid "1 sec."
+msgstr "1 秒"
+
+#: src/options.html:533
+msgid "10 sec."
+msgstr "10 秒"
+
+#: src/options.html:531
+msgid "2 sec."
+msgstr "2 秒"
+
+#: src/options.html:534
+msgid "30 sec."
+msgstr "30 秒"
+
+#: src/options.html:532
+msgid "5 sec."
+msgstr "5 秒"
+
+#: NOT FOUND IN SOURCE
+msgid "<span id=\"chan_count\">X</span> participants"
+msgstr "<span id=\"chan_count\">X</span> 参与者"
+
+#: src/jwchat.html:769
+msgid "A new room has been created but it awaits configuration from you. Do you want to do a custom configuration now?\\nNote: Click on 'Cancel' to start with a default configuration!"
+msgstr "新房间已经创建，但没有被配置。您现在想进行配置吗？\\n单击'取消'按钮将使用默认配置。"
+
+#: src/index.html:396
+msgid "A web-based Jabber<sup><small>&reg;</small></sup> client"
+msgstr "基于 web 的 Jabber<sup><small>&reg;</small></sup> 客户端"
+
+#: src/options.html:488 src/vcard.html:164
+msgid "About"
+msgstr "关于"
+
+#: src/groupchat_modifylist.html:310
+msgid "Add"
+msgstr "新增"
+
+#: src/roster.html:153
+msgid "Add Contact"
+msgstr "新增联系人"
+
+#: src/help.html:97
+msgid "Add an user by clicking on <img src=\"images/screenshots/add-button.gif\" width=\"24\" height=\"22\" alt=\"Add User Button\">. Enter the user's nickname in the subscription field and click \"Send\". Additionally you can enter a custom message in the textarea below. A subscription request with this message is sent to the user. If he or she accepts you can see his/her <a href=\"#status\">online status</a> from now on."
+msgstr "单击这个按钮 <img src=\"images/screenshots/add-button.gif\" width=\"24\" height=\"22\" alt=\"新增联系人\"> 新增一个用户。在'发送邀请到'文本框中填写用户的昵称后单击'发送'按钮即可。同时您还可以在其下的文本框中写一些自定义的消息，这些消息将随同这条邀请发送给对方。如果他/她接受了邀请，您将从此可以看到其 <a href=\"#status\">在线状态</a> 。"
+
+#: src/help.html:24 src/help.html:95
+msgid "Adding an User to your Contact List"
+msgstr "新增一个用户到您的联系人列表"
+
+#: src/vcard.html:142 src/vcard.html:144
+msgid "Address"
+msgstr "地址"
+
+#: src/vcard.html:145
+msgid "Address2"
+msgstr "地址2"
+
+#: src/groupchat_roster.html:42
+msgid "Admin"
+msgstr "管理员"
+
+#: src/groupchat_roster.html:42
+msgid "Admin List"
+msgstr "管理员列表"
+
+#: src/index.html:455
+msgid "Advise connection manager to connect through SSL"
+msgstr "建议连接管理器使用 SSL 连接"
+
+#: src/help.html:100
+msgid "After having sent this subscription request the user is added to your contact list and an edit user dialog pops up where you can set your custom nickname for this user and add him/her to one or more groups in your contact list."
+msgstr "在您发送邀请之后，该用户就会加入到您的联系人列表。您可以在编辑用户的对话框中为其设置自定义的昵称，同时可以将其加入您联系人列表中一个或多个组。"
+
+#: src/subscriptionRequest.html:87
+msgid "Allow"
+msgstr "允许"
+
+#: NOT FOUND IN SOURCE
+msgid "Allow secure conncetions only"
+msgstr "仅允许安全的连接"
+
+#: src/index.html:455
+msgid "Allow secure connections only"
+msgstr ""
+
+#: src/searchrooms.html:46
+msgid "An Error Occured!"
+msgstr "有错误发生！"
+
+#: src/search.html:193
+msgid "An Error Occured\\nAborting..."
+msgstr "有错误发生！\\n中止。"
+
+#: src/groupchat_modifylist.html:210
+msgid "An Error has occured"
+msgstr "有错误发生！"
+
+#: src/options.html:110
+msgid "An Error occured ..."
+msgstr "有错误发生！"
+
+#: src/search.html:73
+msgid "An error has occured"
+msgstr "有错误发生！"
+
+#: NOT FOUND IN SOURCE
+msgid "An error occured!\\nAborting..."
+msgstr "有错误发生！\\n中止。"
+
+#: NOT FOUND IN SOURCE
+msgid "An error occured.\\n\\nYou need to restart this application from the login screen."
+msgstr "有错误发生！\\n\\n您需要重新登录本程序。"
+
+#: src/usernote.html:28
+#. (user.name)
+msgid "Annotations for %1"
+msgstr "对 %1 的备注"
+
+#: src/userhist.html:103
+msgid "Are you sure you want to delete this chat history completely?"
+msgstr "您确定要完全删除此聊天历史吗？"
+
+#: src/jwchat.html:1023
+msgid "Authorization failed"
+msgstr "验证失败"
+
+#: src/help.html:115 src/options.html:506
+msgid "Auto-Pop-Up if away"
+msgstr "离开时也自动打开消息"
+
+#: src/editbookmarks.html:177
+msgid "Autojoin"
+msgstr "自动加入"
+
+#: src/help.html:113 src/options.html:502
+msgid "Automatically open messages and chats"
+msgstr "自动打开消息"
+
+#: src/userprops.html:123
+msgid "Available groups"
+msgstr "可用的组"
+
+#: src/searchrooms.html:202
+msgid "Back"
+msgstr "后退"
+
+#: src/options.html:299 src/options.html:348
+msgid "Bad Request"
+msgstr "错误的请求"
+
+#: src/groupchat_iroster.html:29 src/groupchat_roster.html:36
+msgid "Ban"
+msgstr "屏蔽"
+
+#: src/groupchat_roster.html:36
+msgid "Ban List"
+msgstr "屏蔽列表"
+
+#: src/vcard.html:166
+msgid "Birthday"
+msgstr "生日"
+
+#: src/editbookmarks.html:169 src/joingroupchat.html:116 src/searchrooms.html:202
+msgid "Bookmark"
+msgstr "书签"
+
+#: src/help.html:53
+msgid "Camino 0.7"
+msgstr "Camino 0.7"
+
+#: NOT FOUND IN SOURCE
+msgid "Can't display User Info:\\nUser not local!"
+msgstr "无法显示用户信息：\\n用户无法定位"
+
+#: src/changestatus.html:92 src/editbookmarks.html:184 src/groupchatconfig.html:108 src/joingroupchat.html:125 src/send.html:104 src/subscription.html:120 src/userprops.html:146 src/vcard.html:175
+msgid "Cancel"
+msgstr "取消"
+
+#: src/roster.html:145
+msgid "Change Online Status"
+msgstr "修改在线状态"
+
+#: src/options.html:488
+msgid "Change Password"
+msgstr ""
+
+#: src/roster.html:146
+msgid "Change Status Message"
+msgstr "修改状态提示语"
+
+#: src/roster.html:145
+msgid "Change User Info"
+msgstr "修改用户信息"
+
+#: src/help.html:93
+msgid "Change your own online setting by choosing a state from the select box at the bottom of your contact list. For some states you can set a custom status message which is displayed to other users. If you choose \"invisible\" you appear to be offline to other users."
+msgstr "您可以选择上述在线状态。对于有些状态，还可以设置一些显示给其他用户看的提示语。如果您选择了\"隐身\"，您在其他用户看来就是离线。"
+
+#: NOT FOUND IN SOURCE
+msgid "Channel/Group"
+msgstr "组"
+
+#: src/groupchat.html:271 src/jwchat.html:95
+msgid "Chat Rooms"
+msgstr "聊天室"
+
+#: src/userhist.html:138
+#. (user.name)
+msgid "Chat history for %1"
+msgstr "%1 的聊天历史"
+
+#: src/chat.html:171
+#. (user.name)
+msgid "Chat with %1"
+msgstr "与 %1 聊天"
+
+#: src/index.html:270
+msgid "Choose Backend"
+msgstr "后台"
+
+#: src/editbookmarks.html:169 src/joingroupchat.html:116
+msgid "Choose Bookmark"
+msgstr "选择书签"
+
+#: src/options.html:552
+msgid "Choose Directory"
+msgstr "选择目录"
+
+#: src/options.html:552
+msgid "Choose Gateway"
+msgstr "选择网关"
+
+#: src/vcard.html:146
+msgid "City"
+msgstr "城市"
+
+#: src/chat.html:308
+msgid "Click to show user's vcard"
+msgstr "单击以显示用户名片"
+
+#: src/error_message.html:103 src/message.html:134
+msgid "Close"
+msgstr "关闭"
+
+#: src/groupchat_bottom.html:277
+msgid "Config"
+msgstr "配置"
+
+#: src/index.html:450
+msgid "Connect Host"
+msgstr "主机"
+
+#: NOT FOUND IN SOURCE
+msgid "Connection lost!\\nReconnect?"
+msgstr "连接丢失！\\n重新连接吗？"
+
+#: NOT FOUND IN SOURCE
+msgid "Couldn't log in!\\nCreate new account?"
+msgstr "无法登录！\\n创建新账号吗？"
+
+#: src/vcard.html:149
+msgid "Country"
+msgstr "国家"
+
+#: src/userprops.html:136
+msgid "Current groups"
+msgstr "当前组"
+
+#: src/help.html:106 src/help.html:26
+msgid "Customizing (Your Preferences)"
+msgstr "自定义（您的属性）"
+
+#: src/error_message.html:99 src/message.html:128
+msgid "Date"
+msgstr "日期"
+
+#: src/groupchat_invite.html:64
+msgid "Decline"
+msgstr "拒绝"
+
+#: src/groupchat_modifylist.html:310 src/userhist.html:173
+msgid "Delete"
+msgstr "删除"
+
+#: src/subscriptionRequest.html:87
+msgid "Deny"
+msgstr "阻止"
+
+#: src/searchrooms.html:59 src/vcard.html:168
+msgid "Description"
+msgstr "描述"
+
+#: src/groupchatconfig.html:108
+msgid "Destroy"
+msgstr "销毁"
+
+#: src/groupchat.html:133
+msgid "Disconnected."
+msgstr "断开"
+
+#: src/jwchat.html:1054
+msgid "Disconnected\\n\\nReconnect?"
+msgstr "连接断开！\\n重新连接吗？"
+
+#: src/options.html:518
+msgid "Display timestamps in chat windows"
+msgstr "在聊天窗口中显示时间戳"
+
+#: src/help.html:121
+msgid "Display timestamps in one-to-one chats"
+msgstr "在一对一聊天窗口中显示时间戳"
+
+#: src/options.html:319 src/options.html:359 src/options.html:387
+msgid "Done."
+msgstr "完成"
+
+#: src/vcard.html:136
+msgid "E-mail"
+msgstr "E-mail"
+
+#: src/iRoster.html:27 src/joingroupchat.html:116
+msgid "Edit"
+msgstr "编辑"
+
+#: src/iRoster.html:21
+msgid "Edit Note"
+msgstr "编辑备注"
+
+#: src/iRoster.html:18
+msgid "Edit User"
+msgstr "编辑用户"
+
+#: src/help.html:72
+msgid "Edit User: Opens the edit dialog for this user where you can set his nickname and change the groups he/she belongs to"
+msgstr "编辑用户： 打开编辑对话框，您可以自定义他/她的昵称，设置其所属的组"
+
+#: src/userprops.html:118
+msgid "Edit groups for <span id=\"groupjid\"></span>"
+msgstr "编辑 <span id=\"groupjid\"></span> 的组"
+
+#: src/userprops.html:110
+msgid "Edit nickname for <span id=\"nickjid\"></span>"
+msgstr "编辑 <span id=\"nickjid\"></span> 的昵称"
+
+#: NOT FOUND IN SOURCE
+msgid "Edit properties for "
+msgstr "编辑属性"
+
+#: src/userprops.html:66
+#. (jid)
+msgid "Edit properties for %1"
+msgstr "编辑 %1 的属性"
+
+#: src/options.html:522
+msgid "Enable logging of messages"
+msgstr "启用消息记录"
+
+#: src/error_message.html:84 src/error_message.html:97 src/groupchat_modifylist.html:61 src/options.html:289 src/options.html:338
+msgid "Error"
+msgstr "错误"
+
+#: NOT FOUND IN SOURCE
+msgid "Error saving roster preferences"
+msgstr "在保存联系人属性时发生错误"
+
+#: src/vcard.html:127
+msgid "Family Name"
+msgstr "姓氏"
+
+#: src/searchrooms.html:132
+msgid "Finished."
+msgstr "完成"
+
+#: src/index.html:465
+msgid "For details please visit <a href=\"http://blog.jwchat.org/jwchat/\">JWChat's Homepage</a>."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "For details please visit <a href=\"http://jwchat.sourceforge.net\">JWChat's Homepage</a>."
+msgstr "详情请见： <a href=\"http://jwchat.sourceforge.net\">JWChat 主页</a> 。"
+
+#: src/groupchat.html:173
+msgid "Forbidden"
+msgstr "禁用的"
+
+#: src/groupchat_invite.html:57
+msgid "From"
+msgstr "由"
+
+#: src/vcard.html:126
+msgid "Full Name"
+msgstr "全名"
+
+#: NOT FOUND IN SOURCE
+msgid "Gateway"
+msgstr "网关"
+
+#: src/options.html:488 src/roster.js:304 src/roster.js:333 src/roster.js:355 src/roster.js:422 src/roster.js:427 src/roster.js:567
+msgid "Gateways"
+msgstr "网关"
+
+#: src/options.html:488
+msgid "General"
+msgstr "常规"
+
+#: src/groupchat_iroster.html:36
+msgid "Grant Administrative Privilege"
+msgstr "授予管理权限"
+
+#: src/groupchat_iroster.html:32
+msgid "Grant Membership"
+msgstr "授予成员权限"
+
+#: src/groupchat_iroster.html:34
+msgid "Grant Moderator Privilege"
+msgstr "授予主持人权限"
+
+#: src/groupchat_iroster.html:30
+msgid "Grant Voice"
+msgstr "授予语音权限"
+
+#: src/userprops.html:126
+msgid "Group"
+msgstr "组"
+
+#: src/groupchat_invite.html:55
+msgid "Groupchat Invitation"
+msgstr "组聊邀请"
+
+#: src/roster.html:141
+msgid "Help"
+msgstr "帮助"
+
+#: src/help.html:111 src/options.html:498
+msgid "Hide offline users"
+msgstr "隐藏离线用户"
+
+#: src/help.html:112
+msgid "Hides users who are not online from your contact list."
+msgstr "隐藏您的联系人列表中不在线的用户。"
+
+#: src/chat.html:310 src/iRoster.html:20
+msgid "History"
+msgstr "历史"
+
+#: src/help.html:74
+msgid "History: Opens the message history for this user"
+msgstr "历史： 打开这个用户的消息历史"
+
+#: src/subscription.html:114
+msgid "I would like to add you to my roster."
+msgstr "我想将您新增为我的联系人。"
+
+#: NOT FOUND IN SOURCE
+msgid "If don't have an account yet a new one will be created automatically for you on login (Note: If it fails to register this username might be taken already. Try to choose something else)."
+msgstr ""
+
+#: src/help.html:114
+msgid "If selected each time you get a message from an other user the corresponding dialog pops up automatically."
+msgstr "如果选中，您每次收到其他联系人的消息时，消息窗口都会自动打开。"
+
+#: src/help.html:118
+msgid "If selected short jingles will play for certain actions like incoming messages or users going on- or offline."
+msgstr "如果选中，在用户上下线和消息到来的时候，会有叮当声响起。"
+
+#: NOT FOUND IN SOURCE
+msgid "If you don't have an account yet a new one can be created for you by checking the register flag below."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "If you want to learn more about JWChat please visit our homepage at <a href=\"http://jwchat.sourceforge.net\">http://jwchat.sourceforge.net</a>!"
+msgstr ""
+
+#: src/vcard.html:134
+msgid "Information"
+msgstr "信息"
+
+#: src/jwchat.html:1035
+msgid "Internal Server Error.\\n\\nDisconnected.\\n\\nReconnect?"
+msgstr "服务器内部错误！\\n\\n连接断开！\\n重新连接吗？"
+
+#: src/help.html:19 src/help.html:29
+msgid "Introduction"
+msgstr "介绍"
+
+#: src/shared.js:131
+#. (prohibited[i])
+msgid "Invalid JID\\n'%1' not allowed in JID.\\nChoose another one!"
+msgstr "非法 JID\\n'%1' 不允许出现在 JID 中。\\n请修改！"
+
+#: src/changestatus.html:84 src/status.html:15
+msgid "Invisible"
+msgstr "隐身"
+
+#: src/groupchat_invite.html:47
+#. (to)
+msgid "Invitation to %1"
+msgstr "对 %1 的邀请"
+
+#: src/groupchat_bottom.html:277 src/groupchat_invite_dialog.html:78
+msgid "Invite"
+msgstr "邀请"
+
+#: src/groupchat_invite_dialog.html:44
+#. (opener.parent.jid)
+msgid "Invite Users to %1"
+msgstr "邀请用户加入 %1"
+
+#: src/groupchat_modifylist.html:159
+msgid "JID"
+msgstr "JID"
+
+#: src/jwchat.html:1515 src/userhist.html:132
+msgid "JID is missing.\\nAborting..."
+msgstr "JID 错误。\\n中止。"
+
+#: src/subscription.html:19
+msgid "JID missing"
+msgstr "JID 错误。"
+
+#: src/jwchat.html:4
+msgid "JWChat"
+msgstr "JWChat"
+
+#: src/usernote.html:4
+msgid "JWChat - Annotation"
+msgstr "JWChat - 说明"
+
+#: src/changestatus.html:4
+msgid "JWChat - Change Online Status"
+msgstr "JWChat - 修改在线状态"
+
+#: src/groupchatconfig.html:4
+msgid "JWChat - Channel Config for"
+msgstr "JWChat - 组配置："
+
+#: src/chat.html:4 src/chat_iframe.html:4
+msgid "JWChat - Chat"
+msgstr "JWChat - 聊天"
+
+#: src/userhist.html:4
+msgid "JWChat - Chat History"
+msgstr "JWChat - 聊天历史"
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat - Chat-Top"
+msgstr "JWChat - 聊天头部"
+
+#: src/userhist_collections_iframe.html:4
+msgid "JWChat - Collections"
+msgstr "JWChat - 连接"
+
+#: src/editbookmarks.html:4
+msgid "JWChat - Edit Bookmarks"
+msgstr "JWChat - 编辑书签"
+
+#: src/help.html:14 src/help.html:4
+msgid "JWChat - Help"
+msgstr "JWChat - 帮助"
+
+#: src/groupchat_invite.html:4
+msgid "JWChat - Invite"
+msgstr "JWChat - 邀请"
+
+#: src/joingroupchat.html:4
+msgid "JWChat - Join group chat"
+msgstr "JWChat - 加入组聊"
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat - Menubar"
+msgstr "JWChat - 菜单"
+
+#: src/groupchat_modifylist.html:4
+msgid "JWChat - Modify"
+msgstr "JWChat - 修改"
+
+#: src/groupchat_modifylist_iframe.html:4
+msgid "JWChat - Modify List"
+msgstr "JWChat - 修改列表"
+
+#: src/options.html:4
+msgid "JWChat - Options"
+msgstr "JWChat - 选项"
+
+#: src/groupchat_register.html:4
+msgid "JWChat - Register"
+msgstr "JWChat - 注册"
+
+#: src/groupchat_iroster.html:4 src/iRoster.html:4
+msgid "JWChat - Roster"
+msgstr "JWChat - 联系人"
+
+#: src/search.html:4
+msgid "JWChat - Search"
+msgstr "JWChat - 搜索"
+
+#: src/search_iframe.html:4 src/searchrooms_results_iframe.html:4
+msgid "JWChat - Search Results"
+msgstr "JWChat - 搜索结果"
+
+#: src/searchrooms.html:4
+msgid "JWChat - Search for Rooms"
+msgstr "JWChat - 房间搜索"
+
+#: src/send.html:4
+msgid "JWChat - Send Message"
+msgstr "JWChat - 发送消息"
+
+#: src/error_message.html:4 src/message.html:4 src/status.html:4
+msgid "JWChat - Show Message"
+msgstr "JWChat - 显示消息"
+
+#: src/subscription.html:4
+msgid "JWChat - Subscribe to user"
+msgstr "JWChat - 用户邀请"
+
+#: src/subscriptionRequest.html:4
+msgid "JWChat - Subscription-Request"
+msgstr "JWChat - 用户邀请请求"
+
+#: src/userprops.html:4
+msgid "JWChat - User Properties"
+msgstr "JWChat - 用户属性"
+
+#: src/vcard.html:4
+msgid "JWChat - VCard - "
+msgstr "JWChat - 名片 - "
+
+#: src/help.html:33
+msgid "JWChat is a web based instant messenger (IM) just like AIM, MSN Messenger, Yahoo! Messenger or ICQ. This means you can manage your contacts and chat with other users directly. Unlike other IMs you can use this with your web browser without having to install any additional software at all. For a list of <a href=\"#supported\">supported browsers</a> see below. Your contact list is stored on the server. This means that you have access to your contact list from almost any computer as long as you've got access to the internet."
+msgstr "JWChat 是一个基于 web 的即时通信工具(IM)，类似于 AIM、MSN Messenger、Yahoo! Messenger 与 ICQ 。它可以让您直接使用浏览器管理联系人、进行聊天，而不像其它即时通信工具那样需要安装额外的软件。下面有一个 <a href=\"#supported\">支持的浏览器</a> 列表。您的联系人列表将存储在服务器上，也就是说您可以通过网络上的任何一台计算机进行访问，得到您的联系人信息。"
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat is a web based, full featured jabber client. <a href=\"http://www.jabber.org\">Jabber</a> is an advanced  instant messaging system comparable to ICQ, AOL Instant Messenger or Yahoo!Messenger."
+msgstr ""
+
+#: NOT FOUND IN SOURCE
+msgid "JWChat is a web based, full featured jabber client. <a href=\"http://www.jabber.org\">Jabber</a> is an advanced instant messaging system comparable to ICQ, AOL Instant Messenger or Yahoo!Messenger."
+msgstr ""
+
+#: src/groupchat_invite.html:63 src/joingroupchat.html:125 src/searchrooms.html:202
+msgid "Join"
+msgstr "加入"
+
+#: src/roster.html:153
+msgid "Join Groupchat"
+msgstr "加入组聊"
+
+#: src/groupchat_iroster.html:28
+msgid "Kick"
+msgstr "踢出"
+
+#: src/help.html:79
+msgid "Left clicking an user pops up a message dialog."
+msgstr "左键单击用户项可以打开消息窗口。"
+
+#: NOT FOUND IN SOURCE
+msgid "Loading Roster...<br>Please wait!"
+msgstr "载入联系人……<br>请稍候！"
+
+#: src/index.html:407 src/index.html:458
+msgid "Login"
+msgstr "登录"
+
+#: NOT FOUND IN SOURCE
+msgid "Login failed. Wrong password?"
+msgstr "登录失败。密码错误。"
+
+#: src/help.html:43
+msgid "MS Internet Explorer since version 5.0"
+msgstr "MS Internet Explorer 5.0 以上版本"
+
+#: src/groupchat_roster.html:37
+msgid "Member"
+msgstr "成员"
+
+#: src/groupchat_roster.html:37
+msgid "Member List"
+msgstr "成员列表"
+
+#: src/roster.js:381 src/roster.js:446 src/roster.js:725
+msgid "Message"
+msgstr "消息"
+
+#: src/message.html:114
+#. (user.name)
+msgid "Message from %1"
+msgstr "来自 %1 的消息"
+
+#: src/groupchat_roster.html:38
+msgid "Moderator"
+msgstr "主持人"
+
+#: src/groupchat_roster.html:38
+msgid "Moderator List"
+msgstr "主持人列表"
+
+#: src/groupchat_modifylist.html:264
+#. (args[2])
+msgid "Modify %1"
+msgstr "修改 %1"
+
+#: src/groupchat_roster.html:68
+msgid "Modify List"
+msgstr "修改列表"
+
+#: src/help.html:45 src/help.html:52
+msgid "Mozilla (stable) since version 1.0.2"
+msgstr "Mozilla (stable) 1.0.2 以上版本"
+
+#: src/help.html:60
+msgid "Mozilla et al since version 1.0.2"
+msgstr ""
+
+#: src/editbookmarks.html:171 src/vcard.html:124 src/vcard.html:128 src/vcard.html:156
+msgid "Name"
+msgstr "名字"
+
+#: src/help.html:44
+msgid "Netscape version 6 & 7"
+msgstr "Netscape version 6、 7"
+
+#: src/groupchat_modifylist.html:159
+msgid "Nick"
+msgstr "昵称"
+
+#: src/editbookmarks.html:173 src/joingroupchat.html:118 src/userprops.html:113 src/vcard.html:129
+msgid "Nickname"
+msgstr "昵称"
+
+#: src/groupchat_modifylist.html:219
+msgid "No items found"
+msgstr "没有项目被找到"
+
+#: src/groupchat_bottom.html:109 src/groupchat_bottom.html:134 src/groupchat_bottom.html:61 src/groupchat_bottom.html:74
+msgid "No such nick"
+msgstr "没有这个昵称"
+
+#: src/groupchat_invite.html:45
+msgid "None Given"
+msgstr "未给定"
+
+#: src/groupchat.html:170
+msgid "Not Allowed"
+msgstr "不允许"
+
+#: src/groupchat.html:176
+msgid "Not Found"
+msgstr "没有找到"
+
+#: src/groupchatconfig.html:108 src/userprops.html:146
+msgid "OK"
+msgstr "确定"
+
+#: src/help.html:23 src/help.html:82
+msgid "Online Status Indicators"
+msgstr "在线状态指示"
+
+#: src/joingroupchat.html:114 src/subscription.html:100
+msgid "Open Search"
+msgstr "打开搜索"
+
+#: src/help.html:108
+msgid "Open the preferences dialog by clicking on <img src=\"images/screenshots/pref-button.gif\" width=\"24\" height=\"22\" alt=\"Preferences Button\">. Here's a short explanation for each option you can select:"
+msgstr "单击这个按钮 <img src=\"images/screenshots/pref-button.gif\" width=\"24\" height=\"22\" alt=\"属性\"> 打开属性窗口。下面是对相关选项的简要说明："
+
+#: src/options.html:494
+msgid "Options"
+msgstr "选项"
+
+#: src/vcard.html:154
+msgid "Organization"
+msgstr "组织"
+
+#: src/groupchat_roster.html:43
+msgid "Owner"
+msgstr "所有者"
+
+#: src/groupchat_roster.html:43
+msgid "Owner List"
+msgstr "所有者列表"
+
+#: NOT FOUND IN SOURCE
+msgid "Pass"
+msgstr "密码"
+
+#: src/editbookmarks.html:176 src/index.html:419 src/joingroupchat.html:121
+msgid "Password"
+msgstr "密码"
+
+#: src/options.html:229
+msgid "Password changed successfully"
+msgstr ""
+
+#: src/jwchat.html:1519
+msgid "Password is missing.\\nAborting..."
+msgstr "密码错误！\\n中止。"
+
+#: src/options.html:215
+msgid "Passwords don't match"
+msgstr ""
+
+#: src/search.html:290
+msgid "Perform search at"
+msgstr "执行搜索"
+
+#: src/help.html:117 src/options.html:510
+msgid "Play sounds"
+msgstr "播放音效"
+
+#: src/joingroupchat.html:17
+msgid "Please enter a channel/group to join"
+msgstr "请键入要加入的组"
+
+#: src/editbookmarks.html:48
+msgid "Please enter a name for this bookmark!"
+msgstr "请键入此书签的名称"
+
+#: src/editbookmarks.html:56
+msgid "Please enter a room to join"
+msgstr "请键入要加入的房间"
+
+#: src/editbookmarks.html:61 src/joingroupchat.html:21
+msgid "Please enter a server name"
+msgstr "请键入服务器名称"
+
+#: src/index.html:446
+msgid "Port"
+msgstr "端口"
+
+#: src/vcard.html:148
+msgid "Postal Code"
+msgstr "邮政编码"
+
+#: src/roster.html:141
+msgid "Preferences"
+msgstr "属性"
+
+#: src/iRoster.html:17 src/iRoster.html:26 src/iRoster.html:32
+msgid "Presence"
+msgstr "在线状态"
+
+#: src/index.html:436
+msgid "Priority"
+msgstr "优先级"
+
+#: src/searchrooms.html:29
+#. (conference_server)
+msgid "Querying %1. Please stand by..."
+msgstr "查询 %1，请稍候……"
+
+#: src/search.html:298 src/search.html:31
+msgid "Querying ..."
+msgstr "查询中……"
+
+#: src/options.html:97
+msgid "Querying Service ...<br>Please stand by!"
+msgstr "查询服务，<br>请稍候……"
+
+#: NOT FOUND IN SOURCE
+msgid "Querying Transport ...<br>Please stand by!"
+msgstr "查询传输，<br>请稍候……"
+
+#: src/message.html:132
+msgid "Quote"
+msgstr "引用"
+
+#: src/help.html:119 src/options.html:514
+msgid "Raise window if a new message is received"
+msgstr "新消息到来时激活窗口"
+
+#: src/groupchatconfig.html:36
+msgid "Really destroy this room?\\n\\nReason:"
+msgstr "确实要销毁这个房间吗？\\n\\n理由："
+
+#: src/groupchat_invite.html:58 src/groupchat_invite.html:65 src/groupchat_invite_dialog.html:73 src/groupchat_modifylist.html:159
+msgid "Reason"
+msgstr "理由"
+
+#: src/userhist.html:173
+msgid "Refresh"
+msgstr "刷新"
+
+#: src/groupchat_bottom.html:277 src/options.html:158
+msgid "Register"
+msgstr "注册"
+
+#: src/index.html:422
+msgid "Register New Account"
+msgstr "注册新账号"
+
+#: src/options.html:552 src/options.html:552
+msgid "Register at"
+msgstr "注册位置"
+
+#: src/jwchat.html:1028
+msgid "Registration failed!\\n\\nPlease choose a different username!"
+msgstr "注册失败！\\n\\n请换一个用户名！"
+
+#: NOT FOUND IN SOURCE
+msgid "Registration failed. You might want to choose another username."
+msgstr "注册失败！\\n\\n请换一个用户名！"
+
+#: src/options.html:310
+msgid "Registration successful."
+msgstr "注册成功！"
+
+#: src/iRoster.html:23
+msgid "Remove"
+msgstr "删除"
+
+#: src/options.html:371
+msgid "Remove all associated contacts?"
+msgstr "删除所有相关联系人？"
+
+#: src/help.html:76
+msgid "Remove: Removes this user from your contact list (completely) and revokes your authentication for him/her (if any)"
+msgstr "删除： 从您的联系人列表中彻底地去除这个用户，同时取消您对他/她的授权（如果有）"
+
+#: src/options.html:360
+#. (sJid)
+msgid "Removing %1 from roster..."
+msgstr "从联系人列表中删除 %1 ……"
+
+#: src/options.html:372
+msgid "Removing contacts..."
+msgstr "删除联系人 ……"
+
+#: src/message.html:132
+msgid "Reply"
+msgstr "回复"
+
+#: src/options.html:282
+#. (sJid)
+msgid "Request sent to %1.."
+msgstr "发送请求到 %1……"
+
+#: src/index.html:432
+msgid "Resource"
+msgstr "资源"
+
+#: src/iRoster.html:22
+msgid "Resubscribe"
+msgstr "重新邀请"
+
+#: src/help.html:75
+msgid "Resubscribe: Opens a subscription request for this user"
+msgstr "重新邀请： 打开一个邀请此用户的对话框"
+
+#: src/groupchat_iroster.html:37
+msgid "Revoke Administrative Privilege"
+msgstr "取消管理权限"
+
+#: src/groupchat_iroster.html:33
+msgid "Revoke Membership"
+msgstr "取消成员权限"
+
+#: NOT FOUND IN SOURCE
+msgid "Revoke Memebership"
+msgstr "取消成员权限"
+
+#: src/groupchat_iroster.html:35
+msgid "Revoke Moderator Privilege"
+msgstr "取消主持人权限"
+
+#: src/groupchat_iroster.html:31
+msgid "Revoke Voice"
+msgstr "取消语音权限"
+
+#: src/vcard.html:159
+msgid "Role"
+msgstr "职务"
+
+#: src/editbookmarks.html:174 src/groupchat_invite.html:56 src/joingroupchat.html:119 src/searchrooms.html:59
+msgid "Room"
+msgstr "房间"
+
+#: src/help.html:54
+msgid "Safari since version 3"
+msgstr ""
+
+#: src/editbookmarks.html:184 src/groupchat_modifylist.html:310 src/vcard.html:175
+msgid "Save"
+msgstr "保存"
+
+#: src/search.html:225 src/searchrooms.html:189
+msgid "Search"
+msgstr "搜索"
+
+#: src/searchrooms.html:183
+msgid "Search Server"
+msgstr "搜索服务器"
+
+#: src/roster.html:153
+msgid "Search User"
+msgstr "搜索用户"
+
+#: src/joingroupchat.html:114 src/searchrooms.html:178
+msgid "Search for Rooms"
+msgstr "搜索房间"
+
+#: src/subscription.html:100
+msgid "Search for a User"
+msgstr "搜索用户"
+
+#: src/search.html:124 src/search.html:141 src/search.html:90 src/searchrooms.html:28
+#. (conference_server)
+#. (iq.getFrom())
+msgid "Search results for %1"
+msgstr "对 %1 的搜索结果"
+
+#: NOT FOUND IN SOURCE
+msgid "Select"
+msgstr "选择"
+
+#: src/index.html:410
+msgid "Select Jabber server to connect to"
+msgstr "选择要连接的 Jabber 服务器"
+
+#: src/groupchat_invite_dialog.html:71
+msgid "Select User(s)"
+msgstr "选择用户"
+
+#: src/chat.html:320 src/groupchat_bottom.html:277 src/send.html:104 src/subscription.html:120
+msgid "Send"
+msgstr "发送"
+
+#: src/iRoster.html:16
+msgid "Send Message"
+msgstr "发送消息"
+
+#: src/help.html:70
+msgid "Send Message: Opens the message dialog for this user"
+msgstr "发送消息： 为此用户打开消息对话框"
+
+#: src/send.html:73
+#. (srcW.roster.getUserByJID(jid).name)
+msgid "Send message to %1"
+msgstr "发送消息到 %1"
+
+#: src/subscription.html:58
+msgid "Send subscription"
+msgstr "发送邀请"
+
+#: src/subscription.html:103
+msgid "Send subscription to"
+msgstr "发送邀请到"
+
+#: src/options.html:313
+msgid "Sending presence..."
+msgstr "发送在线状态……"
+
+#: src/editbookmarks.html:175 src/index.html:410 src/joingroupchat.html:120
+msgid "Server"
+msgstr "服务器"
+
+#: src/subscription.html:107
+msgid "Service (optional)"
+msgstr "服务（可选）"
+
+#: src/jwchat.html:1031
+msgid "Service unavailable"
+msgstr "服务不可用"
+
+#: src/changestatus.html:92
+msgid "Set"
+msgstr "设置"
+
+#: NOT FOUND IN SOURCE
+msgid "Shange Status Message"
+msgstr "修改状态提示语"
+
+#: src/iRoster.html:31
+msgid "Show"
+msgstr "显示"
+
+#: src/groupchat_iroster.html:39 src/iRoster.html:19 src/iRoster.html:28 src/iRoster.html:33
+msgid "Show Info"
+msgstr "显示信息"
+
+#: src/help.html:73
+msgid "Show Info: Show the user's profile"
+msgstr "显示信息： 显示用户档案"
+
+#: src/index.html:429 src/index.html:429
+msgid "Show Fewer Options"
+msgstr "显示常规选项"
+
+#: src/index.html:425 src/index.html:425
+msgid "Show More Options"
+msgstr "显示更多选项"
+
+#: src/groupchat_iroster.html:26 src/iRoster.html:15 src/message.html:132
+msgid "Start Chat"
+msgstr "开始聊天"
+
+#: src/help.html:71
+msgid "Start Chat: Opens a chat window for this user"
+msgstr "开始聊天： 为此用户打开聊天对话框"
+
+#: src/vcard.html:147
+msgid "State"
+msgstr "省/州"
+
+#: src/roster.js:376 src/roster.js:441 src/roster.js:720
+msgid "Status"
+msgstr "状态"
+
+#: src/changestatus.html:89
+msgid "Status Message"
+msgstr "状态提示语"
+
+#: src/error_message.html:100 src/message.html:127 src/send.html:100
+msgid "Subject"
+msgstr "主题"
+
+#: src/groupchat_invite.html:76
+msgid "Submit"
+msgstr "提交"
+
+#: src/subscriptionRequest.html:49
+#. (jid)
+msgid "Subscribe request from %1"
+msgstr "从 %1 来的邀请请求"
+
+#: NOT FOUND IN SOURCE
+msgid "Subscribe request from %1:\\n%2"
+msgstr "从 %1 来的邀请请求：\\n%2"
+
+#: NOT FOUND IN SOURCE
+msgid "Support for safari coming soon..."
+msgstr "即将对 safari 提供支持……"
+
+#: src/help.html:20 src/help.html:37
+msgid "Supported Browsers"
+msgstr "支持的浏览器"
+
+#: src/help.html:39
+msgid "Supported browsers and plattforms"
+msgstr "支持的浏览器与平台"
+
+#: src/roster.js:24
+msgid "System"
+msgstr "系统"
+
+#: src/help.html:16
+msgid "Table of Contents"
+msgstr "联系人列表"
+
+#: src/help.html:67
+msgid "The contact list holds entries for each user you have added. By right clicking on such an item you get a context menu as shown in the screenshot to the left:"
+msgstr "联系人列表中包含了您新增的每一个用户。鼠标右键单击用户项，您将看到如左图所示的上下文菜单："
+
+#: src/help.html:120
+msgid "This will cause your contact list or your chat dialog to be raised over all other open windows if a new message arrives"
+msgstr "在新消息到来的时候，使您的联系人列表或消息窗口出现在其它窗口之上。"
+
+#: src/vcard.html:158
+msgid "Title"
+msgstr "头衔"
+
+#: src/groupchat_top.html:32
+msgid "Topic"
+msgstr "主题"
+
+#: src/roster.js:153 src/userprops.html:79
+msgid "Unfiled"
+msgstr "未归类"
+
+#: src/vcard.html:157
+msgid "Unit"
+msgstr "部门"
+
+#: src/options.html:154
+msgid "Unregister"
+msgstr "注销"
+
+#: src/options.html:326
+#. (sJid)
+msgid "Unregistering from service %1 ..."
+msgstr "从服务 %1 注销……"
+
+#: src/options.html:156
+msgid "Update"
+msgstr "更新"
+
+#: src/options.html:529
+msgid "Update interval"
+msgstr "更新间隔"
+
+#: NOT FOUND IN SOURCE
+msgid "Updating Roster..."
+msgstr "更新联系人……"
+
+#: NOT FOUND IN SOURCE
+msgid "Use SSL"
+msgstr "使用 SSL"
+
+#: NOT FOUND IN SOURCE
+msgid "Use the form below to log into jabber and start your own web based client. You don't need to install any software at all to use this program."
+msgstr ""
+
+#: src/options.html:488
+msgid "User Directory"
+msgstr "用户目录"
+
+#: src/help.html:88
+msgid "User doesn't want to be disturbed"
+msgstr "用户不想被打扰"
+
+#: NOT FOUND IN SOURCE
+msgid "User don't wants to be disturbed"
+msgstr "用户不想被打扰"
+
+#: src/help.html:91
+msgid "User hasn't authenticated you"
+msgstr "用户没有对您授权"
+
+#: src/help.html:86
+msgid "User is away"
+msgstr "用户离开了"
+
+#: src/help.html:90
+msgid "User is invisible"
+msgstr "用户隐身了"
+
+#: src/help.html:87
+msgid "User is not available"
+msgstr "用户不可用"
+
+#: src/help.html:89
+msgid "User is offline"
+msgstr "用户离线了"
+
+#: src/help.html:84
+msgid "User is online"
+msgstr "用户在线"
+
+#: src/help.html:85
+msgid "User is willing to chat"
+msgstr "用户欢迎您与之聊天"
+
+#: src/index.html:414
+msgid "Username"
+msgstr "用户名"
+
+#: src/index.html:417
+msgid "Username must not contain"
+msgstr "用户名不得包含"
+
+#: src/groupchat_roster.html:34
+msgid "Voice"
+msgstr "语音"
+
+#: src/groupchat_roster.html:34
+msgid "Voice List"
+msgstr "语音列表"
+
+#: src/vcard.html:137
+msgid "Web Site"
+msgstr "网站"
+
+#: NOT FOUND IN SOURCE
+msgid "Welcome to"
+msgstr "欢迎光临"
+
+#: src/index.html:395 src/index.html:4
+msgid "Welcome to JWChat"
+msgstr "欢迎光临 JWChat"
+
+#: src/index.html:249
+#. (SITENAME)
+msgid "Welcome to JWChat at %1"
+msgstr "欢迎光临 %1 上的 JWChat"
+
+#: NOT FOUND IN SOURCE
+msgid "Welcome to JWChat at jwchat.org"
+msgstr "欢迎光临 jwchat.org 上的 JWChat"
+
+#: NOT FOUND IN SOURCE
+msgid "Welcome to jabber.glubs.org"
+msgstr "欢迎光临 jabber.glubs.org"
+
+#: src/help.html:116
+msgid "Whether to pop up messages although your status is not \"available\" or \"chat\""
+msgstr "无论您的在线状态如何，您每次收到其他联系人的消息时，消息窗口都会自动打开。"
+
+#: src/help.html:122
+msgid "Will display the time when a message arrived right to the users name in the chat dialog"
+msgstr "在消息窗口中，收到消息的同时将在用户名的旁边显示消息的时间。"
+
+#: src/options.html:124
+msgid "You are already registered at this service!"
+msgstr "您已经注册了这个服务！"
+
+#: NOT FOUND IN SOURCE
+msgid "You are already registered with this Gateway!"
+msgstr "您已经通过这个网关注册了！"
+
+#: NOT FOUND IN SOURCE
+msgid "You can create a new user group by entering a new name for \"Group\" at the \"Available Groups\" box followed by clicking on \"&gt;\".  Remove a user from a group by clicking on \"&lt;\". A group is deleted from your contact list if there is no user left for this group."
+msgstr "您可以通过在\"可用的组\"文本框中键入名称来新建一个用户组。单击\"&gt;\"新增组用户，单击\"&lt;\"删除组用户。如果一个组中没有用户了，它可以被删除。"
+
+#: src/help.html:103
+msgid "You can create a new user group by entering a new name for \"Group\" at the \"Available Groups\" box followed by clicking on \"&gt;\". Remove a user from a group by clicking on \"&lt;\". A group is deleted from your contact list if there is no user left for this group."
+msgstr "您可以通过在\"可用的组\"文本框中键入名称来新建一个用户组。单击\"&gt;\"新增组用户，单击\"&lt;\"删除组用户。如果一个组中没有用户了，它可以被删除。"
+
+#: src/jwchat.html:690
+#. (presence.getFrom())
+msgid "You have been unsubscribed from %1"
+msgstr "您已经取消了来自 %1 的邀请"
+
+#: src/index.html:102
+msgid "You need to supply a jabber server"
+msgstr "您需要提供一个 jabber 服务器"
+
+#: src/index.html:95
+msgid "You need to supply a password"
+msgstr "您需要提供一个密码"
+
+#: src/index.html:90
+msgid "You need to supply a username"
+msgstr "您需要提供一个用户名"
+
+#: src/help.html:21 src/help.html:64
+msgid "Your Contact List"
+msgstr "您的联系人列表"
+
+#: src/jwchat.html:1552
+msgid "Your browser must support frames and javascript to use this application. Please refer to our <a href=\"help.html\">online manual</a> for a list of supported browser."
+msgstr "为使用本程序，您的浏览器必须支持帧与 javascript，请参考我们的 <a href=\"help.html\">帮助</a> 中的支持的浏览器列表。"
+
+#: src/changestatus.html:83 src/jwchat.html:76 src/status.html:12
+msgid "away"
+msgstr "离开"
+
+#: src/search_iframe.html:17
+msgid "click to add user"
+msgstr "单击以新增用户"
+
+#: src/userhist_collections_iframe.html:27
+msgid "click to select collection"
+msgstr "单击以选择集合"
+
+#: src/searchrooms_results_iframe.html:17
+msgid "click to select row"
+msgstr "单击以选择行"
+
+#: src/groupchat_modifylist_iframe.html:26
+msgid "click to select user"
+msgstr "单击以选择用户"
+
+#: NOT FOUND IN SOURCE
+msgid "coming soon... ;-)"
+msgstr "马上回来……"
+
+#: src/changestatus.html:80 src/jwchat.html:78 src/status.html:14
+msgid "do not disturb"
+msgstr "请勿打扰"
+
+#: src/chat.html:163
+msgid "error starting chat"
+msgstr "开启聊天时出现错误"
+
+#: src/changestatus.html:79 src/jwchat.html:75 src/status.html:11
+msgid "free for chat"
+msgstr "欢迎聊天"
+
+#: src/index.html:441
+msgid "high"
+msgstr "高"
+
+#: src/jwchat.html:79
+msgid "invisible"
+msgstr "隐身"
+
+#: NOT FOUND IN SOURCE
+msgid "jid is missing.\\nAborting..."
+msgstr "JID 错误。\\n中止。"
+
+#: src/subscription.html:109
+msgid "local jabber user"
+msgstr "本地 jabber 用户"
+
+#: src/index.html:439
+msgid "low"
+msgstr "低"
+
+#: src/index.html:440
+msgid "medium"
+msgstr "中"
+
+#: src/error_message.html:103 src/message.html:134
+msgid "next"
+msgstr "下一个"
+
+#: src/changestatus.html:76 src/jwchat.html:77 src/status.html:13
+msgid "not available"
+msgstr "不可用"
+
+#: src/changestatus.html:87 src/jwchat.html:80 src/status.html:18
+msgid "offline"
+msgstr "离线"
+
+#: src/changestatus.html:75 src/jwchat.html:74 src/status.html:10
+msgid "online"
+msgstr "在线"
+
+#: NOT FOUND IN SOURCE
+msgid "optional"
+msgstr "可选的"
+
+#: NOT FOUND IN SOURCE
+msgid "pass is missing.\\nAborting..."
+msgstr "密码错误。\\n中止。"
+
+#: src/error_message.html:103 src/message.html:134
+msgid "prev"
+msgstr "上一个"
+
+#: src/subscriptionRequest.html:51
+#. (jid)
+msgid "show user info for %1"
+msgstr "显示用户 %1 的信息"
+
+#: src/searchrooms.html:19
+msgid "this doesn't look like a valid hostname"
+msgstr "这不是一个有效的主机名"
+
+#: src/subscription.html:59
+msgid "to"
+msgstr "至"
+
+#: src/subscriptionRequest.html:81
+msgid "wants to add you to his roster"
+msgstr "想加您为他/她的联系人"
+
