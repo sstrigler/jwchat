@@ -33,7 +33,6 @@ function doSub() {
 	var iq = new JSJaCIQ();
 	iq.setType('get');
 	iq.setTo(conference_server);
-	iq.setID(conference_server+"IQ");
 	iq.setQuery('http://jabber.org/protocol/disco#items');
 
 	me = this;
