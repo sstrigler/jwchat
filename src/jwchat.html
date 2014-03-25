@@ -91,11 +91,11 @@ function openGroupchat(aJid,nick,pass) {
 
   var user = roster.getUserByJID(aJid);
   try {
-  if(!user) {
-    user = roster.addUser(new RosterUser(aJid,'',[loc('Chat Rooms')],aJid.substring(0,aJid.indexOf('@'))));
-    user.type = 'groupchat';
-    roster.print();
-  }
+    if(!user) {
+      user = roster.addUser(new RosterUser(aJid,'',[loc('Chat Rooms')],aJid.substring(0,aJid.indexOf('@'))));
+      user.type = 'groupchat';
+      roster.print();
+    }
   } catch(e) { Debug.log(e.message, 1); }
   if (!user.chatW || user.chatW.closed)
     user.chatW = open("groupchat.html?jid="+escape(aJid)+"&nick="+escape(nick)+"&pass="+escape(pass),"gchatW"+makeWindowName(aJid+"/"+nick),"width=520,height=390,resizable=yes");
@@ -255,7 +255,7 @@ function addtoHistory(message) {
 /* system sounds */
 var soundPlaying = false;
 function soundLoaded() {
-        soundPlaying = false;
+  soundPlaying = false;
 }
 
 function playSound(action) {
@@ -337,7 +337,7 @@ function changeStatus(val,away,prio) {
   switch(val) {
   case "unavailable":
     val = "invisible";
-      aPresence.setType('invisible');
+    aPresence.setType('invisible');
     break;
   case "offline":
     val = "unavailable";
@@ -657,11 +657,11 @@ function handlePresence(presence) {
         }
       }
       return;
-}
+    }
   }
 
   switch (type) {
-case null:
+  case null:
   case '':
     break;
   case 'subscribe':
@@ -734,7 +734,7 @@ case null:
       if (actor.getAttribute('jid') != null)
         ouser.actor = actor.getAttribute('jid');
       else if (item.getElementsByTagName('actor').item(0).firstChild != null)
-                                ouser.actor = item.getElementsByTagName('actor').item(0).firstChild.nodeValue;
+        ouser.actor = item.getElementsByTagName('actor').item(0).firstChild.nodeValue;
     }
     if (ouser.role != '') {
       ouser.add2Group(ouser.role+'s');
@@ -769,7 +769,7 @@ case null:
           iq.setTo(user.jid);
           var query = iq.setQuery('http://jabber.org/protocol/muc#owner');
           query.appendChild(
-                iq.buildNode('x', {'xmlns': NS_XDATA, 'type': 'submit'}));
+            iq.buildNode('x', {'xmlns': NS_XDATA, 'type': 'submit'}));
 
           con.send(iq);
         }
@@ -1046,8 +1046,8 @@ function handleDisconnect() {
 
   fmd.getElementById('roster').innerHTML = '';
 
-//      if (confirm(loc("Disconnected\n\nReconnect?")))
-//              changeStatus(onlstat,onlmsg);
+  //      if (confirm(loc("Disconnected\n\nReconnect?")))
+  //              changeStatus(onlstat,onlmsg);
 }
 
 function handleConnected() {
@@ -1085,7 +1085,7 @@ function getRoster(iq) {
   iq.setIQ(null,'get','jwchat_state');
   var query = iq.setQuery('jabber:iq:private');
   query.appendChild(
-        iq.buildNode('jwchat', {'xmlns': 'jwchat:state'}));
+    iq.buildNode('jwchat', {'xmlns': 'jwchat:state'}));
 
   con.send(iq,getSavedState);
 }
@@ -1102,22 +1102,22 @@ function getSavedState(iq) {
     var jNode = iq.getNode().getElementsByTagName('jwchat').item(0);
     for (var i=0; i<jNode.childNodes.length; i++) {
       var item = jNode.childNodes.item(i);
-          try {
-                switch (item.nodeName) {
-                case 'presence':
-                  if (onlstat == '' && item.firstChild.nodeValue != 'offline')
-                        onlstat = item.firstChild.nodeValue;
-                  break;
-                case 'onlmsg':
-                  onlmsg = item.firstChild.nodeValue;
-                  break;
-                case 'hiddenGroups':
-                  var hiddenGroups = item.firstChild.nodeValue.split(',');
-                  for (var j=0; j<hiddenGroups.length; j++)
-                        if (hiddenGroups[j] != '')
-                          roster.hiddenGroups[hiddenGroups[j]] = true;
-                }
-          } catch(e) { Debug.log(e.toString(), 1); }
+      try {
+        switch (item.nodeName) {
+        case 'presence':
+          if (onlstat == '' && item.firstChild.nodeValue != 'offline')
+            onlstat = item.firstChild.nodeValue;
+          break;
+        case 'onlmsg':
+          onlmsg = item.firstChild.nodeValue;
+          break;
+        case 'hiddenGroups':
+          var hiddenGroups = item.firstChild.nodeValue.split(',');
+          for (var j=0; j<hiddenGroups.length; j++)
+            if (hiddenGroups[j] != '')
+              roster.hiddenGroups[hiddenGroups[j]] = true;
+        }
+      } catch(e) { Debug.log(e.toString(), 1); }
     }
   }
 
@@ -1126,7 +1126,7 @@ function getSavedState(iq) {
   iq.setIQ(null,'get','jwchat_prefs');
   var query = iq.setQuery('jabber:iq:private');
   query.appendChild(
-        iq.buildNode('jwchat', {'xmlns': 'jwchat:prefs'}));
+    iq.buildNode('jwchat', {'xmlns': 'jwchat:prefs'}));
 
   con.send(iq,getPrefs);
 }
@@ -1135,44 +1135,44 @@ function getPrefs(iq) {
   if (!iq || iq.getType() != 'result')
     if (iq)
       Debug.log("Error retrieving preferences:\n"+iq.xml(), 1);
-    else
-      Debug.log("Error retrieving preferences",1);
+  else
+    Debug.log("Error retrieving preferences",1);
 
   if (iq && iq.getType() == 'result') {
     Debug.log(iq.xml() ,2);
     if (iq.getNode().getElementsByTagName('jwchat').item(0)) {
       var jNode = iq.getNode().getElementsByTagName('jwchat').item(0);
       for (var i=0; i<jNode.childNodes.length; i++) {
-                try {
-                  switch (jNode.childNodes.item(i).nodeName) {
-        case 'usersHidden':
-          if (eval(jNode.childNodes.item(i).firstChild.nodeValue) != usersHidden)
-            roster.toggleHide();
-          break;
-        case 'timerval':
-          timerval = eval(jNode.childNodes.item(i).firstChild.nodeValue);
-          con.setPollInterval(timerval);
-          break;
-        case 'autoPopup':
-          autoPopup = eval(jNode.childNodes.item(i).firstChild.nodeValue);
-          break;
-        case 'autoPopupAway':
-          autoPopupAway = eval(jNode.childNodes.item(i).firstChild.nodeValue);
-          break;
-        case 'playSounds':
-          playSounds = eval(jNode.childNodes.item(i).firstChild.nodeValue);
-          break;
-        case 'focusWindows':
-          focusWindows = eval(jNode.childNodes.item(i).firstChild.nodeValue);
-          break;
-        case 'timestamps':
-          timestamps = eval(jNode.childNodes.item(i).firstChild.nodeValue);
-          break;
-        case 'enableLog':
-          enableLog = eval(jNode.childNodes.item(i).firstChild.nodeValue);
-          break;
-                  }
-                } catch(e) { Debug.log(e.toString(),1); }
+        try {
+          switch (jNode.childNodes.item(i).nodeName) {
+          case 'usersHidden':
+            if (eval(jNode.childNodes.item(i).firstChild.nodeValue) != usersHidden)
+              roster.toggleHide();
+            break;
+          case 'timerval':
+            timerval = eval(jNode.childNodes.item(i).firstChild.nodeValue);
+            con.setPollInterval(timerval);
+            break;
+          case 'autoPopup':
+            autoPopup = eval(jNode.childNodes.item(i).firstChild.nodeValue);
+            break;
+          case 'autoPopupAway':
+            autoPopupAway = eval(jNode.childNodes.item(i).firstChild.nodeValue);
+            break;
+          case 'playSounds':
+            playSounds = eval(jNode.childNodes.item(i).firstChild.nodeValue);
+            break;
+          case 'focusWindows':
+            focusWindows = eval(jNode.childNodes.item(i).firstChild.nodeValue);
+            break;
+          case 'timestamps':
+            timestamps = eval(jNode.childNodes.item(i).firstChild.nodeValue);
+            break;
+          case 'enableLog':
+            enableLog = eval(jNode.childNodes.item(i).firstChild.nodeValue);
+            break;
+          }
+        } catch(e) { Debug.log(e.toString(),1); }
       }
     }
   }
@@ -1204,7 +1204,7 @@ function getPrefs(iq) {
   iq.setIQ(null,'get','storage_bookmarks');
   var query = iq.setQuery('jabber:iq:private');
   query.appendChild(
-        iq.buildNode('storage', {'xmlns': 'storage:bookmarks'}));
+    iq.buildNode('storage', {'xmlns': 'storage:bookmarks'}));
 
   con.send(iq,getBookmarks);
 
@@ -1213,7 +1213,7 @@ function getPrefs(iq) {
   iq.setIQ(null,'get','jwchat_notes');
   var query = iq.setQuery('jabber:iq:private');
   query.appendChild(
-        iq.buildNode('storage', {'xmlns': 'storage:rosternotes'}));
+    iq.buildNode('storage', {'xmlns': 'storage:rosternotes'}));
 
   con.send(iq,getAnnotations);
 }
@@ -1438,7 +1438,7 @@ function logout() {
   iq.setIQ(null,'set');
   var query = iq.setQuery('jabber:iq:private');
   var aNode = query.appendChild(
-        iq.buildNode('jwchat', {'xmlns': 'jwchat:state'}));
+    iq.buildNode('jwchat', {'xmlns': 'jwchat:state'}));
 
   // save presence
   if (onlstat != 'offline')
@@ -1450,7 +1450,7 @@ function logout() {
   var hiddengroups = '';
   if (typeof(roster) != 'undefined') {
     for (var i in roster.hiddenGroups)
-          hiddengroups += i+",";
+      hiddengroups += i+",";
   }
 
   if (hiddengroups != '')
@@ -1479,42 +1479,42 @@ var BACKEND_TYPE;
 var HTTPBASE;
 
 if (opener && opener.JABBERSERVER)
-        JABBERSERVER = opener.JABBERSERVER;
+  JABBERSERVER = opener.JABBERSERVER;
 else if (passedArgs['server'])
-        JABBERSERVER = passedArgs['server'];
+  JABBERSERVER = passedArgs['server'];
 
 if (opener && opener.BACKEND_TYPE)
-        BACKEND_TYPE = opener.BACKEND_TYPE;
+  BACKEND_TYPE = opener.BACKEND_TYPE;
 else if (passedArgs['btype'])
-        BACKEND_TYPE = passedArgs['btype'];
+  BACKEND_TYPE = passedArgs['btype'];
 
 if (opener && opener.HTTPBASE)
-        HTTPBASE = opener.HTTPBASE;
+  HTTPBASE = opener.HTTPBASE;
 else if (passedArgs['base'])
-        HTTPBASE = passedArgs['base'];
+  HTTPBASE = passedArgs['base'];
 
 if (opener && opener.pass)
-        pass = opener.pass;
+  pass = opener.pass;
 else if (passedArgs['pass'])
-        pass = passedArgs['pass'];
+  pass = passedArgs['pass'];
 
 if (opener && opener.jid)
-        jid = opener.jid;
+  jid = opener.jid;
 else if (passedArgs['jid'])
-        jid = passedArgs['jid'];
+  jid = passedArgs['jid'];
 
 if (opener && opener.register)
-        register = opener.register
+  register = opener.register
 else if (passedArgs['register'])
-        register = passedArgs['register']=="1"?true:false;
+  register = passedArgs['register']=="1"?true:false;
 
 if (!jid) {
-        alert(loc("JID is missing.\nAborting..."));
+  alert(loc("JID is missing.\nAborting..."));
   window.close();
 }
 if (!pass) {
-        alert(loc("Password is missing.\nAborting..."));
-        window.close();
+  alert(loc("Password is missing.\nAborting..."));
+  window.close();
 }
 
 if (!isValidJID(jid))
