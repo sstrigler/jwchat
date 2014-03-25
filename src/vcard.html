@@ -16,8 +16,8 @@ function sendSub() {
   var iq = new JSJaCIQ();
   iq.setType('set');
   
-  var vCard = iq.appendNode('vCard', {'xmlns': 'vcard-temp'});
-  
+  var vCard = iq.appendNode('vCard', {'xmlns': 'vcard-temp'}).getChild('vCard');
+
   for (var i=0; i<document.forms[0].elements.length; i++) {
     var item = document.forms[0].elements[i];
     if (item.id == '') continue;
@@ -26,9 +26,9 @@ function sendSub() {
       var tagname = item.id.substring(0,item.id.indexOf('.'));
       var aNode;
       if (vCard.getElementsByTagName(tagname).length > 0)
-	aNode = vCard.getElementsByTagName(tagname).item(0);
+        aNode = vCard.getElementsByTagName(tagname).item(0);
       else
-	aNode = vCard.appendChild(iq.getDoc().createElement(tagname));
+        aNode = vCard.appendChild(iq.getDoc().createElement(tagname));
       aNode.appendChild(iq.getDoc().createElement(item.id.substring(item.id.indexOf('.')+1))).appendChild(iq.getDoc().createTextNode(item.value));
     } else {
       vCard.appendChild(iq.getDoc().createElement(item.id)).appendChild(iq.getDoc().createTextNode(item.value));
