@@ -88,7 +88,7 @@ var DEFAULTCONFERENCESERVER = "conference.jwchat.org";
 
 /* debugging options */
 var DEBUG = true; // turn debugging on
-var DEBUG_LVL = 4; // debug-level 0..4 (4 = very noisy)
+var DEBUG_LVL = 2; // debug-level 0..4 (4 = very noisy)
 
 var USE_DEBUGJID = true; // if true only DEBUGJID gets the debugger
 var DEBUGJID = "zeank2@jwchat.org"; // which user get's debug messages
