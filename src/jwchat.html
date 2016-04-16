@@ -1477,11 +1477,6 @@ var JABBERSERVER;
 var BACKEND_TYPE;
 var HTTPBASE;
 
-if (opener && opener.JABBERSERVER)
-  JABBERSERVER = opener.JABBERSERVER;
-else if (passedArgs['server'])
-  JABBERSERVER = passedArgs['server'];
-
 if (opener && opener.BACKEND_TYPE)
   BACKEND_TYPE = opener.BACKEND_TYPE;
 else if (passedArgs['btype'])
@@ -1502,6 +1497,7 @@ if (opener && opener.jid)
 else if (passedArgs['jid'])
   jid = passedArgs['jid'];
 
+
 if (opener && opener.register)
   register = opener.register
 else if (passedArgs['register'])
@@ -1518,7 +1514,8 @@ if (!pass) {
 
 if (!isValidJID(jid))
   window.close();
-
+  
+JABBERSERVER = jid.substring(jid.indexOf('@')+1, jid.indexOf('/'));
 nick = jid.substring(0,jid.indexOf('@'));
 
 /* get style */

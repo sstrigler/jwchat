@@ -46,7 +46,7 @@ var BACKEND_TYPE;
  * account and things */
 function loginCheck(form) {
   if (form.jid.value == '') {
-    alert(loc("You need to supply a username"));
+    alert(loc("You need to supply a jid"));
     return false;
   }
 
@@ -55,17 +55,8 @@ function loginCheck(form) {
     return false;
   }
 
-  if (document.getElementById('tr_server').style.display != 'none') {
-    var val = document.getElementById('server').value;
-    if (val == '') {
-      alert(loc("You need to supply a jabber server"));
-      return false;
-    }
+  jid = form.jid.value + "/";
 
-    JABBERSERVER = val;
-  }
-
-  jid = form.jid.value + "@" + JABBERSERVER + "/";
   if (form.res.value != '')
     jid += form.res.value;
   else
@@ -144,26 +135,6 @@ function backendSelected() {
   if (!servers_allowed
       || servers_allowed.length == 0)
     { // allow any
-      var tr_server = document.getElementById('tr_server');
-
-      var input = document.createElement('input');
-      input.setAttribute("type","text");
-      input.setAttribute("id","server");
-      input.setAttribute("name","server");
-      input.setAttribute("tabindex","2");
-      input.className = 'input_text';
-
-      if (default_server)
-          input.setAttribute("value",default_server);
-
-      var td = tr_server.getElementsByTagName('td').item(0);
-      for (var i=0; i<td.childNodes.length; i++)
-          td.removeChild(td.childNodes.item(i));
-
-      td.appendChild(input);
-
-      tr_server.style.display = '';
-
       document.getElementById('connect_port').disabled = false;
       document.getElementById('connect_host').disabled = false;
     }
@@ -187,16 +158,16 @@ function backendSelected() {
 
     td.appendChild(oSelect);
 
-  for (var i=0; i<servers_allowed.length; i++) {
-    if (typeof(servers_allowed[i]) == 'undefined')
-continue;
-    oSelect.options.add(new Option(servers_allowed[i],servers_allowed[i]));
-  }
+    for (var i=0; i<servers_allowed.length; i++) {
+      if (typeof(servers_allowed[i]) == 'undefined')
+        continue;
+      oSelect.options.add(new Option(servers_allowed[i],servers_allowed[i]));
+    }
 
-  tr_server.style.display = '';
-  document.getElementById('connect_port').disabled = true;
-  document.getElementById('connect_host').disabled = true;
-}
+    tr_server.style.display = '';
+    document.getElementById('connect_port').disabled = true;
+    document.getElementById('connect_host').disabled = true;
+  }
 }
 
 function init() {
@@ -239,7 +210,7 @@ if (typeof(BACKENDS) == 'undefined' || BACKENDS.length == 0) {
 
   for (var i=0; i<BACKENDS.length; i++) {
     if (typeof(BACKENDS[i]) == 'undefined')
-continue;
+      continue;
     var oOption =  new Option(BACKENDS[i].name,BACKENDS[i].httpbase);
     oOption.setAttribute('description',BACKENDS[i].description);
     oSelect.options[i] = oOption;
@@ -248,30 +219,15 @@ continue;
   backendSelected();
 }
 document.forms[0].jid.focus();
-document.getElementById('chars_prohibited').innerHTML = prohibited;
 if (typeof(DEFAULTRESOURCE) != 'undefined' && DEFAULTRESOURCE)
   document.forms[0].res.value = DEFAULTRESOURCE;
 
 document.getElementById('login_button').disabled = false;
 }
 
-
 onload = init;
 //-->
   </script>
-
-<!-- flattr button config -->
-<script type="text/javascript">
-/* <![CDATA[ */
-  (function() {
-            var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = 'https://api.flattr.com/js/0.6/load.js?mode=auto';
-            t.parentNode.insertBefore(s, t);
-  })();
-/* ]]> */
-</script>
 
   <style type="text/css">
 /*<![CDATA[*/
@@ -394,15 +350,10 @@ onload = init;
             <tr>
               <td colspan=2><h3><l>Login</l><img src="images/available.gif" width=16 height=16></h3></td>
             </tr>
-            <tr id="tr_server" style="display:none;">
-              <th title="<l>Select Jabber server to connect to</l>"><label for='server'><l>Server</l></label></th>
-              <td></td>
-            </tr>
             <tr>
-              <th class='form_spacer'><label for='jid'><l>Username</l></label></th>
+              <th class='form_spacer'><label for='jid'><l>JID</l></label></th>
               <td class='form_spacer' width="100%"><input type="text" id='jid' name="jid" tabindex=3 class='input_text'></td>
             </tr>
-            <tr><td>&nbsp;</td><td nowrap class="desc"><l>Username must not contain</l>: <span id='chars_prohibited'></span></td></tr>
             <tr>
               <th><label for='pass'><l>Password</l></label></th>
               <td><input type="password" id='pass' name="pass" tabindex=4 class='input_text'></td>
@@ -441,7 +392,7 @@ onload = init;
             <tr><td>&nbsp;</td><td><button type="submit" id='login_button' tabindex=5 disabled><l>Login</l></button></td></tr>
         </table>
   </form>
-<div style="width:400px;">Lost? Click here to <a href="/register/new">register a new account</a>, <a href="/register/change_password">change your password</a> or <a href="/register/delete">delete your existing account</a>!</div>
+  <div style="width:400px;">Lost? Click here to <a href="https://accounts.jwchat.org/">register a new account</a>, <a href="https://accounts.jwchat.org/reset/password/">change your password</a>, <a href="https://accounts.jwchat.org/reset/email/">register your email address</a> (to be able to recover a lost password) or <a href="https://accounts.jwchat.org/delete/">delete your existing account</a>.</div>
 
         </td>
       </tr>
@@ -473,8 +424,7 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
       <a class="doge" href="">wow     such generous     
 dogecoin     to the moon</a>
               <a href='https://xmpp.net/result.php?domain=jwchat.org&amp;type=client'><img src='https://xmpp.net/badge.php?domain=jwchat.org' alt='xmpp.net score' /></a>
-              <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;"  href="http://jwchat.org"></a>
-              <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fjwchat.org&amp;layout=button_count&amp;show_faces=true&amp;width=110&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+              <script id='fb6xsks'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//button.flattr.com/view/?fid=k83yr4&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fb6xsks');</script>
             </td>
           </tr>
         </table>
