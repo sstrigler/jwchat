@@ -1,4 +1,3 @@
-
 function getArgs(){
   passedArgs=new Array();
   search = self.location.href;
@@ -61,7 +60,7 @@ function makeWindowName(wName) {
   wName = wName.replace(/\'/g,"tick");
   wName = wName.replace(/=/g,"equals");
   wName = wName.replace(/#/g,"pound");
-  wName = wName.replace(/:/g,"colon");	
+  wName = wName.replace(/:/g,"colon");
   wName = wName.replace(/%/g,"percent");
   wName = wName.replace(/-/g,"dash");
   wName = wName.replace(/ /g,"blank");
@@ -99,20 +98,20 @@ function msgFormat(msg) { // replaces emoticons and urls in a message
 	msg = msg.replace(eval("/\(\\s\|\^\)"+i+"\(\\s|\$\)/g"),"$1<img src=\""+emo.src+"\" alt=\""+iq+"\" title=\""+iq+"\">$2");
     }
   }
-	
+
   // replace http://<url>
   msg = msg.replace(/(\s|^)(https?:\/\/\S+)/gi,"$1<a href=\"$2\" target=\"_blank\">$2</a>");
-  
+
   // replace ftp://<url>
   msg = msg.replace(/(\s|^)(ftp:\/\/\S+)/gi,"$1<a href=\"$2\" target=\"_blank\">$2</a>");
-  
+
   // replace mail-links
   msg = msg.replace(/(\s|^)(\w+\@\S+\.\S+)/g,"$1<a href=\"mailto:$2\">$2</a>");
-  
+
   // replace *<pattern>*
   msg = msg.replace(/(\s|^)\*([^\*\r\n]+)\*/g,"$1<b>\$2\</b>");
-  
-  // replace _bla_ 
+
+  // replace _bla_
   msg = msg.replace(/(\s|^)\_([^\*\r\n]+)\_/g,"$1<u>$2</u>");
 
   msg = msg.replace(/\n/g,"<br>");
@@ -122,18 +121,17 @@ function msgFormat(msg) { // replaces emoticons and urls in a message
 
 /* isValidJID
  * checks whether jid is valid
+ * taken from Joe's suggestion at
+ * http://stackoverflow.com/questions/1351041/what-is-the-regular-expression-for-validating-jabber-id
  */
-var prohibited = ['"',' ','&','\'','/',':','<','>','@']; // invalid chars
 function isValidJID(jid) {
-  var nodeprep = jid.substring(0,jid.lastIndexOf('@')); // node name (string before the @)
+    var regexp = new RegExp("^(?:([^@/<>'\"]+)@)?([^@/<>'\"]+)(?:/([^<>'\"]*))?$");
 
-  for (var i=0; i<prohibited.length; i++) {
-    if (nodeprep.indexOf(prohibited[i]) != -1) {
-      alert(loc("Invalid JID\n'[_1]' not allowed in JID.\nChoose another one!",prohibited[i]));
-      return false;
-    }
-  }
-  return true;
+    var res = jid.match(regexp);
+
+    if (!res) return false;
+    for (var i=1; i<=3; i++) if (res[i] == undefined) return false;
+    return true;
 }
 
 /* jab2date
@@ -164,20 +162,20 @@ function hrTime(ts) {
 
 /* jabberDate
  * somewhat opposit to hrTime (see above)
- * expects a javascript Date object as parameter and returns a jabber 
+ * expects a javascript Date object as parameter and returns a jabber
  * date string conforming to JEP-0082
  */
 function jabberDate(date) {
   if (!date.getUTCFullYear)
     return;
-  
+
   var jDate = date.getUTCFullYear() + "-";
   jDate += (((date.getUTCMonth()+1) < 10)? "0" : "") + (date.getUTCMonth()+1) + "-";
   jDate += ((date.getUTCDate() < 10)? "0" : "") + date.getUTCDate() + "T";
-  
+
   jDate += ((date.getUTCHours()<10)? "0" : "") + date.getUTCHours() + ":";
   jDate += ((date.getUTCMinutes()<10)? "0" : "") + date.getUTCMinutes() + ":";
   jDate += ((date.getUTCSeconds()<10)? "0" : "") + date.getUTCSeconds() + "Z";
-  
+
   return jDate;
 }

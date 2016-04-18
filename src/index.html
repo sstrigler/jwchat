@@ -55,15 +55,23 @@ function loginCheck(form) {
     return false;
   }
 
-  jid = form.jid.value + "/";
+  jid = form.jid.value;
 
-  if (form.res.value != '')
-    jid += form.res.value;
-  else
-    jid += DEFAULTRESOURCE;
+  if (jid.indexOf('/') == -1) {
+    // no resource
+    // add one
+     jid += "/";
 
-  if(!isValidJID(jid))
+    if (form.res.value != '')
+      jid += form.res.value;
+    else
+      jid += DEFAULTRESOURCE;
+  }
+
+  if (!isValidJID(jid)) {
+    alert(loc("The JID you entered doesn't look valid. JIDs must be the form of 'user@host', eg 'sheila@example.com'"));
     return false;
+  }
 
   if (jwchats[jid] && !jwchats[jid].closed) {
     jwchats[jid].focus();
@@ -392,8 +400,15 @@ onload = init;
             <tr><td>&nbsp;</td><td><button type="submit" id='login_button' tabindex=5 disabled><l>Login</l></button></td></tr>
         </table>
   </form>
-  <div style="width:400px;">Lost? Click here to <a href="https://accounts.jwchat.org/">register a new account</a>, <a href="https://accounts.jwchat.org/reset/password/">change your password</a>, <a href="https://accounts.jwchat.org/reset/email/">register your email address</a> (to be able to recover a lost password) or <a href="https://accounts.jwchat.org/delete/">delete your existing account</a>.</div>
-
+  <div style="width:400px;padding:20px;">
+    <h2>Account Management</a></h2>
+    <ul style="text-align: left; margin: 0 40px;">
+      <li><a href="https://accounts.jwchat.org">Register new account</a></li>
+      <li><a href="https://accounts.jwchat.org/reset/password/">Reset password</a></li>
+      <li><a href="https://accounts.jwchat.org/reset/email/">Register your email address</a></li>
+      <li><a href="https://accounts.jwchat.org/delete/">Delete your account</a></li>
+    </ul>
+  </div>
         </td>
       </tr>
       <tr>
@@ -418,10 +433,10 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
             <td valign="top">
               <a href="http://blog.jwchat.org/jwchat/">Download</a> | <a href="http://blog.jwchat.org">Blog</a> | <a href="imprint.html"><l>Imprint</l></a> | <a href="about.html"><l>About</l></a>
                <br>
-                &copy; 2003-2008 <a href="mailto:stefan@strigler.de">Stefan Strigler</a>
+                &copy; 2003-2016 <a href="mailto:stefan@strigler.de">Stefan Strigler</a>
             </td>
     <td align="right">
-      <a class="doge" href="">wow     such generous     
+      <a class="doge" href="">wow     such generous
 dogecoin     to the moon</a>
               <a href='https://xmpp.net/result.php?domain=jwchat.org&amp;type=client'><img src='https://xmpp.net/badge.php?domain=jwchat.org' alt='xmpp.net score' /></a>
               <script id='fb6xsks'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//button.flattr.com/view/?fid=k83yr4&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fb6xsks');</script>
@@ -443,7 +458,7 @@ dogecoin     to the moon</a>
       }
     }
   }
-}(window, document, 'DAFcMZgu8yubqJS8NXmiTSjqERoJK1ArnR')); 
+}(window, document, 'DAFcMZgu8yubqJS8NXmiTSjqERoJK1ArnR'));
 </script>
   </body>
 </html>

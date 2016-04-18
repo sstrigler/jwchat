@@ -1497,7 +1497,6 @@ if (opener && opener.jid)
 else if (passedArgs['jid'])
   jid = passedArgs['jid'];
 
-
 if (opener && opener.register)
   register = opener.register
 else if (passedArgs['register'])
@@ -1514,7 +1513,7 @@ if (!pass) {
 
 if (!isValidJID(jid))
   window.close();
-  
+
 JABBERSERVER = jid.substring(jid.indexOf('@')+1, jid.indexOf('/'));
 nick = jid.substring(0,jid.indexOf('@'));
 
