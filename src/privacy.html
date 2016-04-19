@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>JWChat.org - <l>Privacy Policy</l></title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <style type="text/css">
+/*<![CDATA[*/
+      body {
+      color: #2a3847;
+      background-color: white;
+      }
+
+      th {
+      font-size: 0.8em;
+      text-align: right;
+      white-space: nowrap;
+      }
+
+      a { color: #2a3847; }
+
+      h1 {
+      font-size: 1.4em;
+      margin-top:0px;
+      margin-bottom: 0px;
+      }
+
+      h2 { padding-top: 0px; margin-top: 0px; }
+
+      h3 {
+      border-bottom: 1px solid #2a3847;
+      margin-bottom: 0px;
+
+      font-style: normal;
+      font-variant: small-caps;
+
+      text-align: right;
+      }
+
+      input.input_text {
+      border: 1px solid #2a3847;
+      }
+
+      input:focus, input:hover {
+      background-color: #f9fae1;
+      }
+
+      .toggleOpts { cursor: pointer; }
+
+      .desc {
+      font-size: 0.65em;
+      }
+
+      .form_spacer {
+      padding-top: 20px;
+      }
+
+      #td_top {
+      padding-top: 20px;
+      }
+      #td_form {
+      padding-top: 20px;
+      }
+      #td_bottom {
+      padding: 4px;
+      font-size:8pt;
+      border-top:1px solid #2a3847;
+      }
+      #lTable {
+      padding: 8px;
+
+      border: 2px solid #2a3847;
+      -moz-border-radius: 8px;
+
+      background-color: #81addc;
+      }
+#featured { padding:25px; margin:25px;text-align:left; }
+#featured div { margin-left: -20px; margin-top: -20px; padding-bottom: 5px; font-size:0.6em; }
+#featured ul { list-style-type: none; }
+#featured ul li { display: inline; }
+/*]]>*/
+    </style>
+  </head>
+
+  <body>
+<h1><l>Privacy Policy</l></h1>
+
+<div class="content">
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>This page attempts to describe what personal information this jabber server stores about you. If you have any questions, please don't hesitate to <a href="/about">contact us</a>.</p>
+        <h2>Information not related with your account</h2>
+        <ul><li>The Jabber-service itself does not store any regular connection information. This means we will never be able to tell in hindsight where you connected from.</li>
+          <li>The webserver that serves this website (as well as <a href="https://accounts.jwchat.org">accounts.jwchat.org</a>) keeps access logs (in the <a href="http://httpd.apache.org/docs/2.2/mod/mod_log_config.html#logformat">standard Apache log format</a>) that are stored for up to four weeks.
+          </ul></li>
+        </ul><h2>Account-related information</h2>
+        <p>Per default, the server stores the following data about you:</p>
+        <ul><li>The Jabber ID (jid), consisting of user name and domain, used for identifying your account.</li>
+          <li>The <a href="http://en.wikipedia.org/wiki/Salted_Challenge_Response_Authentication_Mechanism">SCRAM-SHA1</a> hash of the password to your account for authorization when your client connects to the server.</li>
+          <li>The saved contacts (often called "buddies") of a user, plus information about the visibility between this account and the contacts. This ensures that your buddy list stays the same, no matter which client you are using.</li>
+          <li>Date and time of account creation and when your account was last used. We use that data to periodically delete unused accounts.</li>
+          <li>"Offline messages" (that is, messages others send to you while you are offline) are stored until you log in again (but only for up to 31 days), along with the time the message was sent.</li>
+          <li>If an error occurs while delivering messages, we save a log entry detailing who sent the message to whom at which point of time and why it failed. The actual content of the message is not a part of that entry. We only need the metadata to determine the root of the problem when things go awry.</li>
+          <li>Our account registration website at <a href="https://accounts.jwchat.org">accounts.jwchat.org</a> stores the IP-Address used for registering an account for 31 days to help detecting automated registrations.</li>
+        </ul><p>When using gateways/transports, the jabber-server stores the following information:</p>
+        <ul><li>Username and password (if necessary) to connect to that transport (e.g. ICQ, MSN...).</li>
+          <li>A log laying out which Jabber ID at what point of time used which user identity to connect to a gateway/transport.</li>
+          <li>We use different software for various transports, which in turn saves data depending on what is needed for using the transport. If you require detailed information, please contact us.</li>
+        </ul><p>Additionally, a Jabber client may store data on the server. If that data is accessible to others (like a vCard which contains contact details) or accessible only to you (like configuration settings for a Jabber client) lies in the hand of the client you use.</p>
+        <h2>What happens to that data?</h2>
+        <p>The information about our users are neither being used commercially nor sold or otherwise made available to third parties. No advertisements are being sent to the users of this service.</p>
+        <p>There exist a few exceptions to that rule: When a user stores data specifically to make it available to others (think of, for example, a stored vCard), it can be retrieved by other users.</p>
+        <p>The Jabber IDs (JID) of users will not be published; if a user, however, publishes his/her ID, third parties could use that information to send advertisements to that user. This is not unlikely to occur with the receival of a common mail message through the e-mail transport. The provider of this service specifically forbids using it to send unsolicited (that is, not explicitly requested) ads. However, the provider can not guarantee all users' compliance to this rule.</p>
+        <p>Messages sent from a user to another one connected to a different server can be sent to the latter entity. How data is being treated at the receiving end can differ from what is described in this document. The same holds true for information the user has selected for display to other users or all users (e.g. information about the online status/the presence).</p>
+        <p>Users of gateways to other IM networks may find that the preservation of his/her privacy also depends on the other system. Specifically, some other systems allow third parties to see the presence/online status of users without their confirmation.</p>
+        <p>The Jabber server does not report the IP addresses of users to other users. All communication using the Jabber protocol (XMPP) takes place with the server as a middleman. Clients can, however, exchange IP addresses, for instance before starting a file transfer. The server will neither examine those addresses nor forward them to third parties.</p>
+        <p>Statistics about the server's load will be derived from collected data. These statistics are anonymous. No information about single persons can be obtained from them.</p>
+        <h2>Who can access this data?</h2>
+        <p>Two persons have access to the stored data: Stefan and Georg.</p>
+        <h3><a id="legal"></a>Legal situation and cooperation with law enforcement</h3>
+        <p>Germany currently has no <a href="http://en.wikipedia.org/wiki/Telecommunications_data_retention">data retention laws</a>. It would be illegal for use to retain data longer then directly necessary for running this service.</p>
+        <p>In Germany, a public court can order us to cooperate with law enforcement agencies to help with a criminal investigation. Such an order is only possible if the supposed criminal offense is punishable by at least a year in prison. An order is always only valid for a single accounts and must have a fixed time limit. Cooperation usually means that we have to hand over any stored data as well as start logging the connection (including all messages henceforth send from and to the user) and hand over this data as well.</p>
+        <p>In case of such an order, we are</p>
+        <ul><li>legally forced to cooperate with law enforcement and provide all information requested by the court order.</li>
+          <li>legally barred from informing the person under surveillance.</li>
+        </ul><p>This of course means that in case of such an order, we will comply, even if we don't like it. None of us is willing to go to prison for an anonymous account. You are of course, regardless of any legal situation, advised to use either <a href="http://en.wikipedia.org/wiki/Off-the-Record_Messaging">OTR</a>, <a href="http://en.wikipedia.org/wiki/GnuPG">GPG</a> or any other technology for end-to-end encryption.</p>
+        <p>Surveillance orders are fortunately not very numerous:</p>
+        <table border="1px" style="width: 200px; font-size: smaller; border: 1px solid black !important; border-collapse: collapse;"><tbody><tr><th>year</th>
+              <th>No. of court orders</th>
+            </tr><tr><td>2003</td>
+              <td>0</td>
+            </tr><tr><td>2004</td>
+              <td>0</td>
+            </tr><tr><td>2005</td>
+              <td>0</td>
+            </tr><tr><td>2006</td>
+              <td>0</td>
+            </tr><tr><td>2007</td>
+              <td>0</td>
+            </tr><tr><td>2008</td>
+              <td>0</td>
+            </tr><tr><td>2009</td>
+              <td>0</td>
+            </tr><tr><td>2010</td>
+              <td>0</td>
+            </tr><tr><td>2011</td>
+              <td>0</td>
+            </tr><tr><td>2012</td>
+              <td>0</td>
+            </tr><tr><td>2013</td>
+              <td>0</td>
+            </tr><tr><td>2014</td>
+              <td>0</td>
+            </tr><tr><td>2015</td>
+              <td>0</td>
+        </tr></tbody></table><h2>Backups</h2>
+        <p>The data of the jabber-server is backuped daily to a remote location. The data is GPG-encrypted <i>before</i> it is send over the wire, therefore, only Stefan and Georg can decrypt the backups, even if the backup-server is compromised.</p>
+        <h2>Notes</h2>
+        <p>Please <a href="https://jwchat.org/about">contact</a> us, if you have any further questions.</p>
+        <p>This server  is subject to the laws and regulations of the Germany and the European Union.</p>
+        <p>These regulations were shamelessly copied from <a href="http://jabber.at">jabber.at</a>.</p>
+  </div></div></div>
+    </div>
+
+<hr noshade size="1" />
+<a href="http://blog.jwchat.org/jwchat/">Download</a> | <a href="http://blog.jwchat.org">Blog</a> | <a href="imprint.html"><l>Imprint</l></a> | <a href="about.html"><l>About</l></a>
+  </body>
+</html>
