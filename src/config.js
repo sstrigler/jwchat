@@ -53,28 +53,13 @@ var SITENAME = "jwchat.org";
  */
 var BACKENDS = 
 [
-		{
-			name:"node-xmpp-bosh",
-			description:"An XMPP BOSH & WebSocket server (connection manager) written using node.js in Javascript",
-			httpbase:"/http-bind/",
-			type:"binding",
-			default_server: "jwchat.org"
-    }/*,
-		{
-			name:"JabberHTTPBind",
-			description:"A Java&trade; servlet implementing JEP-0124 (<a href='http://zeank.in-berlin.de/jhb/' target='_new'>http://zeank.in-berlin.de/jhb/</a>)",
-			httpbase:"/JHB/",
-			type:"binding",
-			default_server: "jwchat.org"
-    }/*,
-    {
-      name:"Ejabberd's HTTP Polling",
-      description:"HTTP Polling backend of local ejabberd service",
-      httpbase:"/http-poll/",
-      type:"polling",
-			servers_allowed: ['jwchat.org', 'x-berg.de', 'muckl.org'],
-      default_server:"jwchat.org"
-    }*/
+  {
+    name:"node-xmpp-bosh",
+    description:"An XMPP BOSH & WebSocket server (connection manager) written using node.js in Javascript",
+    httpbase:"/http-bind/",
+    type:"binding",
+    default_server: "jwchat.org"
+  }
 ];
 
 var DEFAULTRESOURCE = "jwchat";
