@@ -233,7 +233,7 @@ msgstr "Online-Status ändern"
 
 #: src/options.html:488
 msgid "Change Password"
-msgstr "Paßwort ändern"
+msgstr "Passwort ändern"
 
 #: src/roster.html:146
 msgid "Change Status Message"
@@ -769,19 +769,19 @@ msgstr ""
 
 #: src/editbookmarks.html:176 src/index.html:419 src/joingroupchat.html:121
 msgid "Password"
-msgstr "Paßwort"
+msgstr "Passwort"
 
 #: src/options.html:229
 msgid "Password changed successfully"
-msgstr "Paßwort wurde geändert"
+msgstr "Passwort wurde geändert"
 
 #: src/jwchat.html:1519
 msgid "Password is missing.\\nAborting..."
-msgstr ""
+msgstr "Passwort fehlt. \\nVorgang wird abgebrochen..."
 
 #: src/options.html:215
 msgid "Passwords don't match"
-msgstr "Paßwörter stimmen nicht überein"
+msgstr "Passwörter stimmen nicht überein"
 
 #: src/search.html:290
 msgid "Perform search at"
