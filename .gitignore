@@ -1,3 +1,5 @@
 htdocs
 htdocs.*
 lib
+fingerprint
+dev_config.json
