@@ -377,7 +377,7 @@ onload = init;
             <tr class="moreOpts" style="display:none;">
               <th><label for='res'><l>Resource</l></label></th>
               <td><input type="text" id="res" name="res" class="input_text"></td>
-        </tr>
+            </tr>
             <tr class="moreOpts" style="display:none;">
               <th><label for='prio'><l>Priority</l></label></th>
               <td>
@@ -389,14 +389,13 @@ onload = init;
               </td>
             </tr>
             <tr class="moreOpts" style="display: none;">
-              <th class="form_spacer"><label for="connect_port"><l>Port</l><label></th>
-              <td class="form_spacer"><input type="text" name="connect_port" id="connect_port" class="input_text" disabled></td>
-            </tr>
-            <tr class="moreOpts" style="display: none;">
               <th><label for="connect_host"><l>Connect Host</l></label></th>
               <td><input type="text" name="connect_host" id="connect_host" class="input_text" disabled></td>
             </tr>
-
+            <tr class="moreOpts" style="display: none;">
+              <th><label for="connect_port"><l>Connect Port</l></label></th>
+              <td><input type="text" name="connect_port" id="connect_port" class="input_text" disabled></td>
+            </tr>
             <tr><td>&nbsp;</td><td><button type="submit" id='login_button' tabindex=5 disabled><l>Login</l></button></td></tr>
         </table>
   </form>
@@ -408,6 +407,9 @@ onload = init;
       <li><a href="https://accounts.jwchat.org/reset/email/">Register your email address</a></li>
       <li><a href="https://accounts.jwchat.org/delete/">Delete your account</a></li>
     </ul>
+  </div>
+  <div style="width:400px;padding:20px;">
+    <h2><a href="/kaiwa/">Alternative Web Client: Kaiwa</a></h2>
   </div>
         </td>
       </tr>
@@ -431,34 +433,17 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td valign="top">
-              <a href="http://blog.jwchat.org/jwchat/">Download</a> | <a href="http://blog.jwchat.org">Blog</a> | <a href="privacy.html"><l>Privacy Policy</l></a> | <a href="imprint.html"><l>Imprint</l></a> | <a href="about.html"><l>About</l></a>
+              <a href="http://blog.jwchat.org/jwchat/">Download</a> | <a href="http://blog.jwchat.org">Blog</a> | <a href="privacy.html"><l>Privacy Policy</l></a> | <a href="imprint.html"><l>Imprint</l></a> | <a href="about.html"><l>About</l></a> | <a href="fingerprint">SSL/TLS Cert Fingerprint (SHA256)</a>
                <br>
-                &copy; 2003-2016 <a href="mailto:stefan@strigler.de">Stefan Strigler</a>
+                &copy; 2003-2017 <a href="mailto:stefan@strigler.de">Stefan Strigler</a>
             </td>
-    <td align="right">
-      <a class="doge" href="">wow     such generous
-dogecoin     to the moon</a>
+            <td align="right">
               <a href='https://xmpp.net/result.php?domain=jwchat.org&amp;type=client'><img src='https://xmpp.net/badge.php?domain=jwchat.org' alt='xmpp.net score' /></a>
-              <script id='fb6xsks'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//button.flattr.com/view/?fid=k83yr4&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fb6xsks');</script>
             </td>
           </tr>
         </table>
       </td>
     </tr>
   </table>
-<script>
-(function(w, d, address){
-  var a = d.getElementsByTagName('A');
-  for (var i = 0, n = a.length; i < n; i = i + 1) {
-    if (a[i].className && a[i].className === 'doge') {
-      var span = d.createElement('I');
-      a[i].appendChild(span);
-      a[i].onclick = function () {
-        alert('wow such generous! dogecoins here pls: ' + address);
-      }
-    }
-  }
-}(window, document, 'DAFcMZgu8yubqJS8NXmiTSjqERoJK1ArnR'));
-</script>
   </body>
 </html>
