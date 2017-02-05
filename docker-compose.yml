@@ -1,0 +1,17 @@
+version: '2'
+services:
+  bosh:
+    image: sstrigler/node-xmpp-bosh
+    ports:
+      - 5281:5280
+    restart: always
+
+  kaiwa:
+    image: sstrigler/kaiwa
+    links:
+      - bosh
+    ports:
+      - 8000:8000
+    volumes:
+      - ./dev_config.json:/usr/src/app/dev_config.json:ro
+    restart: always
